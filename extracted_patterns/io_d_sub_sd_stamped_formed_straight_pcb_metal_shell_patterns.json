@@ -1,0 +1,217 @@
+{
+  "metadata": {
+    "filename": "io_d_sub_sd_stamped_formed_straight_pcb_metal_shell",
+    "processed_date": "2025-01-13T16:47:49.917786",
+    "total_pages": 4,
+    "patterns_found": 1
+  },
+  "patterns": [
+    {
+      "section": {
+        "main_heading": "How to Order",
+        "sub_heading": null,
+        "category": "General"
+      },
+      "pattern": {
+        "full_pattern": "L ... TS ... ... ... ... C309",
+        "variable_format": "Variables are marked with ..."
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "fixed",
+          "placeholder": "L",
+          "description": "RoHS Compliant",
+          "options": [
+            {
+              "value": "L",
+              "description": "RoHS Compliant",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "type": "variable",
+          "placeholder": "...",
+          "description": "Plating Option",
+          "options": [
+            {
+              "value": "77",
+              "description": "Tinned shell for receptacle",
+              "specifications": null,
+              "notes": "Valid for 0.76µm (30µ\")"
+            },
+            {
+              "value": "717",
+              "description": "Tinned shell + dimples for plug",
+              "specifications": null,
+              "notes": "Valid for 0.76µm (30µ\")"
+            }
+          ]
+        },
+        {
+          "position": "3",
+          "type": "variable",
+          "placeholder": "...",
+          "description": "Shell Size",
+          "options": [
+            {
+              "value": "E",
+              "description": "Shell size E",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "A",
+              "description": "Shell size A",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "B",
+              "description": "Shell size B",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "C",
+              "description": "Shell size C",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "4",
+          "type": "variable",
+          "placeholder": "...",
+          "description": "Mounting Options",
+          "options": [
+            {
+              "value": "Blank",
+              "description": "Clear Hole",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "G",
+              "description": "M3",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "H",
+              "description": "#4-40",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "5",
+          "type": "variable",
+          "placeholder": "...",
+          "description": "Configuration",
+          "options": [
+            {
+              "value": "09",
+              "description": "Configuration 09",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "15",
+              "description": "Configuration 15",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "25",
+              "description": "Configuration 25",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "37",
+              "description": "Configuration 37",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "6",
+          "type": "variable",
+          "placeholder": "...",
+          "description": "Termination",
+          "options": [
+            {
+              "value": "OL2",
+              "description": "L = 6.02mm (.237\")",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "OL2C",
+              "description": "L = 11.48mm (.452\")",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "7",
+          "type": "variable",
+          "placeholder": "...",
+          "description": "Contact Type",
+          "options": [
+            {
+              "value": "P",
+              "description": "Pin",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "S",
+              "description": "Socket",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "8",
+          "type": "fixed",
+          "placeholder": "C309",
+          "description": "Part Number Suffix",
+          "options": [
+            {
+              "value": "C309",
+              "description": "Part Number Suffix",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "L77 TS E H 09 S OL2 RM5",
+          "context": "Example part number",
+          "breakdown": "L: RoHS Compliant, 77: Tinned shell for receptacle, E: Shell size E, H: #4-40, 09: Configuration 09, S: Socket, OL2: L = 6.02mm (.237\"), RM5: Boardlock"
+        },
+        {
+          "combination": "L717 TS E H 09 P OL2 RM8 C309",
+          "context": "Example part number",
+          "breakdown": "L: RoHS Compliant, 717: Tinned shell + dimples for plug, E: Shell size E, H: #4-40, 09: Configuration 09, P: Pin, OL2: L = 6.02mm (.237\"), RM8: Front screwlock, C309: Part Number Suffix"
+        }
+      ]
+    }
+  ],
+  "relationships": {
+    "dependencies": [],
+    "compatibility": []
+  }
+}

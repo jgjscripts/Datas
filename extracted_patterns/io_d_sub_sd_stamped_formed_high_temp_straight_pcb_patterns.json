@@ -1,0 +1,238 @@
+{
+  "metadata": {
+    "filename": "io_d_sub_sd_stamped_formed_high_temp_straight_pcb",
+    "processed_date": "2025-01-13T16:44:47.618666",
+    "total_pages": 4,
+    "patterns_found": 1
+  },
+  "patterns": [
+    {
+      "section": {
+        "main_heading": "How to Order",
+        "sub_heading": null,
+        "category": "Connector"
+      },
+      "pattern": {
+        "full_pattern": "L17HT N B H P OL2 RM5 4 C",
+        "variable_format": "Variables are marked with placeholders"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "fixed",
+          "placeholder": "L",
+          "description": "RoHS Compliant",
+          "options": [
+            {
+              "value": "L",
+              "description": "RoHS Compliant",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "type": "fixed",
+          "placeholder": "17HT",
+          "description": "Standard Density",
+          "options": [
+            {
+              "value": "17HT",
+              "description": "Standard Density",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "3",
+          "type": "variable",
+          "placeholder": "N",
+          "description": "Shell Size",
+          "options": [
+            {
+              "value": "E",
+              "description": "9 size",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "A",
+              "description": "15 size",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "B",
+              "description": "25 size",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "C",
+              "description": "37 size",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "4",
+          "type": "variable",
+          "placeholder": "B",
+          "description": "Mounting Options",
+          "options": [
+            {
+              "value": "Blank",
+              "description": "Clear Hole",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "G",
+              "description": "M3",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "H",
+              "description": "#4-40",
+              "specifications": null,
+              "notes": "H, G must also be used to specify the threading of RM5 or RM8 grounding tabs"
+            }
+          ]
+        },
+        {
+          "position": "5",
+          "type": "variable",
+          "placeholder": "H",
+          "description": "Contact Type",
+          "options": [
+            {
+              "value": "P",
+              "description": "Pin",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "S",
+              "description": "Socket",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "6",
+          "type": "variable",
+          "placeholder": "OL2",
+          "description": "Termination",
+          "options": [
+            {
+              "value": "OL2",
+              "description": "L = 6.02mm (.237\")",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "OL2C",
+              "description": "L = 11.48mm (.452\")",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "7",
+          "type": "variable",
+          "placeholder": "RM5",
+          "description": "Board Mounting Options",
+          "options": [
+            {
+              "value": "Blank",
+              "description": "Clear Hole",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "RM5",
+              "description": "Boardlock",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "RM8",
+              "description": "Boardlock + Front Screwlock",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "8",
+          "type": "variable",
+          "placeholder": "4",
+          "description": "Contact Plating",
+          "options": [
+            {
+              "value": "1",
+              "description": "Gold flash",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "2",
+              "description": "0.4μm (15μ\")",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "3",
+              "description": "0.76μm (30μ\")",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "9",
+          "type": "variable",
+          "placeholder": "C",
+          "description": "Packaging",
+          "options": [
+            {
+              "value": "C",
+              "description": "Plastic tray",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "R",
+              "description": "Tape & reel",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "L17HT N B H P OL2 RM5 4 C",
+          "context": "Example part number",
+          "breakdown": "L: RoHS Compliant, 17HT: Standard Density, N: Shell Size, B: Mounting Options, H: Contact Type, OL2: Termination, RM5: Board Mounting Options, 4: Contact Plating, C: Packaging"
+        }
+      ]
+    }
+  ],
+  "relationships": {
+    "dependencies": [
+      {
+        "if_pattern": "Mounting Options H or G",
+        "then_requires": "Board Mounting Options RM5 or RM8",
+        "notes": "H, G must also be used to specify the threading of RM5 or RM8 grounding tabs"
+      }
+    ],
+    "compatibility": []
+  }
+}

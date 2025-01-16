@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "filename": "io_d_sub_sd_stamped_formed_high_temp_right_angle",
+    "processed_date": "2025-01-13T16:44:12.872706",
+    "total_pages": 4,
+    "patterns_found": 1
+  },
+  "patterns": [
+    {
+      "section": {
+        "main_heading": "How to order",
+        "sub_heading": null,
+        "category": "Connector"
+      },
+      "pattern": {
+        "full_pattern": "L17 HT N ... ... ... ...",
+        "variable_format": "Variables are marked with letters and dots"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "fixed",
+          "placeholder": "L17",
+          "description": "Series identifier",
+          "options": []
+        },
+        {
+          "position": "2",
+          "type": "fixed",
+          "placeholder": "HT",
+          "description": "RoHS Compliant",
+          "options": []
+        },
+        {
+          "position": "3",
+          "type": "variable",
+          "placeholder": "N",
+          "description": "Shell size",
+          "options": [
+            {
+              "value": "E",
+              "description": "9 ways",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "A",
+              "description": "15 ways",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "B",
+              "description": "25 ways",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "C",
+              "description": "37 ways",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "4",
+          "type": "variable",
+          "placeholder": "...",
+          "description": "Contact type",
+          "options": [
+            {
+              "value": "P",
+              "description": "Plug",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "S",
+              "description": "Socket",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "5",
+          "type": "variable",
+          "placeholder": "...",
+          "description": "Mounting plating",
+          "options": [
+            {
+              "value": "4R",
+              "description": "Rear insert 4-40",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "3R",
+              "description": "Rear insert M3",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "4F",
+              "description": "Front screwlock 4-40",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "3F",
+              "description": "Front screwlock M3",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "6",
+          "type": "variable",
+          "placeholder": "...",
+          "description": "Options",
+          "options": [
+            {
+              "value": "O",
+              "description": "Open back side",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "no digit",
+              "description": "Closed back side",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "7",
+          "type": "variable",
+          "placeholder": "...",
+          "description": "Packaging",
+          "options": [
+            {
+              "value": "C",
+              "description": "Carton boxes",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "8",
+          "type": "variable",
+          "placeholder": "...",
+          "description": "Contact plating",
+          "options": [
+            {
+              "value": "1",
+              "description": "Gold flash",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "2",
+              "description": "0.4µm (15µ\")",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "4",
+              "description": "0.76µm (30µ\")",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "L17 HT E P 4R O C 1",
+          "context": "Example configuration",
+          "breakdown": "Series: L17, RoHS: HT, Shell size: E, Contact type: P, Mounting: 4R, Options: O, Packaging: C, Plating: 1"
+        }
+      ]
+    }
+  ],
+  "relationships": {
+    "dependencies": [],
+    "compatibility": []
+  }
+}

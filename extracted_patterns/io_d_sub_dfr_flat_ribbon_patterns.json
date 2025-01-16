@@ -1,0 +1,307 @@
+{
+  "metadata": {
+    "filename": "io_d_sub_dfr_flat_ribbon",
+    "processed_date": "2025-01-13T16:35:11.995819",
+    "total_pages": 5,
+    "patterns_found": 3
+  },
+  "patterns": [
+    {
+      "section": {
+        "main_heading": "Technical Data",
+        "sub_heading": "Panel mounting option",
+        "category": "Mounting Options"
+      },
+      "pattern": {
+        "full_pattern": "X",
+        "variable_format": "Single letter"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "variable",
+          "placeholder": "X",
+          "description": "Panel mounting option",
+          "options": [
+            {
+              "value": "No digit",
+              "description": "Clear hole Ø 3.05mm",
+              "specifications": "Ø3.05 (0.120\")",
+              "notes": "No additional hardware"
+            },
+            {
+              "value": "B/D",
+              "description": "Riveted rear nut",
+              "specifications": "M3 or #4-40",
+              "notes": "Fixed rear nut"
+            },
+            {
+              "value": "A/C",
+              "description": "Riveted rear nut with removable front female screwlock",
+              "specifications": "M3 or #4-40 screwlock",
+              "notes": "Includes front screwlock"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "B",
+          "context": "Riveted rear nut",
+          "breakdown": "Position 1: B (Riveted rear nut)"
+        },
+        {
+          "combination": "A",
+          "context": "Riveted rear nut with removable front female screwlock",
+          "breakdown": "Position 1: A (Riveted rear nut with screwlock)"
+        }
+      ]
+    },
+    {
+      "section": {
+        "main_heading": "Technical Data",
+        "sub_heading": "Tool",
+        "category": "Tools"
+      },
+      "pattern": {
+        "full_pattern": "974MC",
+        "variable_format": "Fixed"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "fixed",
+          "placeholder": "974MC",
+          "description": "Support for hand termination tool",
+          "options": [
+            {
+              "value": "974MC",
+              "description": "Hand termination tool",
+              "specifications": "Tool for connector assembly",
+              "notes": "Specific tool for D-Sub DFR series"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "974MC",
+          "context": "Tool for hand termination",
+          "breakdown": "Position 1: 974MC (Hand termination tool)"
+        }
+      ]
+    },
+    {
+      "section": {
+        "main_heading": "PART NUMBER SELECTOR",
+        "sub_heading": null,
+        "category": "D-Sub DFR Series Flat Ribbon Connectors"
+      },
+      "pattern": {
+        "full_pattern": "L XX X FR X X XX X C309",
+        "variable_format": "X"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "fixed",
+          "placeholder": "L",
+          "description": "Fixed prefix"
+        },
+        {
+          "position": "2",
+          "type": "variable",
+          "placeholder": "XX",
+          "description": "RoHS Compliant",
+          "options": [
+            {
+              "value": "17D",
+              "description": "Flash gold contact plating",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "117D",
+              "description": "0.38µm (15µin) gold contact plating",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "3",
+          "type": "variable",
+          "placeholder": "X",
+          "description": "Shell Size",
+          "options": [
+            {
+              "value": "E",
+              "description": "Shell size E",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "A",
+              "description": "Shell size A",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "B",
+              "description": "Shell size B",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "C",
+              "description": "Shell size C",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "4",
+          "type": "fixed",
+          "placeholder": "FR",
+          "description": "Flat ribbon cable type"
+        },
+        {
+          "position": "5",
+          "type": "variable",
+          "placeholder": "X",
+          "description": "Mounting Options",
+          "options": [
+            {
+              "value": "No digit",
+              "description": "Clear hole ø 3.05mm",
+              "specifications": null,
+              "notes": "Standard option"
+            },
+            {
+              "value": "A",
+              "description": "Removable front screwlock M3",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "C",
+              "description": "Removable front screwlock 4-40",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "B",
+              "description": "Rear Nut M3",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "D",
+              "description": "Rear Nut 4-40",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "6",
+          "type": "variable",
+          "placeholder": "X",
+          "description": "Plating Option",
+          "options": [
+            {
+              "value": "Valid only for 0.76µm (30µin)",
+              "description": "Part number must be written as follow: L 17D..........C309",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "7",
+          "type": "variable",
+          "placeholder": "XX",
+          "description": "Configuration",
+          "options": [
+            {
+              "value": "09",
+              "description": "Configuration 09",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "15",
+              "description": "Configuration 15",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "25",
+              "description": "Configuration 25",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "37",
+              "description": "Configuration 37",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "8",
+          "type": "variable",
+          "placeholder": "X",
+          "description": "Contact Type",
+          "options": [
+            {
+              "value": "P",
+              "description": "Plug",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "S",
+              "description": "Socket",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "9",
+          "type": "variable",
+          "placeholder": "X",
+          "description": "Type",
+          "options": [
+            {
+              "value": "A",
+              "description": "Front metal shell–tin plated",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "B",
+              "description": "All plastic (for clear hole mounting option only)",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "L17DAFR09PC309",
+          "context": "Example part number",
+          "breakdown": "L - Fixed, 17D - Flash gold contact plating, A - Shell size A, FR - Flat ribbon cable type, 09 - Configuration 09, P - Plug, C309 - Fixed suffix"
+        }
+      ]
+    }
+  ],
+  "relationships": {
+    "dependencies": [],
+    "compatibility": []
+  }
+}

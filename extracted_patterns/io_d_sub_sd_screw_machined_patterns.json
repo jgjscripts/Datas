@@ -1,0 +1,962 @@
+{
+  "metadata": {
+    "filename": "io_d_sub_sd_screw_machined",
+    "processed_date": "2025-01-13T16:43:33.842945",
+    "total_pages": 8,
+    "patterns_found": 10
+  },
+  "patterns": [
+    {
+      "section": {
+        "main_heading": "D-DF Connectors",
+        "sub_heading": "Specifications",
+        "category": "Materials and Plating"
+      },
+      "pattern": {
+        "full_pattern": "D-DF-XX-XX",
+        "variable_format": "XX"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "fixed",
+          "placeholder": "D-DF",
+          "description": "Series identifier",
+          "options": [
+            {
+              "value": "D",
+              "description": "Brass, plug and socket",
+              "specifications": "Brass, tin plated 2µm (79µ\") over 1.25µm (49µ\") nickel",
+              "notes": "Standard version"
+            },
+            {
+              "value": "DF",
+              "description": "Plug = brass, socket = phosphor bronze",
+              "specifications": "Full gold plating over 2µm (79µ\") nickel",
+              "notes": "Right angle and straight versions"
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "type": "variable",
+          "placeholder": "XX",
+          "description": "Contact type",
+          "options": [
+            {
+              "value": "Plug",
+              "description": "Plug contact",
+              "specifications": "Brass material",
+              "notes": "Standard contact"
+            },
+            {
+              "value": "Socket",
+              "description": "Socket contact",
+              "specifications": "Phosphor bronze material",
+              "notes": "Enhanced contact"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "D-DF-Plug",
+          "context": "Standard plug contact",
+          "breakdown": "D-DF: Series, Plug: Contact type"
+        },
+        {
+          "combination": "D-DF-Socket",
+          "context": "Enhanced socket contact",
+          "breakdown": "D-DF: Series, Socket: Contact type"
+        }
+      ]
+    },
+    {
+      "section": {
+        "main_heading": "Shell size dimensions",
+        "sub_heading": null,
+        "category": "Shell size and contact spacing"
+      },
+      "pattern": {
+        "full_pattern": "Shell size - Contact spacing",
+        "variable_format": "Shell size (A, B, C, D, E), Contact spacing (S, P)"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "variable",
+          "placeholder": "Shell size",
+          "description": "Size of the shell",
+          "options": [
+            {
+              "value": "E",
+              "description": "Shell size E",
+              "specifications": "Various dimensions as per table",
+              "notes": "Used for specific applications"
+            },
+            {
+              "value": "A",
+              "description": "Shell size A",
+              "specifications": "Various dimensions as per table",
+              "notes": "Used for specific applications"
+            },
+            {
+              "value": "B",
+              "description": "Shell size B",
+              "specifications": "Various dimensions as per table",
+              "notes": "Used for specific applications"
+            },
+            {
+              "value": "C",
+              "description": "Shell size C",
+              "specifications": "Various dimensions as per table",
+              "notes": "Used for specific applications"
+            },
+            {
+              "value": "D",
+              "description": "Shell size D",
+              "specifications": "Various dimensions as per table",
+              "notes": "Used for specific applications"
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "type": "variable",
+          "placeholder": "Contact spacing",
+          "description": "Spacing of the contacts",
+          "options": [
+            {
+              "value": "S",
+              "description": "Standard contact spacing",
+              "specifications": "Dimensions as per table",
+              "notes": "Commonly used"
+            },
+            {
+              "value": "P",
+              "description": "Precision contact spacing",
+              "specifications": "Dimensions as per table",
+              "notes": "Used for precision applications"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "A-S",
+          "context": "Shell size A with standard contact spacing",
+          "breakdown": "Shell size: A, Contact spacing: S"
+        },
+        {
+          "combination": "B-P",
+          "context": "Shell size B with precision contact spacing",
+          "breakdown": "Shell size: B, Contact spacing: P"
+        }
+      ]
+    },
+    {
+      "section": {
+        "main_heading": "Panel cutouts",
+        "sub_heading": null,
+        "category": "Mounting method"
+      },
+      "pattern": {
+        "full_pattern": "Shell size - Mounting method",
+        "variable_format": "Shell size (A, B, C, D, E), Mounting method (Front, Rear)"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "variable",
+          "placeholder": "Shell size",
+          "description": "Size of the shell",
+          "options": [
+            {
+              "value": "E",
+              "description": "Shell size E",
+              "specifications": "Various dimensions as per table",
+              "notes": "Used for specific applications"
+            },
+            {
+              "value": "A",
+              "description": "Shell size A",
+              "specifications": "Various dimensions as per table",
+              "notes": "Used for specific applications"
+            },
+            {
+              "value": "B",
+              "description": "Shell size B",
+              "specifications": "Various dimensions as per table",
+              "notes": "Used for specific applications"
+            },
+            {
+              "value": "C",
+              "description": "Shell size C",
+              "specifications": "Various dimensions as per table",
+              "notes": "Used for specific applications"
+            },
+            {
+              "value": "D",
+              "description": "Shell size D",
+              "specifications": "Various dimensions as per table",
+              "notes": "Used for specific applications"
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "type": "variable",
+          "placeholder": "Mounting method",
+          "description": "Method of mounting",
+          "options": [
+            {
+              "value": "Front",
+              "description": "Front mounting",
+              "specifications": "Dimensions as per table",
+              "notes": "Used for front panel applications"
+            },
+            {
+              "value": "Rear",
+              "description": "Rear mounting",
+              "specifications": "Dimensions as per table",
+              "notes": "Used for rear panel applications"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "C-Front",
+          "context": "Shell size C with front mounting",
+          "breakdown": "Shell size: C, Mounting method: Front"
+        },
+        {
+          "combination": "D-Rear",
+          "context": "Shell size D with rear mounting",
+          "breakdown": "Shell size: D, Mounting method: Rear"
+        }
+      ]
+    },
+    {
+      "section": {
+        "main_heading": "Termination",
+        "sub_heading": "MIL Footprint",
+        "category": "Bracket Type"
+      },
+      "pattern": {
+        "full_pattern": "Bracket Type",
+        "variable_format": "Fixed"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "fixed",
+          "placeholder": "C",
+          "description": "Without bracket",
+          "options": [
+            {
+              "value": "C",
+              "description": "Without bracket",
+              "specifications": "2.84 (.112) height, 8.1 (.319) width",
+              "notes": "Standard configuration"
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "type": "fixed",
+          "placeholder": "A4",
+          "description": "Without bracket",
+          "options": [
+            {
+              "value": "A4",
+              "description": "Without bracket",
+              "specifications": "2.84 (.112) height, 8.1 (.319) width",
+              "notes": "Alternative configuration"
+            }
+          ]
+        },
+        {
+          "position": "3",
+          "type": "fixed",
+          "placeholder": "AJ3",
+          "description": "Plastic bracket",
+          "options": [
+            {
+              "value": "AJ3",
+              "description": "Plastic bracket",
+              "specifications": "8.1 (.319) height, 2.84 (.112) width",
+              "notes": "Standard plastic bracket"
+            }
+          ]
+        },
+        {
+          "position": "4",
+          "type": "fixed",
+          "placeholder": "AJ4",
+          "description": "Plastic bracket",
+          "options": [
+            {
+              "value": "AJ4",
+              "description": "Plastic bracket",
+              "specifications": "8.1 (.319) height, 2.84 (.112) width",
+              "notes": "Alternative plastic bracket"
+            }
+          ]
+        },
+        {
+          "position": "5",
+          "type": "fixed",
+          "placeholder": "A",
+          "description": "Metal bracket",
+          "options": [
+            {
+              "value": "A",
+              "description": "Metal bracket",
+              "specifications": "8.1 (.319) height, 2.84 (.112) width",
+              "notes": "Standard metal bracket"
+            }
+          ]
+        },
+        {
+          "position": "6",
+          "type": "fixed",
+          "placeholder": "AM4B",
+          "description": "Metal bracket",
+          "options": [
+            {
+              "value": "AM4B",
+              "description": "Metal bracket",
+              "specifications": "14.99 (.59) height, 8.1 (.319) width",
+              "notes": "Extended metal bracket"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "C",
+          "context": "Without bracket",
+          "breakdown": "Position 1: C"
+        },
+        {
+          "combination": "AJ3",
+          "context": "Plastic bracket",
+          "breakdown": "Position 3: AJ3"
+        },
+        {
+          "combination": "AM4B",
+          "context": "Metal bracket",
+          "breakdown": "Position 6: AM4B"
+        }
+      ]
+    },
+    {
+      "section": {
+        "main_heading": "Termination",
+        "sub_heading": "European footprint",
+        "category": "Bracket Type"
+      },
+      "pattern": {
+        "full_pattern": "1AXN",
+        "variable_format": "A, X, N are variables"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "fixed",
+          "placeholder": "1",
+          "description": "Series identifier",
+          "options": [
+            {
+              "value": "1",
+              "description": "Series 1",
+              "specifications": "Standard series",
+              "notes": "Common across all patterns"
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "type": "variable",
+          "placeholder": "A",
+          "description": "Bracket type",
+          "options": [
+            {
+              "value": "A",
+              "description": "Without bracket",
+              "specifications": "No additional support",
+              "notes": "Basic configuration"
+            },
+            {
+              "value": "P",
+              "description": "Plastic bracket",
+              "specifications": "Plastic support",
+              "notes": "Lightweight"
+            },
+            {
+              "value": "M",
+              "description": "Metal bracket",
+              "specifications": "Metal support",
+              "notes": "Durable"
+            }
+          ]
+        },
+        {
+          "position": "3",
+          "type": "variable",
+          "placeholder": "X",
+          "description": "Contact type",
+          "options": [
+            {
+              "value": "O",
+              "description": "Standard contact",
+              "specifications": "Standard size",
+              "notes": "Common use"
+            },
+            {
+              "value": "U",
+              "description": "Universal contact",
+              "specifications": "Universal size",
+              "notes": "Versatile"
+            }
+          ]
+        },
+        {
+          "position": "4",
+          "type": "variable",
+          "placeholder": "N",
+          "description": "Pitch size",
+          "options": [
+            {
+              "value": "N",
+              "description": "2.54mm pitch",
+              "specifications": "Standard pitch",
+              "notes": "Common in Europe"
+            },
+            {
+              "value": "B",
+              "description": "2.84mm pitch",
+              "specifications": "Larger pitch",
+              "notes": "Alternative size"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "1AON",
+          "context": "Without bracket, standard contact, 2.54mm pitch",
+          "breakdown": "1-Series, A-Without bracket, O-Standard contact, N-2.54mm pitch"
+        },
+        {
+          "combination": "1BPN",
+          "context": "Plastic bracket, standard contact, 2.84mm pitch",
+          "breakdown": "1-Series, P-Plastic bracket, O-Standard contact, N-2.84mm pitch"
+        }
+      ]
+    },
+    {
+      "section": {
+        "main_heading": "Termination",
+        "sub_heading": "Wire Wrap",
+        "category": "Termination Type"
+      },
+      "pattern": {
+        "full_pattern": "F179, F179A",
+        "variable_format": "Fixed"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "fixed",
+          "placeholder": "F179",
+          "description": "Termination type",
+          "options": [
+            {
+              "value": "F179",
+              "description": "2 wraps",
+              "specifications": "L = 9.6 (0.378\")",
+              "notes": "Standard wire wrap"
+            },
+            {
+              "value": "F179A",
+              "description": "3 wraps",
+              "specifications": "L = 13 (0.512\")",
+              "notes": "Extended wire wrap"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "F179",
+          "context": "Wire wrap termination with 2 wraps",
+          "breakdown": "F179: 2 wraps, L = 9.6 (0.378\")"
+        },
+        {
+          "combination": "F179A",
+          "context": "Wire wrap termination with 3 wraps",
+          "breakdown": "F179A: 3 wraps, L = 13 (0.512\")"
+        }
+      ]
+    },
+    {
+      "section": {
+        "main_heading": "Termination",
+        "sub_heading": "Straight PCB",
+        "category": "Termination Type"
+      },
+      "pattern": {
+        "full_pattern": "U, V, T, OL2",
+        "variable_format": "Fixed"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "fixed",
+          "placeholder": "U",
+          "description": "Termination type",
+          "options": [
+            {
+              "value": "U",
+              "description": "Small diameter",
+              "specifications": "Ø = 0.6 (0.024\"), L = 3.2 (0.126\")",
+              "notes": "Standard small diameter"
+            },
+            {
+              "value": "V",
+              "description": "Medium diameter",
+              "specifications": "Ø = 1.02 (0.040\"), L = 2.4 (0.095\")",
+              "notes": "Standard medium diameter"
+            },
+            {
+              "value": "T",
+              "description": "Large diameter",
+              "specifications": "Ø = 1.6 (0.024\"), L = 4 (0.157\")",
+              "notes": "Standard large diameter"
+            },
+            {
+              "value": "OL2",
+              "description": "Extra large diameter",
+              "specifications": "Ø = 0.6 (0.024\"), L = 5.5 (0.217\")",
+              "notes": "Extended large diameter"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "U",
+          "context": "Straight PCB termination with small diameter",
+          "breakdown": "U: Ø = 0.6 (0.024\"), L = 3.2 (0.126\")"
+        },
+        {
+          "combination": "OL2",
+          "context": "Straight PCB termination with extra large diameter",
+          "breakdown": "OL2: Ø = 0.6 (0.024\"), L = 5.5 (0.217\")"
+        }
+      ]
+    },
+    {
+      "section": {
+        "main_heading": "Termination",
+        "sub_heading": "Grounding tabs",
+        "category": "Termination Type"
+      },
+      "pattern": {
+        "full_pattern": "RM5, RM8, RM6",
+        "variable_format": "Fixed"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "fixed",
+          "placeholder": "RM5",
+          "description": "Grounding tab type",
+          "options": [
+            {
+              "value": "RM5",
+              "description": "For straight termination",
+              "specifications": "For holes Ø3.2 (0.126\")",
+              "notes": "Standard straight termination"
+            },
+            {
+              "value": "RM8",
+              "description": "For straight termination",
+              "specifications": "For holes Ø3.2 (0.126\")",
+              "notes": "Standard straight termination"
+            },
+            {
+              "value": "RM6",
+              "description": "For R/A termination",
+              "specifications": "1.6mm PCB",
+              "notes": "Right angle termination"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "RM5",
+          "context": "Grounding tab for straight termination",
+          "breakdown": "RM5: For holes Ø3.2 (0.126\")"
+        },
+        {
+          "combination": "RM6",
+          "context": "Grounding tab for R/A termination",
+          "breakdown": "RM6: 1.6mm PCB"
+        }
+      ]
+    },
+    {
+      "section": {
+        "main_heading": "Panel mounting option",
+        "sub_heading": "For straight and R/A termination",
+        "category": "Mounting options"
+      },
+      "pattern": {
+        "full_pattern": "no digit / F / H / G / VF / VFM / VF2 / VFM2",
+        "variable_format": "Single letter or combination"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "variable",
+          "placeholder": "no digit",
+          "description": "Standard rivet 3.1mm",
+          "options": [
+            {
+              "value": "no digit",
+              "description": "Standard rivet 3.1mm",
+              "specifications": "Ø3.1 (1.22\")",
+              "notes": "No additional digit required"
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "type": "variable",
+          "placeholder": "F",
+          "description": "Float mounting",
+          "options": [
+            {
+              "value": "F",
+              "description": "Float mounting",
+              "specifications": "Ø2.2 (.086\")",
+              "notes": "Allows for movement"
+            }
+          ]
+        },
+        {
+          "position": "3",
+          "type": "variable",
+          "placeholder": "H / G",
+          "description": "Threaded rear insert",
+          "options": [
+            {
+              "value": "H",
+              "description": "Threaded rear insert",
+              "specifications": "M3 or #4-40",
+              "notes": "Standard thread"
+            },
+            {
+              "value": "G",
+              "description": "Threaded rear insert",
+              "specifications": "M3 or #4-40",
+              "notes": "Alternative thread"
+            }
+          ]
+        },
+        {
+          "position": "4",
+          "type": "variable",
+          "placeholder": "VF / VFM",
+          "description": "Fixed front female screwlock",
+          "options": [
+            {
+              "value": "VF",
+              "description": "Fixed front female screwlock",
+              "specifications": "M3 or #4-40 front screwlock",
+              "notes": "Fixed position"
+            },
+            {
+              "value": "VFM",
+              "description": "Fixed front female screwlock",
+              "specifications": "M3 or #4-40 front screwlock",
+              "notes": "Alternative fixed position"
+            }
+          ]
+        },
+        {
+          "position": "5",
+          "type": "variable",
+          "placeholder": "VF2 / VFM2",
+          "description": "Removable female screwlock",
+          "options": [
+            {
+              "value": "VF2",
+              "description": "Removable female screwlock",
+              "specifications": "M3 or #4-40 removable screwlock",
+              "notes": "Removable option"
+            },
+            {
+              "value": "VFM2",
+              "description": "Removable female screwlock",
+              "specifications": "M3 or #4-40 removable screwlock",
+              "notes": "Alternative removable option"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "F",
+          "context": "Float mounting option",
+          "breakdown": "Position 2: Float mounting"
+        },
+        {
+          "combination": "VF",
+          "context": "Fixed front female screwlock",
+          "breakdown": "Position 4: Fixed front female screwlock"
+        }
+      ]
+    },
+    {
+      "section": {
+        "main_heading": "How to order",
+        "sub_heading": null,
+        "category": "General"
+      },
+      "pattern": {
+        "full_pattern": "LXXXXXX",
+        "variable_format": "X"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "fixed",
+          "placeholder": "L",
+          "description": "RoHS Compliant",
+          "options": []
+        },
+        {
+          "position": "2",
+          "type": "variable",
+          "placeholder": "XX",
+          "description": "Flash",
+          "options": [
+            {
+              "value": "77D",
+              "description": "Tinned shell for receptacle",
+              "specifications": "15μ\"",
+              "notes": "Dimples for plug connector"
+            },
+            {
+              "value": "77F",
+              "description": "Tinned shell for receptacle",
+              "specifications": "30μ\"",
+              "notes": "Dimples for plug connector"
+            }
+          ]
+        },
+        {
+          "position": "3",
+          "type": "variable",
+          "placeholder": "X",
+          "description": "Shell size",
+          "options": [
+            {
+              "value": "A",
+              "description": "Shell size A",
+              "specifications": "",
+              "notes": ""
+            },
+            {
+              "value": "B",
+              "description": "Shell size B",
+              "specifications": "",
+              "notes": ""
+            },
+            {
+              "value": "C",
+              "description": "Shell size C",
+              "specifications": "",
+              "notes": ""
+            },
+            {
+              "value": "D",
+              "description": "Shell size D",
+              "specifications": "",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "position": "4",
+          "type": "variable",
+          "placeholder": "X",
+          "description": "Mounting options",
+          "options": [
+            {
+              "value": "BLANK",
+              "description": "0.3 mm rivet",
+              "specifications": "",
+              "notes": ""
+            },
+            {
+              "value": "H",
+              "description": "4-40 thread insert",
+              "specifications": "",
+              "notes": ""
+            },
+            {
+              "value": "G",
+              "description": "M3 thread insert",
+              "specifications": "",
+              "notes": ""
+            },
+            {
+              "value": "F",
+              "description": "Float mounting",
+              "specifications": "",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "position": "5",
+          "type": "variable",
+          "placeholder": "XX",
+          "description": "Configuration",
+          "options": [
+            {
+              "value": "09",
+              "description": "Configuration 09",
+              "specifications": "",
+              "notes": ""
+            },
+            {
+              "value": "15",
+              "description": "Configuration 15",
+              "specifications": "",
+              "notes": ""
+            },
+            {
+              "value": "25",
+              "description": "Configuration 25",
+              "specifications": "",
+              "notes": ""
+            },
+            {
+              "value": "37",
+              "description": "Configuration 37",
+              "specifications": "",
+              "notes": ""
+            },
+            {
+              "value": "50",
+              "description": "Configuration 50",
+              "specifications": "",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "position": "6",
+          "type": "variable",
+          "placeholder": "X",
+          "description": "Contact type",
+          "options": [
+            {
+              "value": "P",
+              "description": "Pin (plug)",
+              "specifications": "",
+              "notes": ""
+            },
+            {
+              "value": "S",
+              "description": "Socket",
+              "specifications": "",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "position": "7",
+          "type": "variable",
+          "placeholder": "XXXX",
+          "description": "Panel & PCB mount options",
+          "options": [
+            {
+              "value": "RM5",
+              "description": "Standoff + Boardlock",
+              "specifications": "",
+              "notes": "Front screwlock"
+            },
+            {
+              "value": "RM6",
+              "description": "Boardlock for right angle mount",
+              "specifications": "",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "position": "8",
+          "type": "variable",
+          "placeholder": "XX",
+          "description": "Panel",
+          "options": [
+            {
+              "value": "VF",
+              "description": "Fixed 4-40 front screwlocks",
+              "specifications": "",
+              "notes": ""
+            },
+            {
+              "value": "VFM",
+              "description": "Fixed M3 front screwlocks",
+              "specifications": "",
+              "notes": ""
+            },
+            {
+              "value": "VF2",
+              "description": "4-40 front screwlocks",
+              "specifications": "",
+              "notes": ""
+            },
+            {
+              "value": "VFM2",
+              "description": "M3 front screwlocks",
+              "specifications": "",
+              "notes": ""
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "L717D E H 09 P OL2 RM8",
+          "context": "Example part number",
+          "breakdown": "L - RoHS Compliant, 717D - Flash, E - Shell size, H - Mounting option, 09 - Configuration, P - Contact type, OL2 - Termination, RM8 - Panel & PCB mount options"
+        },
+        {
+          "combination": "L177DF A 09 S 1AMN VF2 RM6",
+          "context": "Example part number",
+          "breakdown": "L - RoHS Compliant, 177DF - Flash, A - Shell size, 09 - Configuration, S - Contact type, 1AMN - Right Angle PCB, VF2 - Panel, RM6 - Panel & PCB mount options"
+        }
+      ]
+    }
+  ],
+  "relationships": {
+    "dependencies": [
+      {
+        "if_pattern": "Mounting options H or G",
+        "then_requires": "Specific threading for RM5 and RM8 options",
+        "notes": "H & G must be used to specify threading for RM5 and RM8"
+      }
+    ],
+    "compatibility": []
+  }
+}

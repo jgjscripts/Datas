@@ -1,0 +1,316 @@
+{
+  "metadata": {
+    "filename": "io_d_sub_sd_stamped_formed_pressfit_straight_pcb",
+    "processed_date": "2025-01-13T16:45:30.405244",
+    "total_pages": 4,
+    "patterns_found": 3
+  },
+  "patterns": [
+    {
+      "section": {
+        "main_heading": "Press-Fit Tooling",
+        "sub_heading": "Female",
+        "category": "Connectors"
+      },
+      "pattern": {
+        "full_pattern": "XXX MC",
+        "variable_format": "Numeric"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "variable",
+          "placeholder": "XXX",
+          "description": "Size of connectors",
+          "options": [
+            {
+              "value": "981",
+              "description": "9 connectors",
+              "specifications": "Size 9",
+              "notes": "For female connectors"
+            },
+            {
+              "value": "982",
+              "description": "15 connectors",
+              "specifications": "Size 15",
+              "notes": "For female connectors"
+            },
+            {
+              "value": "983",
+              "description": "25 connectors",
+              "specifications": "Size 25",
+              "notes": "For female connectors"
+            },
+            {
+              "value": "984",
+              "description": "37 connectors",
+              "specifications": "Size 37",
+              "notes": "For female connectors"
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "type": "fixed",
+          "placeholder": "MC",
+          "description": "Fixed suffix",
+          "options": []
+        }
+      ],
+      "examples": [
+        {
+          "combination": "981 MC",
+          "context": "Female connector with 9 size",
+          "breakdown": "981 - Size 9, MC - Fixed suffix"
+        }
+      ]
+    },
+    {
+      "section": {
+        "main_heading": "Press-Fit Tooling",
+        "sub_heading": "Male",
+        "category": "Connectors"
+      },
+      "pattern": {
+        "full_pattern": "XXX MC",
+        "variable_format": "Numeric"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "variable",
+          "placeholder": "XXX",
+          "description": "Size of connectors",
+          "options": [
+            {
+              "value": "985",
+              "description": "9 connectors",
+              "specifications": "Size 9",
+              "notes": "For male connectors"
+            },
+            {
+              "value": "986",
+              "description": "15 connectors",
+              "specifications": "Size 15",
+              "notes": "For male connectors"
+            },
+            {
+              "value": "987",
+              "description": "25 connectors",
+              "specifications": "Size 25",
+              "notes": "For male connectors"
+            },
+            {
+              "value": "988",
+              "description": "37 connectors",
+              "specifications": "Size 37",
+              "notes": "For male connectors"
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "type": "fixed",
+          "placeholder": "MC",
+          "description": "Fixed suffix",
+          "options": []
+        }
+      ],
+      "examples": [
+        {
+          "combination": "985 MC",
+          "context": "Male connector with 9 size",
+          "breakdown": "985 - Size 9, MC - Fixed suffix"
+        }
+      ]
+    },
+    {
+      "section": {
+        "main_heading": "How to order",
+        "sub_heading": null,
+        "category": "General"
+      },
+      "pattern": {
+        "full_pattern": "L 17TF - - - - - -",
+        "variable_format": "Variables are marked with dashes"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "fixed",
+          "placeholder": "L",
+          "description": "Series",
+          "options": []
+        },
+        {
+          "position": "2",
+          "type": "fixed",
+          "placeholder": "17TF",
+          "description": "RoHS Compliant",
+          "options": []
+        },
+        {
+          "position": "3",
+          "type": "variable",
+          "placeholder": "-",
+          "description": "Number of contacts",
+          "options": [
+            {
+              "value": "09",
+              "description": "9 contacts",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "15",
+              "description": "15 contacts",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "25",
+              "description": "25 contacts",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "37",
+              "description": "37 contacts",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "4",
+          "type": "variable",
+          "placeholder": "-",
+          "description": "Contact type",
+          "options": [
+            {
+              "value": "1",
+              "description": "Pin",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "2",
+              "description": "Socket",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "5",
+          "type": "variable",
+          "placeholder": "-",
+          "description": "Contact plating",
+          "options": [
+            {
+              "value": "0",
+              "description": "Gold flash",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "1",
+              "description": "0.4 µm (15µ\")",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "2",
+              "description": "0.76 µm (30µ\")",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "6",
+          "type": "variable",
+          "placeholder": "-",
+          "description": "Flange mounting option",
+          "options": [
+            {
+              "value": "0",
+              "description": "3.10mm clear hole",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "1",
+              "description": "#4-40 threaded hole",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "2",
+              "description": "#4-40 UNC screwlock installed",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "4",
+              "description": "M3 threaded hole",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "5",
+              "description": "M3 screwlock installed",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "7",
+          "type": "variable",
+          "placeholder": "-",
+          "description": "Board mounting option",
+          "options": [
+            {
+              "value": "0",
+              "description": "Without boardlock",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "1",
+              "description": "With boardlock",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "8",
+          "type": "variable",
+          "placeholder": "-",
+          "description": "Front shell plating",
+          "options": [
+            {
+              "value": "1",
+              "description": "Tin over nickel",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "L 17TF 25 1 0 2 1 1",
+          "context": "Example configuration",
+          "breakdown": "25 contacts, pin type, gold flash, #4-40 UNC screwlock installed, with boardlock, tin over nickel"
+        }
+      ]
+    }
+  ],
+  "relationships": {
+    "dependencies": [],
+    "compatibility": []
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "metadata": {
+    "filename": "io_d_sub_sd_hd_stamped_formed_straight_pcb",
+    "processed_date": "2025-01-13T16:40:59.012459",
+    "total_pages": 4,
+    "patterns_found": 2
+  },
+  "patterns": [
+    {
+      "section": {
+        "main_heading": "Standard Density",
+        "sub_heading": null,
+        "category": "Connector"
+      },
+      "pattern": {
+        "full_pattern": "X-XX-XXXX",
+        "variable_format": "X"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "variable",
+          "placeholder": "X",
+          "description": "Number of Contacts",
+          "options": [
+            {
+              "value": "9",
+              "description": "9 contacts",
+              "specifications": "30.84 mm (1.21 in) length",
+              "notes": null
+            },
+            {
+              "value": "15",
+              "description": "15 contacts",
+              "specifications": "33.32 mm (1.31 in) length",
+              "notes": null
+            },
+            {
+              "value": "25",
+              "description": "25 contacts",
+              "specifications": "47.04 mm (1.85 in) length",
+              "notes": null
+            },
+            {
+              "value": "37",
+              "description": "37 contacts",
+              "specifications": "69.32 mm (2.73 in) length",
+              "notes": null
+            },
+            {
+              "value": "50",
+              "description": "50 contacts",
+              "specifications": "67.62 mm (2.64 in) length",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "type": "fixed",
+          "placeholder": "XX",
+          "description": "Connector Type",
+          "options": [
+            {
+              "value": "PIN",
+              "description": "Pin type connector",
+              "specifications": "F=0.38 mm (0.015 in)",
+              "notes": null
+            },
+            {
+              "value": "SOCKET",
+              "description": "Socket type connector",
+              "specifications": "F=0.38 mm (0.015 in)",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "3",
+          "type": "fixed",
+          "placeholder": "XXXX",
+          "description": "Mounting Option",
+          "options": [
+            {
+              "value": "PANEL",
+              "description": "Panel mounting option",
+              "specifications": "See chart for details",
+              "notes": "Refer to panel mounting option chart"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "9-PIN-PANEL",
+          "context": "Standard density connector with 9 contacts, pin type, panel mounting",
+          "breakdown": "9 contacts, pin type, panel mounting"
+        }
+      ]
+    },
+    {
+      "section": {
+        "main_heading": "Straight PCB Connector - How to order",
+        "sub_heading": null,
+        "category": "Connector"
+      },
+      "pattern": {
+        "full_pattern": "L 77 SD E H 09 OL2 RM5 C309",
+        "variable_format": "Variables are marked with placeholders"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "fixed",
+          "placeholder": "L",
+          "description": "RoHS Compliant",
+          "options": [
+            {
+              "value": "L",
+              "description": "RoHS Compliant",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "type": "variable",
+          "placeholder": "77/717",
+          "description": "Contact finish",
+          "options": [
+            {
+              "value": "77",
+              "description": "Tinned shell for receptacle",
+              "specifications": "Dimples for pin connector",
+              "notes": null
+            },
+            {
+              "value": "717",
+              "description": "Tinned shell for receptacle",
+              "specifications": "Tinned shell + dimples for pin connector",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "3",
+          "type": "variable",
+          "placeholder": "SD/HD",
+          "description": "Series",
+          "options": [
+            {
+              "value": "SD",
+              "description": "Standard density",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "HD",
+              "description": "High density",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "4",
+          "type": "variable",
+          "placeholder": "E/A/B/C/D",
+          "description": "Shell size",
+          "options": [
+            {
+              "value": "E",
+              "description": "09/15",
+              "specifications": "SD: 09, HD: 15",
+              "notes": null
+            },
+            {
+              "value": "A",
+              "description": "15/26",
+              "specifications": "SD: 15, HD: 26",
+              "notes": null
+            },
+            {
+              "value": "B",
+              "description": "25/44",
+              "specifications": "SD: 25, HD: 44",
+              "notes": null
+            },
+            {
+              "value": "C",
+              "description": "37/62",
+              "specifications": "SD: 37, HD: 62",
+              "notes": null
+            },
+            {
+              "value": "D",
+              "description": "50/78",
+              "specifications": "SD: 50, HD: 78",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "5",
+          "type": "variable",
+          "placeholder": "H/G",
+          "description": "Rear mounting options",
+          "options": [
+            {
+              "value": "H",
+              "description": "#4-40 rear insert",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "G",
+              "description": "M3 rear insert",
+              "specifications": "H or G required with RM5 or RM8",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "6",
+          "type": "variable",
+          "placeholder": "09/15/25/37/50/15/26/44/62/78",
+          "description": "Configuration",
+          "options": [
+            {
+              "value": "09,15,25,37,50",
+              "description": "For SD series",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "15,26,44,62,78",
+              "description": "For HD series",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "7",
+          "type": "fixed",
+          "placeholder": "OL2",
+          "description": "Plating option",
+          "options": [
+            {
+              "value": "OL2",
+              "description": "Valid only for 0.76μm (30μ\")",
+              "specifications": "Part numbers to be written as 77...C309 or 717...C309",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "8",
+          "type": "variable",
+          "placeholder": "Blank/RM5/RM8/VF/VFM",
+          "description": "Front mounting options",
+          "options": [
+            {
+              "value": "Blank",
+              "description": "Ø3.05 mm rivet",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "RM5",
+              "description": "Rear threaded standoff + boardlock",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "RM8",
+              "description": "Front screwlock with standoff + boardlock",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "VF",
+              "description": "4-40 Front screwlock",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "VFM",
+              "description": "M3 Front screwlock",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "9",
+          "type": "fixed",
+          "placeholder": "C309",
+          "description": "Termination",
+          "options": [
+            {
+              "value": "C309",
+              "description": "Straight, for PCB mount",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "L 717 SD E 09 OL2 VF C309",
+          "context": "Example part number",
+          "breakdown": "L: RoHS Compliant, 717: Tinned shell for receptacle, SD: Standard density, E: Shell size 09, 09: Configuration, OL2: Plating option, VF: Front mounting option, C309: Termination"
+        }
+      ]
+    }
+  ],
+  "relationships": {
+    "dependencies": [
+      {
+        "if_pattern": "RM5 or RM8",
+        "then_requires": "H or G",
+        "notes": "H or G rear mounting options are required with RM5 or RM8 front mounting options"
+      }
+    ],
+    "compatibility": []
+  }
+}
