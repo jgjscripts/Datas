@@ -1,72 +1,20 @@
 {
   "metadata": {
     "filename": "io_d_sub_sd_stamped_formed_smt",
-    "processed_date": "2025-01-28T17:16:36.283302",
+    "processed_date": "2025-01-28T16:07:51.877879",
     "total_pages": 4,
-    "patterns_found": 5
+    "patterns_found": 4
   },
   "patterns": [
     {
       "section": {
-        "main_heading": "SM2",
-        "sub_heading": "D-Sub connectors - Stamped and Formed Contacts",
-        "category": "Surface Mount Connectors"
-      },
-      "pattern": {
-        "full_pattern": "SM2 E2",
-        "variable_format": "Fixed pattern"
-      },
-      "positions": [
-        {
-          "position": "1",
-          "type": "fixed",
-          "placeholder": "SM2",
-          "description": "Series identifier for Surface Mount Connectors",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
-          "options": [
-            {
-              "value": "SM2",
-              "description": "Surface Mount Connectors series",
-              "specifications": "D-Sub connectors with stamped and formed contacts",
-              "notes": "Designed for pick and place SMT process"
-            }
-          ]
-        },
-        {
-          "position": "2",
-          "type": "fixed",
-          "placeholder": "E2",
-          "description": "Connector type and configuration",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
-          "options": [
-            {
-              "value": "E2",
-              "description": "Right angle receptacle with brackets",
-              "specifications": "Compatible with pick and place machine",
-              "notes": "Industry standard for I/O connections"
-            }
-          ]
-        }
-      ],
-      "examples": [
-        {
-          "combination": "SM2 E2",
-          "context": "Standard configuration for surface mount connectors",
-          "breakdown": "SM2: Series identifier, E2: Right angle receptacle with brackets"
-        }
-      ]
-    },
-    {
-      "section": {
         "main_heading": "Panel mounting option",
-        "sub_heading": null,
-        "category": "GROUNDING TABS"
+        "sub_heading": "GROUNDING TABS",
+        "category": "Accessories"
       },
       "pattern": {
         "full_pattern": "V1, V2",
-        "variable_format": "V followed by a number"
+        "variable_format": "Fixed values"
       },
       "positions": [
         {
@@ -74,14 +22,12 @@
           "type": "fixed",
           "placeholder": "V1",
           "description": "V1 grounding tab",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "V1",
               "description": "V1 grounding tab",
-              "specifications": null,
-              "notes": null
+              "specifications": "N/A",
+              "notes": "Used for grounding"
             }
           ]
         },
@@ -90,29 +36,38 @@
           "type": "fixed",
           "placeholder": "V2",
           "description": "V2 grounding tab",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "V2",
               "description": "V2 grounding tab",
-              "specifications": null,
-              "notes": null
+              "specifications": "N/A",
+              "notes": "Used for grounding"
             }
           ]
         }
       ],
-      "examples": []
+      "examples": [
+        {
+          "combination": "V1",
+          "context": "Grounding tab option",
+          "breakdown": "V1 grounding tab"
+        },
+        {
+          "combination": "V2",
+          "context": "Grounding tab option",
+          "breakdown": "V2 grounding tab"
+        }
+      ]
     },
     {
       "section": {
         "main_heading": "Panel mounting option",
-        "sub_heading": null,
-        "category": "BOARDLOCKS"
+        "sub_heading": "BOARDLOCKS",
+        "category": "Accessories"
       },
       "pattern": {
         "full_pattern": "ZeFo, LIF",
-        "variable_format": "Name of boardlock type"
+        "variable_format": "Fixed values"
       },
       "positions": [
         {
@@ -120,14 +75,12 @@
           "type": "fixed",
           "placeholder": "ZeFo",
           "description": "ZeFo boardlocks",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "ZeFo",
               "description": "ZeFo boardlocks",
               "specifications": "3.4 (.134)",
-              "notes": null
+              "notes": "Used for securing boards"
             }
           ]
         },
@@ -136,29 +89,38 @@
           "type": "fixed",
           "placeholder": "LIF",
           "description": "LIF boardlocks",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "LIF",
               "description": "LIF boardlocks",
               "specifications": "3.4 (.134)",
-              "notes": null
+              "notes": "Used for securing boards"
             }
           ]
         }
       ],
-      "examples": []
+      "examples": [
+        {
+          "combination": "ZeFo",
+          "context": "Boardlock option",
+          "breakdown": "ZeFo boardlocks"
+        },
+        {
+          "combination": "LIF",
+          "context": "Boardlock option",
+          "breakdown": "LIF boardlocks"
+        }
+      ]
     },
     {
       "section": {
         "main_heading": "Panel mounting option",
-        "sub_heading": null,
-        "category": "FLANGES ACCESSORIES"
+        "sub_heading": "FLANGES ACCESSORIES",
+        "category": "Accessories"
       },
       "pattern": {
         "full_pattern": "1/2, 5, 6",
-        "variable_format": "Number or fraction"
+        "variable_format": "Fixed values"
       },
       "positions": [
         {
@@ -166,14 +128,12 @@
           "type": "fixed",
           "placeholder": "1/2",
           "description": "Threaded Rear",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "1/2",
               "description": "Threaded Rear",
               "specifications": "M3 or #4-40 rear insert",
-              "notes": null
+              "notes": "For rear mounting"
             }
           ]
         },
@@ -182,14 +142,12 @@
           "type": "fixed",
           "placeholder": "5",
           "description": "Installed Front Female",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "5",
               "description": "Installed Front Female",
-              "specifications": "6.4 (.252 ± .008) installed #4-40 screwlock",
-              "notes": null
+              "specifications": "6.4 (.252 ± .008)",
+              "notes": "For front mounting"
             }
           ]
         },
@@ -198,29 +156,43 @@
           "type": "fixed",
           "placeholder": "6",
           "description": "Fixed Front Female",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "6",
               "description": "Fixed Front Female",
-              "specifications": "ø3.8 (.150) 5.85 (.230) fixed #4-40 screwlock",
-              "notes": null
+              "specifications": "ø3.8 (.150), 5.85 (.230)",
+              "notes": "For fixed front mounting"
             }
           ]
         }
       ],
-      "examples": []
+      "examples": [
+        {
+          "combination": "1/2",
+          "context": "Flange accessory option",
+          "breakdown": "Threaded Rear"
+        },
+        {
+          "combination": "5",
+          "context": "Flange accessory option",
+          "breakdown": "Installed Front Female"
+        },
+        {
+          "combination": "6",
+          "context": "Flange accessory option",
+          "breakdown": "Fixed Front Female"
+        }
+      ]
     },
     {
       "section": {
         "main_heading": "How to order",
         "sub_heading": null,
-        "category": "Connectors"
+        "category": null
       },
       "pattern": {
-        "full_pattern": "L 17 SM2 S ... ... ... ... ...",
-        "variable_format": "X, XX, ..."
+        "full_pattern": "L 17 SM2 S ..... ..... ..... .....",
+        "variable_format": "L, 17, SM2, S, ....."
       },
       "positions": [
         {
@@ -228,8 +200,6 @@
           "type": "fixed",
           "placeholder": "L",
           "description": "RoHS Compliant",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "L",
@@ -244,12 +214,10 @@
           "type": "fixed",
           "placeholder": "17",
           "description": "Series",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "17",
-              "description": "Series 17",
+              "description": "Series",
               "specifications": null,
               "notes": null
             }
@@ -259,13 +227,11 @@
           "position": "3",
           "type": "fixed",
           "placeholder": "SM2",
-          "description": "Connector Type",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
+          "description": "Series Modifier",
           "options": [
             {
               "value": "SM2",
-              "description": "Connector Type SM2",
+              "description": "Series Modifier",
               "specifications": null,
               "notes": null
             }
@@ -273,26 +239,12 @@
         },
         {
           "position": "4",
-          "type": "variable",
+          "type": "fixed",
           "placeholder": "S",
-          "description": "Configuration",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
+          "description": "Socket only",
           "options": [
             {
-              "value": "09",
-              "description": "Socket only",
-              "specifications": null,
-              "notes": null
-            },
-            {
-              "value": "15",
-              "description": "Socket only",
-              "specifications": null,
-              "notes": null
-            },
-            {
-              "value": "25",
+              "value": "S",
               "description": "Socket only",
               "specifications": null,
               "notes": null
@@ -302,22 +254,46 @@
         {
           "position": "5",
           "type": "variable",
-          "placeholder": "...",
-          "description": "Boardlocks / Grounding Tab",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
+          "placeholder": ".....",
+          "description": "Configuration",
+          "options": [
+            {
+              "value": "09",
+              "description": "Configuration",
+              "specifications": "Socket only",
+              "notes": null
+            },
+            {
+              "value": "15",
+              "description": "Configuration",
+              "specifications": "Socket only",
+              "notes": null
+            },
+            {
+              "value": "25",
+              "description": "Configuration",
+              "specifications": "Socket only",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "6",
+          "type": "variable",
+          "placeholder": ".....",
+          "description": "Boardlocks / Grounding tab",
           "options": [
             {
               "value": "1",
-              "description": "V1 grounding tab +2xF0 boardlocks (PCB = 1.6)",
-              "specifications": null,
-              "notes": "Standard option"
+              "description": "V1 grounding tab +Z=Fo boardlocks",
+              "specifications": "PCB = 1.6",
+              "notes": null
             },
             {
               "value": "4",
-              "description": "2xF0 boardlocks only (PCB = 1.6)",
-              "specifications": null,
-              "notes": "Standard option"
+              "description": "Z=Fo boardlocks only",
+              "specifications": "PCB = 1.6",
+              "notes": null
             },
             {
               "value": "7",
@@ -333,24 +309,22 @@
             },
             {
               "value": "B",
-              "description": "V2 grounding tab + LIF boardlocks (PCB = 1.6)",
-              "specifications": null,
-              "notes": null
+              "description": "V2 grounding tab + LIF boardlocks",
+              "specifications": "PCB = 1.6",
+              "notes": "Standard options"
             }
           ]
         },
         {
-          "position": "6",
+          "position": "7",
           "type": "variable",
-          "placeholder": "...",
+          "placeholder": ".....",
           "description": "Packaging",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "R",
-              "description": "Reel (100 / reel, 9 Pos only)",
-              "specifications": null,
+              "description": "Reel",
+              "specifications": "100 / reel, 9 Pos only",
               "notes": null
             },
             {
@@ -362,12 +336,10 @@
           ]
         },
         {
-          "position": "7",
+          "position": "8",
           "type": "variable",
-          "placeholder": "...",
-          "description": "Contact Plating",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
+          "placeholder": ".....",
+          "description": "Contact plating",
           "options": [
             {
               "value": "1",
@@ -377,25 +349,23 @@
             },
             {
               "value": "2",
-              "description": "0.4μm Au (15μ\")",
-              "specifications": null,
+              "description": "0.4μm Au",
+              "specifications": "15μ\"",
               "notes": null
             },
             {
               "value": "4",
-              "description": "0.76μm Au (30μ\")",
-              "specifications": null,
+              "description": "0.76μm Au",
+              "specifications": "30μ\"",
               "notes": null
             }
           ]
         },
         {
-          "position": "8",
+          "position": "9",
           "type": "variable",
-          "placeholder": "...",
-          "description": "Mounting Options",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
+          "placeholder": ".....",
+          "description": "Mounting options",
           "options": [
             {
               "value": "1",
@@ -431,16 +401,16 @@
               "value": "6",
               "description": "Fixed 4-40 front screwlock",
               "specifications": null,
-              "notes": null
+              "notes": "Standard options"
             }
           ]
         }
       ],
       "examples": [
         {
-          "combination": "L 17 SM2 09 1 R 1 1",
-          "context": "Standard configuration with specific options",
-          "breakdown": "L: RoHS Compliant, 17: Series, SM2: Connector Type, 09: Socket only, 1: V1 grounding tab +2xF0 boardlocks, R: Reel, 1: Flash, 1: 4-40 rear insert"
+          "combination": "L 17 SM2 S 09 1 R 1 1",
+          "context": "Example part number",
+          "breakdown": "L: RoHS Compliant, 17: Series, SM2: Series Modifier, S: Socket only, 09: Configuration, 1: V1 grounding tab +Z=Fo boardlocks, R: Reel, 1: Flash, 1: 4-40 rear insert"
         }
       ]
     }

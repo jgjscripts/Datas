@@ -1,0 +1,228 @@
+{
+  "metadata": {
+    "filename": "io_d_sub_sd_hd_stamped_formed_solder_cup",
+    "processed_date": "2025-01-28T15:59:55.522955",
+    "total_pages": 4,
+    "patterns_found": 1
+  },
+  "patterns": [
+    {
+      "section": {
+        "main_heading": "How to order",
+        "sub_heading": null,
+        "category": null
+      },
+      "pattern": {
+        "full_pattern": "L ..... ..... ..... ..... ..... ..... C309",
+        "variable_format": "....."
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "fixed",
+          "placeholder": "L",
+          "description": "RoHS Compliant",
+          "options": []
+        },
+        {
+          "position": "2",
+          "type": "variable",
+          "placeholder": ".....",
+          "description": "Plating option",
+          "options": [
+            {
+              "value": "77",
+              "description": "tinned shell for receptacle",
+              "specifications": "Gold flash",
+              "notes": "valid only for 0.76μm (30μ\")"
+            },
+            {
+              "value": "717",
+              "description": "tinned shell + dimples for Pin",
+              "specifications": "Gold flash",
+              "notes": "valid only for 0.76μm (30μ\")"
+            },
+            {
+              "value": "177",
+              "description": "tinned shell for receptacle",
+              "specifications": "0.38μm (15μ\")",
+              "notes": null
+            },
+            {
+              "value": "777",
+              "description": "tinned shell + dimples for Pin",
+              "specifications": "0.38μm (15μ\")",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "3",
+          "type": "variable",
+          "placeholder": ".....",
+          "description": "Density",
+          "options": [
+            {
+              "value": "SD",
+              "description": "Standard density",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "HD",
+              "description": "High density",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "4",
+          "type": "variable",
+          "placeholder": ".....",
+          "description": "Shell size",
+          "options": [
+            {
+              "value": "E",
+              "description": "9 for SD, 15 for HD",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "A",
+              "description": "15 for SD, 26 for HD",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "B",
+              "description": "25 for SD, 44 for HD",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "C",
+              "description": "37 for SD, 62 for HD",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "D",
+              "description": "50 for SD, 78 for HD",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "5",
+          "type": "variable",
+          "placeholder": ".....",
+          "description": "Rear mounting option",
+          "options": [
+            {
+              "value": "H",
+              "description": "Rear insert 4-40",
+              "specifications": null,
+              "notes": "H or G required with VF or VFM for removable female screwlock"
+            },
+            {
+              "value": "G",
+              "description": "Rear insert M3",
+              "specifications": null,
+              "notes": "H or G required with VF or VFM for removable female screwlock"
+            }
+          ]
+        },
+        {
+          "position": "6",
+          "type": "variable",
+          "placeholder": ".....",
+          "description": "Front mounting option",
+          "options": [
+            {
+              "value": "no digit",
+              "description": "3.05mm rivet",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "VF",
+              "description": "Screwlock 4-40",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "VFM",
+              "description": "Screwlock M3",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "7",
+          "type": "variable",
+          "placeholder": ".....",
+          "description": "Contact type",
+          "options": [
+            {
+              "value": "P",
+              "description": "Pin",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "S",
+              "description": "Socket",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "8",
+          "type": "variable",
+          "placeholder": "C309",
+          "description": "Configuration",
+          "options": [
+            {
+              "value": "09, 15, 25, 37, 50",
+              "description": "SD",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "15, 26, 44, 62, 78",
+              "description": "HD",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "L 717 SD E H 09 P VF C309",
+          "context": "Example part number",
+          "breakdown": "L: RoHS Compliant, 717: tinned shell + dimples for Pin, SD: Standard density, E: Shell size 9, H: Rear insert 4-40, 09: Configuration SD, P: Pin, VF: Screwlock 4-40"
+        },
+        {
+          "combination": "L 77 SD E 09 S VF",
+          "context": "Example part number",
+          "breakdown": "L: RoHS Compliant, 77: tinned shell for receptacle, SD: Standard density, E: Shell size 9, 09: Configuration SD, S: Socket, VF: Screwlock 4-40"
+        }
+      ]
+    }
+  ],
+  "relationships": {
+    "dependencies": [
+      {
+        "if_pattern": "H or G",
+        "then_requires": "VF or VFM",
+        "notes": "H or G required with VF or VFM for removable female screwlock"
+      }
+    ],
+    "compatibility": []
+  }
+}

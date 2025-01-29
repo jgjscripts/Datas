@@ -1,0 +1,836 @@
+{
+  "metadata": {
+    "filename": "io_d_sub_sd_stamped_formed_pressfit_straight_pcb",
+    "processed_date": "2025-01-28T16:53:33.810640",
+    "total_pages": 4,
+    "patterns_found": 10
+  },
+  "patterns": [
+    {
+      "section": {
+        "main_heading": "TF D-Sub connectors",
+        "sub_heading": "PRESS FIT STRAIGHT PCB TERMINATION",
+        "category": "Materials and Platings"
+      },
+      "pattern": {
+        "full_pattern": "Shells, Insulator, Contacts, Rear inserts, Boardlocks, Screwlocks",
+        "variable_format": "Material and plating details"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "fixed",
+          "placeholder": "Shells",
+          "description": "Material and plating for shells",
+          "options": [
+            {
+              "value": "Steel",
+              "description": "tin plated",
+              "specifications": "",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "type": "fixed",
+          "placeholder": "Insulator",
+          "description": "Material for insulator",
+          "options": [
+            {
+              "value": "Glass-filled thermoplastic",
+              "description": "UL 94V-0",
+              "specifications": "",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "position": "3",
+          "type": "fixed",
+          "placeholder": "Contacts",
+          "description": "Material and plating for contacts",
+          "options": [
+            {
+              "value": "Copper Alloy",
+              "description": "2.54μm (100μ\") min. tin on termination area over 1.27μm (50μ\") min. nickel",
+              "specifications": "",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "position": "4",
+          "type": "fixed",
+          "placeholder": "Rear inserts",
+          "description": "Material and plating for rear inserts",
+          "options": [
+            {
+              "value": "Brass",
+              "description": "2.54μm (100μ\") min. nickel plated",
+              "specifications": "",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "position": "5",
+          "type": "fixed",
+          "placeholder": "Boardlocks",
+          "description": "Material and plating for boardlocks",
+          "options": [
+            {
+              "value": "Brass",
+              "description": "2.54μm (100μ\") min. tin over 1.27μm (50μ\") min. nickel plated",
+              "specifications": "",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "position": "6",
+          "type": "fixed",
+          "placeholder": "Screwlocks",
+          "description": "Material and plating for screwlocks",
+          "options": [
+            {
+              "value": "Brass",
+              "description": "2.54μm (100μ\") min. nickel plated",
+              "specifications": "",
+              "notes": ""
+            }
+          ]
+        }
+      ],
+      "examples": []
+    },
+    {
+      "section": {
+        "main_heading": "TF D-Sub connectors",
+        "sub_heading": "PRESS FIT STRAIGHT PCB TERMINATION",
+        "category": "Electrical Data"
+      },
+      "pattern": {
+        "full_pattern": "Current rating, Voltage rating, Withstanding voltage, Insulation resistance, Contact resistance",
+        "variable_format": "Electrical specifications"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "fixed",
+          "placeholder": "Current rating",
+          "description": "Maximum current rating",
+          "options": [
+            {
+              "value": "3A",
+              "description": "",
+              "specifications": "",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "type": "fixed",
+          "placeholder": "Voltage rating",
+          "description": "Maximum voltage rating",
+          "options": [
+            {
+              "value": "250V AC",
+              "description": "",
+              "specifications": "",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "position": "3",
+          "type": "fixed",
+          "placeholder": "Withstanding voltage",
+          "description": "Voltage withstand capability",
+          "options": [
+            {
+              "value": "1000V AC/rms 60Hz for one minute",
+              "description": "",
+              "specifications": "",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "position": "4",
+          "type": "fixed",
+          "placeholder": "Insulation resistance",
+          "description": "Insulation resistance value",
+          "options": [
+            {
+              "value": "1000MΩ",
+              "description": "",
+              "specifications": "",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "position": "5",
+          "type": "fixed",
+          "placeholder": "Contact resistance",
+          "description": "Contact resistance value",
+          "options": [
+            {
+              "value": "20mΩ max",
+              "description": "",
+              "specifications": "",
+              "notes": ""
+            }
+          ]
+        }
+      ],
+      "examples": []
+    },
+    {
+      "section": {
+        "main_heading": "TF D-Sub connectors",
+        "sub_heading": "PRESS FIT STRAIGHT PCB TERMINATION",
+        "category": "Climatic Data"
+      },
+      "pattern": {
+        "full_pattern": "Operating temperature, Salt spray",
+        "variable_format": "Climatic specifications"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "fixed",
+          "placeholder": "Operating temperature",
+          "description": "Operating temperature range",
+          "options": [
+            {
+              "value": "-55°C to +85°C",
+              "description": "",
+              "specifications": "",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "type": "fixed",
+          "placeholder": "Salt spray",
+          "description": "Salt spray duration",
+          "options": [
+            {
+              "value": "24 hours",
+              "description": "",
+              "specifications": "",
+              "notes": ""
+            }
+          ]
+        }
+      ],
+      "examples": []
+    },
+    {
+      "section": {
+        "main_heading": "TF D-Sub connectors",
+        "sub_heading": "PRESS FIT STRAIGHT PCB TERMINATION",
+        "category": "Mechanical Data"
+      },
+      "pattern": {
+        "full_pattern": "Single contact insertion force, Single contact withdrawal force, Single contact insertion on board, Single contact withdrawal from board, Standard plating thickness",
+        "variable_format": "Mechanical specifications"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "fixed",
+          "placeholder": "Single contact insertion force",
+          "description": "Maximum insertion force",
+          "options": [
+            {
+              "value": "≤ 3.60 N",
+              "description": "",
+              "specifications": "",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "type": "fixed",
+          "placeholder": "Single contact withdrawal force",
+          "description": "Minimum withdrawal force",
+          "options": [
+            {
+              "value": "≥ 0.2 N",
+              "description": "",
+              "specifications": "",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "position": "3",
+          "type": "fixed",
+          "placeholder": "Single contact insertion on board",
+          "description": "Maximum insertion force on board",
+          "options": [
+            {
+              "value": "≤ 100 N",
+              "description": "",
+              "specifications": "",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "position": "4",
+          "type": "fixed",
+          "placeholder": "Single contact withdrawal from board",
+          "description": "Minimum withdrawal force from board",
+          "options": [
+            {
+              "value": "≥ 20 N",
+              "description": "",
+              "specifications": "",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "position": "5",
+          "type": "fixed",
+          "placeholder": "Standard plating thickness",
+          "description": "Plating thickness options",
+          "options": [
+            {
+              "value": "Gold flash",
+              "description": "",
+              "specifications": "",
+              "notes": ""
+            },
+            {
+              "value": "0.38μm (15μ\") gold",
+              "description": "",
+              "specifications": "",
+              "notes": ""
+            },
+            {
+              "value": "0.76μm (30μ\") gold",
+              "description": "",
+              "specifications": "",
+              "notes": ""
+            }
+          ]
+        }
+      ],
+      "examples": []
+    },
+    {
+      "section": {
+        "main_heading": "TF D-Sub connectors",
+        "sub_heading": "PRESS FIT STRAIGHT PCB TERMINATION",
+        "category": "Terminal Specification"
+      },
+      "pattern": {
+        "full_pattern": "Finished Hole, Cu, Sn",
+        "variable_format": "Terminal and boardlock specifications"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "fixed",
+          "placeholder": "Finished Hole",
+          "description": "Hole size specification",
+          "options": [
+            {
+              "value": "1 (+0.00/-0.05 mm)",
+              "description": "",
+              "specifications": "",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "type": "fixed",
+          "placeholder": "Cu",
+          "description": "Copper plating thickness",
+          "options": [
+            {
+              "value": "> 25 μm",
+              "description": "",
+              "specifications": "",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "position": "3",
+          "type": "fixed",
+          "placeholder": "Sn",
+          "description": "Tin plating thickness",
+          "options": [
+            {
+              "value": "< 15 μm",
+              "description": "",
+              "specifications": "",
+              "notes": ""
+            }
+          ]
+        }
+      ],
+      "examples": []
+    },
+    {
+      "section": {
+        "main_heading": "TF D-Sub connectors",
+        "sub_heading": "PRESS FIT STRAIGHT PCB TERMINATION",
+        "category": "Boardlock Specification"
+      },
+      "pattern": {
+        "full_pattern": "Boardlock Specification",
+        "variable_format": "Boardlock specifications"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "fixed",
+          "placeholder": "Boardlock Specification",
+          "description": "Boardlock size specification",
+          "options": [
+            {
+              "value": "3.3 (+0.00/-0.05 mm)",
+              "description": "Min 25 μm",
+              "specifications": "5-15 μm",
+              "notes": ""
+            }
+          ]
+        }
+      ],
+      "examples": []
+    },
+    {
+      "section": {
+        "main_heading": "Overall Dimensions",
+        "sub_heading": null,
+        "category": "Socket and Plug Versions"
+      },
+      "pattern": {
+        "full_pattern": "Socket and Plug Dimensions",
+        "variable_format": "Dimensions based on number of contacts"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "variable",
+          "placeholder": "Nb OF CONTACTS",
+          "description": "Number of contacts",
+          "options": [
+            {
+              "value": "9",
+              "description": "9 contacts",
+              "specifications": "A: 30.81 mm (1.185 inch), B: 24.99 mm (0.984 inch), C plug: 16.92 mm (0.666 inch), C socket: 16.33 mm (0.643 inch)",
+              "notes": "Standard size for small connectors"
+            },
+            {
+              "value": "15",
+              "description": "15 contacts",
+              "specifications": "A: 39.14 mm (1.54 inch), B: 33.32 mm (1.312 inch), C plug: 25.50 mm (1.004 inch), C socket: 24.66 mm (0.97 inch)",
+              "notes": "Medium size for moderate connections"
+            },
+            {
+              "value": "25",
+              "description": "25 contacts",
+              "specifications": "A: 53.04 mm (2.088 inch), B: 47.04 mm (1.852 inch), C plug: 28.96 mm (1.534 inch), C socket: 38.38 mm (1.511 inch)",
+              "notes": "Larger size for more connections"
+            },
+            {
+              "value": "37",
+              "description": "37 contacts",
+              "specifications": "A: 69.32 mm (2.729 inch), B: 63.50 mm (2.5 inch), C plug: 55.42 mm (2.182 inch), C socket: 54.84 mm (2.16 inch)",
+              "notes": "Largest size for maximum connections"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "15 contacts",
+          "context": "Medium size connector",
+          "breakdown": "A: 39.14 mm, B: 33.32 mm, C plug: 25.50 mm, C socket: 24.66 mm"
+        }
+      ]
+    },
+    {
+      "section": {
+        "main_heading": "Press-Fit Tooling",
+        "sub_heading": null,
+        "category": "Female Connectors"
+      },
+      "pattern": {
+        "full_pattern": "Size of connectors - Tooling PN",
+        "variable_format": "Numeric and Alphanumeric"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "variable",
+          "placeholder": "Size of connectors",
+          "description": "Number of connectors",
+          "options": [
+            {
+              "value": "9",
+              "description": "9 connectors",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "15",
+              "description": "15 connectors",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "25",
+              "description": "25 connectors",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "37",
+              "description": "37 connectors",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "type": "variable",
+          "placeholder": "Tooling PN",
+          "description": "Tooling part number",
+          "options": [
+            {
+              "value": "981 MC",
+              "description": "Tooling for 9 connectors",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "982 MC",
+              "description": "Tooling for 15 connectors",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "983 MC",
+              "description": "Tooling for 25 connectors",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "984 MC",
+              "description": "Tooling for 37 connectors",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "9 - 981 MC",
+          "context": "Female connector with 9 connectors",
+          "breakdown": "Size: 9, Tooling PN: 981 MC"
+        }
+      ]
+    },
+    {
+      "section": {
+        "main_heading": "Press-Fit Tooling",
+        "sub_heading": null,
+        "category": "Male Connectors"
+      },
+      "pattern": {
+        "full_pattern": "Size of connectors - Tooling PN",
+        "variable_format": "Numeric and Alphanumeric"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "variable",
+          "placeholder": "Size of connectors",
+          "description": "Number of connectors",
+          "options": [
+            {
+              "value": "9",
+              "description": "9 connectors",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "15",
+              "description": "15 connectors",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "25",
+              "description": "25 connectors",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "37",
+              "description": "37 connectors",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "type": "variable",
+          "placeholder": "Tooling PN",
+          "description": "Tooling part number",
+          "options": [
+            {
+              "value": "985 MC",
+              "description": "Tooling for 9 connectors",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "986 MC",
+              "description": "Tooling for 15 connectors",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "987 MC",
+              "description": "Tooling for 25 connectors",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "988 MC",
+              "description": "Tooling for 37 connectors",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "9 - 985 MC",
+          "context": "Male connector with 9 connectors",
+          "breakdown": "Size: 9, Tooling PN: 985 MC"
+        }
+      ]
+    },
+    {
+      "section": {
+        "main_heading": "How to order",
+        "sub_heading": null,
+        "category": "Connector"
+      },
+      "pattern": {
+        "full_pattern": "L 17TF ..... ..... ..... ..... .....",
+        "variable_format": "....."
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "fixed",
+          "placeholder": "L",
+          "description": "RoHS Compliant",
+          "options": [
+            {
+              "value": "L",
+              "description": "RoHS Compliant",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "type": "fixed",
+          "placeholder": "17TF",
+          "description": "Series",
+          "options": [
+            {
+              "value": "17TF",
+              "description": "Series",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "3",
+          "type": "variable",
+          "placeholder": ".....",
+          "description": "Number of contacts",
+          "options": [
+            {
+              "value": "09",
+              "description": "Number of contacts",
+              "specifications": "9 contacts",
+              "notes": null
+            },
+            {
+              "value": "15",
+              "description": "Number of contacts",
+              "specifications": "15 contacts",
+              "notes": null
+            },
+            {
+              "value": "25",
+              "description": "Number of contacts",
+              "specifications": "25 contacts",
+              "notes": null
+            },
+            {
+              "value": "37",
+              "description": "Number of contacts",
+              "specifications": "37 contacts",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "4",
+          "type": "variable",
+          "placeholder": ".....",
+          "description": "Contact type",
+          "options": [
+            {
+              "value": "1",
+              "description": "Contact type",
+              "specifications": "pin",
+              "notes": null
+            },
+            {
+              "value": "0",
+              "description": "Contact type",
+              "specifications": "socket",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "5",
+          "type": "variable",
+          "placeholder": ".....",
+          "description": "Contact plating",
+          "options": [
+            {
+              "value": "0",
+              "description": "Contact plating",
+              "specifications": "gold flash",
+              "notes": null
+            },
+            {
+              "value": "1",
+              "description": "Contact plating",
+              "specifications": "0.4 μm (15μ\")",
+              "notes": null
+            },
+            {
+              "value": "2",
+              "description": "Contact plating",
+              "specifications": "0.76 μm (30μ\")",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "6",
+          "type": "variable",
+          "placeholder": ".....",
+          "description": "Flange mounting option",
+          "options": [
+            {
+              "value": "0",
+              "description": "Flange mounting option",
+              "specifications": "3.10mm clear hole",
+              "notes": null
+            },
+            {
+              "value": "1",
+              "description": "Flange mounting option",
+              "specifications": "#4-40 threaded hole",
+              "notes": null
+            },
+            {
+              "value": "2",
+              "description": "Flange mounting option",
+              "specifications": "#4-40 UNC screwlock installed",
+              "notes": null
+            },
+            {
+              "value": "4",
+              "description": "Flange mounting option",
+              "specifications": "M3 threaded hole",
+              "notes": null
+            },
+            {
+              "value": "5",
+              "description": "Flange mounting option",
+              "specifications": "M3 screwlock installed",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "7",
+          "type": "variable",
+          "placeholder": ".....",
+          "description": "Board mounting option",
+          "options": [
+            {
+              "value": "0",
+              "description": "Board mounting option",
+              "specifications": "without boardlock",
+              "notes": null
+            },
+            {
+              "value": "1",
+              "description": "Board mounting option",
+              "specifications": "with boardlock",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "8",
+          "type": "variable",
+          "placeholder": ".....",
+          "description": "Front shell plating",
+          "options": [
+            {
+              "value": "1",
+              "description": "Front shell plating",
+              "specifications": "tin over nickel",
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "L 17TF 15 1 0 2 0 1",
+          "context": "Example part number",
+          "breakdown": "L: RoHS Compliant, 17TF: Series, 15: 15 contacts, 1: pin, 0: gold flash, 2: #4-40 UNC screwlock installed, 0: without boardlock, 1: tin over nickel"
+        }
+      ]
+    }
+  ],
+  "relationships": {
+    "dependencies": [],
+    "compatibility": []
+  }
+}

@@ -1,9 +1,9 @@
 {
   "metadata": {
     "filename": "io_d_sub_sd_stamped_formed_high_temp_right_angle",
-    "processed_date": "2025-01-28T17:11:26.601893",
+    "processed_date": "2025-01-28T16:50:51.578999",
     "total_pages": 4,
-    "patterns_found": 4
+    "patterns_found": 2
   },
   "patterns": [
     {
@@ -22,13 +22,11 @@
           "type": "fixed",
           "placeholder": "HTN",
           "description": "Series identifier",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "HTN",
               "description": "Amphenol HTN series",
-              "specifications": "High temperature, right angle",
+              "specifications": "Right angle, high temperature connectors",
               "notes": "Allows through hole connector with reflow soldering process"
             }
           ]
@@ -38,8 +36,6 @@
           "type": "fixed",
           "placeholder": "E17",
           "description": "Model identifier",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "E17",
@@ -53,116 +49,8 @@
       "examples": [
         {
           "combination": "HTN E17",
-          "context": "Right angle high temperature connectors",
+          "context": "Standard part number for right angle high temperature connectors",
           "breakdown": "HTN: Series identifier, E17: Model identifier"
-        }
-      ]
-    },
-    {
-      "section": {
-        "main_heading": "Shell size dimensions",
-        "sub_heading": null,
-        "category": "D-Sub Connectors"
-      },
-      "pattern": {
-        "full_pattern": "POSITION #1",
-        "variable_format": "Fixed position"
-      },
-      "positions": [
-        {
-          "position": "1",
-          "type": "fixed",
-          "placeholder": "POSITION #1",
-          "description": "Position of the first contact",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
-          "options": [
-            {
-              "value": "A±0.38 (.015)",
-              "description": "Width tolerance",
-              "specifications": null,
-              "notes": null
-            },
-            {
-              "value": "B±0.13 (.005)",
-              "description": "Height tolerance",
-              "specifications": null,
-              "notes": null
-            },
-            {
-              "value": "C±0.13 (.005)",
-              "description": "Depth tolerance",
-              "specifications": null,
-              "notes": null
-            },
-            {
-              "value": "D±0.13 (.005)",
-              "description": "Length tolerance",
-              "specifications": null,
-              "notes": null
-            },
-            {
-              "value": "E±0.05 (.002)",
-              "description": "Overall tolerance",
-              "specifications": null,
-              "notes": null
-            }
-          ]
-        }
-      ],
-      "examples": [
-        {
-          "combination": "Position #1 with specified tolerances",
-          "context": "Shell size dimensions",
-          "breakdown": "Position by position explanation"
-        }
-      ]
-    },
-    {
-      "section": {
-        "main_heading": "Recommended P.C.B. Layout",
-        "sub_heading": null,
-        "category": "D-Sub Connectors"
-      },
-      "pattern": {
-        "full_pattern": "POSITION #1",
-        "variable_format": "Fixed position"
-      },
-      "positions": [
-        {
-          "position": "1",
-          "type": "fixed",
-          "placeholder": "POSITION #1",
-          "description": "Position of the first contact",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
-          "options": [
-            {
-              "value": "B±0.05 (.002)",
-              "description": "Width tolerance",
-              "specifications": null,
-              "notes": null
-            },
-            {
-              "value": "E±0.05 (.002)",
-              "description": "Height tolerance",
-              "specifications": null,
-              "notes": null
-            },
-            {
-              "value": "F±0.1 (.004)",
-              "description": "Overall tolerance",
-              "specifications": null,
-              "notes": null
-            }
-          ]
-        }
-      ],
-      "examples": [
-        {
-          "combination": "Position #1 with specified tolerances",
-          "context": "Recommended P.C.B. Layout",
-          "breakdown": "Position by position explanation"
         }
       ]
     },
@@ -170,10 +58,10 @@
       "section": {
         "main_heading": "How to order",
         "sub_heading": null,
-        "category": "HTN/E17"
+        "category": null
       },
       "pattern": {
-        "full_pattern": "L 17 HT N ..... ..... ..... ..... .....",
+        "full_pattern": "L17 HT N ..... ..... ..... ..... .....",
         "variable_format": "....."
       },
       "positions": [
@@ -182,56 +70,27 @@
           "type": "fixed",
           "placeholder": "L",
           "description": "RoHS Compliant",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
-          "options": [
-            {
-              "value": "L",
-              "description": "RoHS Compliant",
-              "specifications": null,
-              "notes": null
-            }
-          ]
+          "options": []
         },
         {
           "position": "2",
           "type": "fixed",
           "placeholder": "17",
           "description": "Standard density",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
-          "options": [
-            {
-              "value": "17",
-              "description": "Standard density",
-              "specifications": null,
-              "notes": null
-            }
-          ]
+          "options": []
         },
         {
           "position": "3",
           "type": "fixed",
           "placeholder": "HT",
-          "description": "Series",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
-          "options": [
-            {
-              "value": "HT",
-              "description": "Series",
-              "specifications": null,
-              "notes": null
-            }
-          ]
+          "description": null,
+          "options": []
         },
         {
           "position": "4",
           "type": "variable",
           "placeholder": "N",
           "description": "Shell size",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "E",
@@ -264,8 +123,6 @@
           "type": "variable",
           "placeholder": ".....",
           "description": "Contact type",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "P",
@@ -286,12 +143,10 @@
           "type": "variable",
           "placeholder": ".....",
           "description": "Mounting plating",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "4R",
-              "description": "Rear insert 4-40",
+              "description": "Rear insert #4-40",
               "specifications": null,
               "notes": null
             },
@@ -303,7 +158,7 @@
             },
             {
               "value": "4F",
-              "description": "Front screwlock 4-40",
+              "description": "Front screwlock #4-40",
               "specifications": null,
               "notes": null
             },
@@ -320,8 +175,6 @@
           "type": "variable",
           "placeholder": ".....",
           "description": "Options",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "O",
@@ -342,8 +195,6 @@
           "type": "variable",
           "placeholder": ".....",
           "description": "Packaging",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "C",
@@ -358,8 +209,6 @@
           "type": "variable",
           "placeholder": ".....",
           "description": "Contact plating",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "1",
@@ -382,13 +231,7 @@
           ]
         }
       ],
-      "examples": [
-        {
-          "combination": "L17HTE4P4RC1",
-          "context": "Example part number",
-          "breakdown": "L: RoHS Compliant, 17: Standard density, HT: Series, E: 9 ways, 4P: Plug, 4R: Rear insert 4-40, C: Carton boxes, 1: Gold flash"
-        }
-      ]
+      "examples": []
     }
   ],
   "relationships": {

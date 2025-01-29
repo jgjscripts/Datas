@@ -1,50 +1,67 @@
 {
   "metadata": {
     "filename": "io_d_sub_sd_stamped_formed_right_angle_board",
-    "processed_date": "2025-01-13T16:45:55.209849",
+    "processed_date": "2025-01-28T17:15:41.203489",
     "total_pages": 4,
-    "patterns_found": 1
+    "patterns_found": 4
   },
   "patterns": [
     {
       "section": {
-        "main_heading": "How to order",
+        "main_heading": "RIGHT ANGLE BOARD MOUNT CONNECTORS",
         "sub_heading": null,
-        "category": "Connectors"
+        "category": "D-Sub Connectors"
       },
       "pattern": {
-        "full_pattern": "L...SD...CH...C309",
-        "variable_format": "Variables are marked with dots"
+        "full_pattern": "SD XX X X X X",
+        "variable_format": "XX, X"
       },
       "positions": [
         {
           "position": "1",
           "type": "fixed",
-          "placeholder": "L",
-          "description": "RoHS Compliant",
-          "options": []
+          "placeholder": "SD",
+          "description": "Series identifier",
+          "side": "left",
+          "reading_direction": "top-to-bottom",
+          "options": [
+            {
+              "value": "SD",
+              "description": "D-Sub connectors - Stamped and Formed Contacts",
+              "specifications": null,
+              "notes": null
+            }
+          ]
         },
         {
           "position": "2",
           "type": "variable",
-          "placeholder": "...",
-          "description": "Shell size",
+          "placeholder": "XX",
+          "description": "Number of Contacts",
+          "side": "left",
+          "reading_direction": "top-to-bottom",
           "options": [
             {
-              "value": "A",
-              "description": "Shell size A",
+              "value": "09",
+              "description": "9 contacts",
               "specifications": null,
               "notes": null
             },
             {
-              "value": "B",
-              "description": "Shell size B",
+              "value": "15",
+              "description": "15 contacts",
               "specifications": null,
               "notes": null
             },
             {
-              "value": "C",
-              "description": "Shell size C",
+              "value": "25",
+              "description": "25 contacts",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "37",
+              "description": "37 contacts",
               "specifications": null,
               "notes": null
             }
@@ -53,30 +70,572 @@
         {
           "position": "3",
           "type": "variable",
-          "placeholder": "...",
-          "description": "Configuration",
+          "placeholder": "X",
+          "description": "Plating thickness",
+          "side": "left",
+          "reading_direction": "top-to-bottom",
           "options": [
             {
-              "value": "09",
-              "description": "Configuration 09",
+              "value": "1",
+              "description": "Gold flash",
+              "specifications": "Standard plating thickness",
+              "notes": null
+            },
+            {
+              "value": "2",
+              "description": "0.38μm (15μ\") gold",
+              "specifications": "Standard plating thickness",
+              "notes": null
+            },
+            {
+              "value": "3",
+              "description": "0.76μm (30μ\") gold",
+              "specifications": "Standard plating thickness",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "4",
+          "type": "variable",
+          "placeholder": "X",
+          "description": "Shell material",
+          "side": "left",
+          "reading_direction": "top-to-bottom",
+          "options": [
+            {
+              "value": "A",
+              "description": "Steel, tin over nickel plating",
+              "specifications": "Shells",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "5",
+          "type": "variable",
+          "placeholder": "X",
+          "description": "Insulator material",
+          "side": "left",
+          "reading_direction": "top-to-bottom",
+          "options": [
+            {
+              "value": "B",
+              "description": "Glass-filled thermoplastic, UL 94V-0",
+              "specifications": "Insulator",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "6",
+          "type": "variable",
+          "placeholder": "X",
+          "description": "Contact material",
+          "side": "left",
+          "reading_direction": "top-to-bottom",
+          "options": [
+            {
+              "value": "C",
+              "description": "Brass, selected gold in mating area",
+              "specifications": "Contacts",
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "SD 09 1 A B C",
+          "context": "Standard configuration",
+          "breakdown": "SD: Series, 09: 9 contacts, 1: Gold flash, A: Steel shell, B: Thermoplastic insulator, C: Brass contacts"
+        }
+      ]
+    },
+    {
+      "section": {
+        "main_heading": "A4 style (MIL Footprint)",
+        "sub_heading": null,
+        "category": "Connector Dimensions"
+      },
+      "pattern": {
+        "full_pattern": "Position A, B, C, D, E, F",
+        "variable_format": "Position marked with letters"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "fixed",
+          "placeholder": "A",
+          "description": "Dimension A",
+          "side": "left",
+          "reading_direction": "top-to-bottom",
+          "options": [
+            {
+              "value": "30.84 (1.21)",
+              "description": "9 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            },
+            {
+              "value": "39.14 (1.54)",
+              "description": "15 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            },
+            {
+              "value": "53.04 (2.09)",
+              "description": "25 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            },
+            {
+              "value": "69.32 (2.73)",
+              "description": "37 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "type": "fixed",
+          "placeholder": "B",
+          "description": "Dimension B",
+          "side": "left",
+          "reading_direction": "top-to-bottom",
+          "options": [
+            {
+              "value": "24.99 (.98)",
+              "description": "9 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            },
+            {
+              "value": "33.32 (1.31)",
+              "description": "15 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            },
+            {
+              "value": "47.04 (1.85)",
+              "description": "25 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            },
+            {
+              "value": "63.50 (2.50)",
+              "description": "37 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "3",
+          "type": "fixed",
+          "placeholder": "C",
+          "description": "Dimension C",
+          "side": "left",
+          "reading_direction": "top-to-bottom",
+          "options": [
+            {
+              "value": "16.92 (.67)",
+              "description": "9 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            },
+            {
+              "value": "25.25 (.99)",
+              "description": "15 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            },
+            {
+              "value": "38.96 (1.53)",
+              "description": "25 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            },
+            {
+              "value": "55.42 (2.18)",
+              "description": "37 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "4",
+          "type": "fixed",
+          "placeholder": "D",
+          "description": "Dimension D",
+          "side": "left",
+          "reading_direction": "top-to-bottom",
+          "options": [
+            {
+              "value": "16.24 (.64)",
+              "description": "9 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            },
+            {
+              "value": "24.56 (.97)",
+              "description": "15 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            },
+            {
+              "value": "38.38 (1.51)",
+              "description": "25 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            },
+            {
+              "value": "54.76 (2.16)",
+              "description": "37 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "5",
+          "type": "fixed",
+          "placeholder": "E",
+          "description": "Dimension E",
+          "side": "left",
+          "reading_direction": "top-to-bottom",
+          "options": [
+            {
+              "value": "11.09 (.44)",
+              "description": "9 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            },
+            {
+              "value": "19.39 (.76)",
+              "description": "15 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            },
+            {
+              "value": "33.24 (1.31)",
+              "description": "25 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            },
+            {
+              "value": "49.86 (1.96)",
+              "description": "37 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "6",
+          "type": "fixed",
+          "placeholder": "F",
+          "description": "Dimension F",
+          "side": "left",
+          "reading_direction": "top-to-bottom",
+          "options": [
+            {
+              "value": "2.77 (.109)",
+              "description": "All contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "examples": []
+    },
+    {
+      "section": {
+        "main_heading": "1A / 1B style (European Footprint)",
+        "sub_heading": null,
+        "category": "Connector Dimensions"
+      },
+      "pattern": {
+        "full_pattern": "Position A, B, C, D, E, F",
+        "variable_format": "Position marked with letters"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "fixed",
+          "placeholder": "A",
+          "description": "Dimension A",
+          "side": "left",
+          "reading_direction": "top-to-bottom",
+          "options": [
+            {
+              "value": "30.84 (1.21)",
+              "description": "9 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            },
+            {
+              "value": "39.14 (1.54)",
+              "description": "15 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            },
+            {
+              "value": "53.04 (2.09)",
+              "description": "25 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            },
+            {
+              "value": "69.4 (2.73)",
+              "description": "37 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "type": "fixed",
+          "placeholder": "B",
+          "description": "Dimension B",
+          "side": "left",
+          "reading_direction": "top-to-bottom",
+          "options": [
+            {
+              "value": "24.99 (.98)",
+              "description": "9 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            },
+            {
+              "value": "33.32 (1.31)",
+              "description": "15 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            },
+            {
+              "value": "47.04 (1.85)",
+              "description": "25 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            },
+            {
+              "value": "63.50 (2.50)",
+              "description": "37 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "3",
+          "type": "fixed",
+          "placeholder": "C",
+          "description": "Dimension C",
+          "side": "left",
+          "reading_direction": "top-to-bottom",
+          "options": [
+            {
+              "value": "16.92 (.67)",
+              "description": "9 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            },
+            {
+              "value": "25.25 (.99)",
+              "description": "15 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            },
+            {
+              "value": "38.96 (1.53)",
+              "description": "25 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            },
+            {
+              "value": "55.42 (2.18)",
+              "description": "37 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "4",
+          "type": "fixed",
+          "placeholder": "D",
+          "description": "Dimension D",
+          "side": "left",
+          "reading_direction": "top-to-bottom",
+          "options": [
+            {
+              "value": "16.24 (.64)",
+              "description": "9 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            },
+            {
+              "value": "24.56 (.97)",
+              "description": "15 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            },
+            {
+              "value": "38.38 (1.51)",
+              "description": "25 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            },
+            {
+              "value": "54.84 (2.16)",
+              "description": "37 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "5",
+          "type": "fixed",
+          "placeholder": "E",
+          "description": "Dimension E",
+          "side": "left",
+          "reading_direction": "top-to-bottom",
+          "options": [
+            {
+              "value": "11.96 (.44)",
+              "description": "9 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            },
+            {
+              "value": "19.38 (.755)",
+              "description": "15 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            },
+            {
+              "value": "33.24 (1.31)",
+              "description": "25 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            },
+            {
+              "value": "49.86 (1.96)",
+              "description": "37 contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "6",
+          "type": "fixed",
+          "placeholder": "F",
+          "description": "Dimension F",
+          "side": "left",
+          "reading_direction": "top-to-bottom",
+          "options": [
+            {
+              "value": "2.77 (.109)",
+              "description": "All contacts",
+              "specifications": "Dimension in mm (inch)",
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "examples": []
+    },
+    {
+      "section": {
+        "main_heading": "How to order",
+        "sub_heading": null,
+        "category": "SD / E7"
+      },
+      "pattern": {
+        "full_pattern": "L ... SD ... ... ... ... CH ... C309",
+        "variable_format": "..."
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "fixed",
+          "placeholder": "L",
+          "description": "RoHS Compliant",
+          "side": "left",
+          "reading_direction": "top-to-bottom",
+          "options": [
+            {
+              "value": "L",
+              "description": "RoHS Compliant",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "type": "variable",
+          "placeholder": "...",
+          "description": "Plating",
+          "side": "left",
+          "reading_direction": "top-to-bottom",
+          "options": [
+            {
+              "value": "77",
+              "description": "tinned shell for receptacle",
+              "specifications": "gold flash",
+              "notes": null
+            },
+            {
+              "value": "717",
+              "description": "tinned shell + dimples for plug",
+              "specifications": "gold flash",
+              "notes": null
+            },
+            {
+              "value": "177",
+              "description": "tinned shell for receptacle",
+              "specifications": "0.4μm (15μ\")",
+              "notes": null
+            },
+            {
+              "value": "777",
+              "description": "tinned shell + dimples for plug",
+              "specifications": "0.4μm (15μ\")",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "3",
+          "type": "variable",
+          "placeholder": "SD",
+          "description": "Shell size",
+          "side": "left",
+          "reading_direction": "top-to-bottom",
+          "options": [
+            {
+              "value": "A",
+              "description": null,
               "specifications": null,
               "notes": null
             },
             {
-              "value": "15",
-              "description": "Configuration 15",
+              "value": "B",
+              "description": null,
               "specifications": null,
               "notes": null
             },
             {
-              "value": "25",
-              "description": "Configuration 25",
-              "specifications": null,
-              "notes": null
-            },
-            {
-              "value": "37",
-              "description": "Configuration 37",
+              "value": "C",
+              "description": null,
               "specifications": null,
               "notes": null
             }
@@ -86,17 +645,31 @@
           "position": "4",
           "type": "variable",
           "placeholder": "...",
-          "description": "Contact type",
+          "description": "Configuration",
+          "side": "left",
+          "reading_direction": "top-to-bottom",
           "options": [
             {
-              "value": "P",
-              "description": "Plug",
+              "value": "09",
+              "description": null,
               "specifications": null,
               "notes": null
             },
             {
-              "value": "S",
-              "description": "Socket",
+              "value": "15",
+              "description": null,
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "25",
+              "description": null,
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "37",
+              "description": null,
               "specifications": null,
               "notes": null
             }
@@ -106,7 +679,53 @@
           "position": "5",
           "type": "variable",
           "placeholder": "...",
+          "description": "Contact type",
+          "side": "left",
+          "reading_direction": "top-to-bottom",
+          "options": [
+            {
+              "value": "P",
+              "description": "plug",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "S",
+              "description": "socket",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "6",
+          "type": "variable",
+          "placeholder": "...",
+          "description": "PCB locking type",
+          "side": "right",
+          "reading_direction": "bottom-to-top",
+          "options": [
+            {
+              "value": "grounding tabs",
+              "description": null,
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "board locks",
+              "description": null,
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "7",
+          "type": "variable",
+          "placeholder": "CH",
           "description": "Footprint",
+          "side": "right",
+          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "1A",
@@ -122,53 +741,57 @@
             },
             {
               "value": "A4",
-              "description": "MIL (0.88mm)",
+              "description": "MIL (8.08mm)",
               "specifications": null,
               "notes": null
             }
           ]
         },
         {
-          "position": "6",
+          "position": "8",
           "type": "variable",
           "placeholder": "...",
           "description": "Mounting options",
+          "side": "right",
+          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "4F",
-              "description": "Front screwlock 4-40",
+              "description": "front screwlock 4-40",
               "specifications": null,
               "notes": null
             },
             {
               "value": "3F",
-              "description": "Front screwlock M3",
+              "description": "front screwlock M3",
               "specifications": null,
               "notes": null
             },
             {
               "value": "4R",
-              "description": "Rear insert 4-40",
+              "description": "rear insert 4-40",
               "specifications": null,
               "notes": null
             },
             {
               "value": "3R",
-              "description": "Rear insert M3",
+              "description": "rear insert M3",
               "specifications": null,
               "notes": null
             }
           ]
         },
         {
-          "position": "7",
+          "position": "9",
           "type": "fixed",
           "placeholder": "C309",
           "description": "Plating option",
+          "side": "right",
+          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "C309",
-              "description": "Valid only for 0.76µm (30µ\")",
+              "description": "valid only for 0.76μm (30μ\")",
               "specifications": null,
               "notes": "Part numbers to be written as 77 SD...C309 or 717 SD...C309"
             }
@@ -179,12 +802,12 @@
         {
           "combination": "L717 SD E 09 P A4 CH 4F",
           "context": "Example part number",
-          "breakdown": "L - RoHS Compliant, 717 - Tinned shell, SD - Shell size E, 09 - Configuration, P - Plug, A4 - MIL footprint, CH - PCB locking type, 4F - Front screwlock 4-40"
+          "breakdown": "L: RoHS Compliant, 717: tinned shell + dimples for plug, SD: Shell size E, 09: Configuration, P: plug, A4: MIL (8.08mm), CH: Footprint, 4F: front screwlock 4-40"
         },
         {
           "combination": "L77 SD B 25 S 1A CH 4R",
           "context": "Example part number",
-          "breakdown": "L - RoHS Compliant, 77 - Tinned shell, SD - Shell size B, 25 - Configuration, S - Socket, 1A - European footprint, CH - PCB locking type, 4R - Rear insert 4-40"
+          "breakdown": "L: RoHS Compliant, 77: tinned shell for receptacle, SD: Shell size B, 25: Configuration, S: socket, 1A: European (10.3mm, 2.54mm pitch), CH: Footprint, 4R: rear insert 4-40"
         }
       ]
     }

@@ -1,0 +1,280 @@
+{
+  "metadata": {
+    "filename": "io_d_sub_sd_hd_stamped_formed_straight_pcb",
+    "processed_date": "2025-01-28T16:00:47.265086",
+    "total_pages": 4,
+    "patterns_found": 2
+  },
+  "patterns": [
+    {
+      "section": {
+        "main_heading": "Standard Density",
+        "sub_heading": null,
+        "category": "Connector"
+      },
+      "pattern": {
+        "full_pattern": "X",
+        "variable_format": "X"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "variable",
+          "placeholder": "X",
+          "description": "Number of Contacts",
+          "options": [
+            {
+              "value": "9",
+              "description": "9 contacts",
+              "specifications": "Dimensions: A: 30.84 (1.21), B: 24.99 (.98), C: 16.92 (.67), D: 16.24 (.64), E: 11.09 (.44), F: 19.28 (.76), X: 2.77 (.109)",
+              "notes": null
+            },
+            {
+              "value": "15",
+              "description": "15 contacts",
+              "specifications": "Dimensions: A: 33.24 (1.31), B: 33.32 (1.31), C: 24.7 (.972), D: 24.58 (.97), E: 19.33 (.76), F: 27.51 (1.08), X: 2.77 (.109)",
+              "notes": null
+            },
+            {
+              "value": "25",
+              "description": "25 contacts",
+              "specifications": "Dimensions: A: 53.04 (2.09), B: 47.04 (1.85), C: 38.96 (1.53), D: 38.54 (1.51), E: 32.4 (1.31), F: 41.3 (1.63), X: 2.77 (.109)",
+              "notes": null
+            },
+            {
+              "value": "37",
+              "description": "37 contacts",
+              "specifications": "Dimensions: A: 69.32 (2.73), B: 53.5 (2.50), C: 55.42 (2.18), D: 54.76 (2.16), E: 49.86 (1.96), F: 57.71 (2.27), X: 2.77 (.109)",
+              "notes": null
+            },
+            {
+              "value": "50",
+              "description": "50 contacts",
+              "specifications": "Dimensions: A: 67 (2.64), B: 61.11 (2.41), C: 52.86 (2.08), D: 52.34 (2.06), E: 44.32 (1.75), F: 55.3 (2.18), X: 2.77 (.109)",
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "50",
+          "context": "Standard Density Connector",
+          "breakdown": "50 contacts with dimensions A: 67 (2.64), B: 61.11 (2.41), C: 52.86 (2.08), D: 52.34 (2.06), E: 44.32 (1.75), F: 55.3 (2.18), X: 2.77 (.109)"
+        }
+      ]
+    },
+    {
+      "section": {
+        "main_heading": "Straight PCB Connector - How to order",
+        "sub_heading": null,
+        "category": "Connector"
+      },
+      "pattern": {
+        "full_pattern": "L ..... ..... ..... ..... OL2 ..... C309",
+        "variable_format": "L XX X XX X OL2 XX C309"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "fixed",
+          "placeholder": "L",
+          "description": "RoHS Compliant",
+          "options": []
+        },
+        {
+          "position": "2",
+          "type": "variable",
+          "placeholder": "XX",
+          "description": "Plating option",
+          "options": [
+            {
+              "value": "77",
+              "description": "Tinned shell for receptacle",
+              "specifications": "Flash",
+              "notes": "Valid only for 0.76μm (30μ\")"
+            },
+            {
+              "value": "717",
+              "description": "Tinned shell + dimples for Pin connector",
+              "specifications": "Flash",
+              "notes": "Valid only for 0.76μm (30μ\")"
+            },
+            {
+              "value": "177",
+              "description": "Tinned shell for receptacle",
+              "specifications": "0.38μm (15μ\")",
+              "notes": "Valid only for 0.76μm (30μ\")"
+            },
+            {
+              "value": "717",
+              "description": "Tinned shell + dimples for Pin connector",
+              "specifications": "0.38μm (15μ\")",
+              "notes": "Valid only for 0.76μm (30μ\")"
+            }
+          ]
+        },
+        {
+          "position": "3",
+          "type": "variable",
+          "placeholder": "X",
+          "description": "Series",
+          "options": [
+            {
+              "value": "SD",
+              "description": "Standard density",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "HD",
+              "description": "High density",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "4",
+          "type": "variable",
+          "placeholder": "XX",
+          "description": "Shell size",
+          "options": [
+            {
+              "value": "E",
+              "description": "09 for SD, 15 for HD",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "A",
+              "description": "15 for SD, 26 for HD",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "B",
+              "description": "25 for SD, 44 for HD",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "C",
+              "description": "37 for SD, 62 for HD",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "D",
+              "description": "50 for SD, 78 for HD",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "5",
+          "type": "variable",
+          "placeholder": "X",
+          "description": "Rear mounting options",
+          "options": [
+            {
+              "value": "H",
+              "description": "4-40 rear insert",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "G",
+              "description": "M3 rear insert",
+              "specifications": "H or G required with RM5 or RM8",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "6",
+          "type": "fixed",
+          "placeholder": "OL2",
+          "description": "Termination",
+          "options": [
+            {
+              "value": "OL2",
+              "description": "Straight, for PCB mount",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "7",
+          "type": "variable",
+          "placeholder": "XX",
+          "description": "Front mounting options",
+          "options": [
+            {
+              "value": "Blank",
+              "description": "Ø3.05 mm rivet",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "RM5",
+              "description": "Rear threaded standoff + boardlock",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "RM8",
+              "description": "Front screwlock with standoff + boardlock",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "VF",
+              "description": "4-40 Front screwlock",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "VFM",
+              "description": "M3 Front screwlock",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "8",
+          "type": "fixed",
+          "placeholder": "C309",
+          "description": "Configuration",
+          "options": [
+            {
+              "value": "C309",
+              "description": "09,15,25,37,50 for SD series; 15,26,44,62,78 for HD series",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "L 717 SD E H 09 OL2 RM5 C309",
+          "context": "Example part number",
+          "breakdown": "L: RoHS Compliant, 717: Tinned shell + dimples for Pin connector, SD: Standard density, E: 09 for SD, H: 4-40 rear insert, OL2: Straight, for PCB mount, RM5: Rear threaded standoff + boardlock, C309: Configuration"
+        },
+        {
+          "combination": "L 77 SD E 09 OL2 VF",
+          "context": "Example part number",
+          "breakdown": "L: RoHS Compliant, 77: Tinned shell for receptacle, SD: Standard density, E: 09 for SD, OL2: Straight, for PCB mount, VF: 4-40 Front screwlock"
+        }
+      ]
+    }
+  ],
+  "relationships": {
+    "dependencies": [],
+    "compatibility": []
+  }
+}

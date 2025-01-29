@@ -1,172 +1,16 @@
 {
   "metadata": {
     "filename": "io_d_sub_sd_hd_stamped_formed_straight_pcb",
-    "processed_date": "2025-01-28T17:07:04.609462",
+    "processed_date": "2025-01-28T16:46:59.107407",
     "total_pages": 4,
-    "patterns_found": 4
+    "patterns_found": 3
   },
   "patterns": [
     {
       "section": {
-        "main_heading": "SD D'Sub connectors - Stamped and Formed Contacts",
-        "sub_heading": "STRAIGHT PCB TERMINATION STANDARD and HIGH DENSITY",
-        "category": "D-Sub Connectors"
-      },
-      "pattern": {
-        "full_pattern": "SD XX X X X",
-        "variable_format": "XX, X"
-      },
-      "positions": [
-        {
-          "position": "1",
-          "type": "fixed",
-          "placeholder": "SD",
-          "description": "Series identifier",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
-          "options": [
-            {
-              "value": "SD",
-              "description": "D'Sub connectors - Stamped and Formed Contacts",
-              "specifications": "Standard and High Density",
-              "notes": "Series identifier"
-            }
-          ]
-        },
-        {
-          "position": "2",
-          "type": "variable",
-          "placeholder": "XX",
-          "description": "Number of contacts",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
-          "options": [
-            {
-              "value": "09",
-              "description": "9 contacts",
-              "specifications": "Standard Density"
-            },
-            {
-              "value": "15",
-              "description": "15 contacts",
-              "specifications": "Standard Density"
-            },
-            {
-              "value": "25",
-              "description": "25 contacts",
-              "specifications": "Standard Density"
-            },
-            {
-              "value": "37",
-              "description": "37 contacts",
-              "specifications": "Standard Density"
-            },
-            {
-              "value": "50",
-              "description": "50 contacts",
-              "specifications": "Standard Density"
-            },
-            {
-              "value": "15",
-              "description": "15 contacts",
-              "specifications": "High Density"
-            },
-            {
-              "value": "26",
-              "description": "26 contacts",
-              "specifications": "High Density"
-            },
-            {
-              "value": "44",
-              "description": "44 contacts",
-              "specifications": "High Density"
-            },
-            {
-              "value": "62",
-              "description": "62 contacts",
-              "specifications": "High Density"
-            },
-            {
-              "value": "78",
-              "description": "78 contacts",
-              "specifications": "High Density"
-            }
-          ]
-        },
-        {
-          "position": "3",
-          "type": "variable",
-          "placeholder": "X",
-          "description": "Plating thickness",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
-          "options": [
-            {
-              "value": "G",
-              "description": "Gold flash",
-              "specifications": "Standard plating thickness"
-            },
-            {
-              "value": "H",
-              "description": "0.38 μm (15μ\") Gold",
-              "specifications": "Standard plating thickness"
-            },
-            {
-              "value": "T",
-              "description": "0.76 μm (30μ\") Gold",
-              "specifications": "Standard plating thickness"
-            }
-          ]
-        },
-        {
-          "position": "4",
-          "type": "variable",
-          "placeholder": "X",
-          "description": "Termination type",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
-          "options": [
-            {
-              "value": "P",
-              "description": "PCB termination",
-              "specifications": "Straight"
-            }
-          ]
-        },
-        {
-          "position": "5",
-          "type": "variable",
-          "placeholder": "X",
-          "description": "Mounting option",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
-          "options": [
-            {
-              "value": "E",
-              "description": "Economical",
-              "specifications": "Straight PCB mount connectors"
-            }
-          ]
-        }
-      ],
-      "examples": [
-        {
-          "combination": "SD 15 G P E",
-          "context": "Standard Density, 15 contacts, Gold flash plating, PCB termination, Economical",
-          "breakdown": "SD: Series, 15: Contacts, G: Plating, P: Termination, E: Mounting"
-        },
-        {
-          "combination": "SD 44 H P E",
-          "context": "High Density, 44 contacts, 0.38 μm Gold plating, PCB termination, Economical",
-          "breakdown": "SD: Series, 44: Contacts, H: Plating, P: Termination, E: Mounting"
-        }
-      ]
-    },
-    {
-      "section": {
         "main_heading": "Standard Density",
         "sub_heading": null,
-        "category": "D-Sub Connectors"
+        "category": "Connector"
       },
       "pattern": {
         "full_pattern": "X",
@@ -178,8 +22,6 @@
           "type": "variable",
           "placeholder": "X",
           "description": "Number of Contacts",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "9",
@@ -196,13 +38,13 @@
             {
               "value": "25",
               "description": "25 contacts",
-              "specifications": "Dimensions: A=53.04 (2.09), B=47.04 (1.85), C=38.96 (1.53), D=38.96 (1.53), E=32.44 (1.31), F=31.80 (1.25), X=2.77 (.109)",
+              "specifications": "Dimensions: A=47.04 (1.85), B=47.04 (1.85), C=38.96 (1.53), D=38.96 (1.53), E=32.4 (1.31), F=41.3 (1.63), X=2.77 (.109)",
               "notes": null
             },
             {
               "value": "37",
               "description": "37 contacts",
-              "specifications": "Dimensions: A=69.32 (2.73), B=53.50 (2.50), C=55.42 (2.18), D=54.76 (2.16), E=49.86 (1.96), F=57.71 (2.27), X=2.77 (.109)",
+              "specifications": "Dimensions: A=69.32 (2.73), B=53.05 (2.50), C=55.42 (2.18), D=54.76 (2.16), E=49.86 (1.96), F=57.71 (2.27), X=2.77 (.109)",
               "notes": null
             },
             {
@@ -217,28 +59,28 @@
       "examples": [
         {
           "combination": "9",
-          "context": "Standard Density D-Sub Connector",
-          "breakdown": "Position 1: 9 contacts"
+          "context": "Standard Density Connector",
+          "breakdown": "9 contacts with specified dimensions"
         },
         {
           "combination": "15",
-          "context": "Standard Density D-Sub Connector",
-          "breakdown": "Position 1: 15 contacts"
+          "context": "Standard Density Connector",
+          "breakdown": "15 contacts with specified dimensions"
         },
         {
           "combination": "25",
-          "context": "Standard Density D-Sub Connector",
-          "breakdown": "Position 1: 25 contacts"
+          "context": "Standard Density Connector",
+          "breakdown": "25 contacts with specified dimensions"
         },
         {
           "combination": "37",
-          "context": "Standard Density D-Sub Connector",
-          "breakdown": "Position 1: 37 contacts"
+          "context": "Standard Density Connector",
+          "breakdown": "37 contacts with specified dimensions"
         },
         {
           "combination": "50",
-          "context": "Standard Density D-Sub Connector",
-          "breakdown": "Position 1: 50 contacts"
+          "context": "Standard Density Connector",
+          "breakdown": "50 contacts with specified dimensions"
         }
       ]
     },
@@ -250,16 +92,14 @@
       },
       "pattern": {
         "full_pattern": "Nb OF CONTACTS A B C D E X",
-        "variable_format": "Nb OF CONTACTS, A, B, C, D, E, X"
+        "variable_format": "Table format with dimensions"
       },
       "positions": [
         {
           "position": "1",
-          "type": "variable",
+          "type": "fixed",
           "placeholder": "Nb OF CONTACTS",
           "description": "Number of contacts",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "15",
@@ -270,19 +110,19 @@
             {
               "value": "26",
               "description": "26 contacts",
-              "specifications": "Dimensions: A=39.24 (1.54), B=33.2 (1.31), C=25.65 (.94), D=24.58 (.97), E=27.51 (1.08), X=2.29 (.090)",
+              "specifications": "Dimensions: A=39.24 (1.54), B=33.32 (1.31), C=25.25 (.99), D=24.58 (.97), E=27.51 (1.08), X=2.29 (.090)",
               "notes": null
             },
             {
               "value": "44",
               "description": "44 contacts",
-              "specifications": "Dimensions: A=53.04 (2.09), B=47.04 (1.85), C=39.88 (1.57), D=38.38 (1.51), E=41.03 (1.63), X=2.29 (.090)",
+              "specifications": "Dimensions: A=53.04 (2.09), B=47.04 (1.85), C=39.58 (1.56), D=38.38 (1.51), E=41.03 (1.63), X=2.29 (.090)",
               "notes": null
             },
             {
               "value": "62",
               "description": "62 contacts",
-              "specifications": "Dimensions: A=69.32 (2.73), B=63.5 (2.50), C=55.42 (2.18), D=54.76 (2.16), E=57.71 (2.27), X=2.41 (.095)",
+              "specifications": "Dimensions: A=69.32 (2.73), B=63.50 (2.50), C=55.42 (2.18), D=54.76 (2.16), E=57.71 (2.27), X=2.41 (.095)",
               "notes": null
             },
             {
@@ -296,9 +136,9 @@
       ],
       "examples": [
         {
-          "combination": "Example part number",
+          "combination": "15 contacts with dimensions",
           "context": "High Density connectors",
-          "breakdown": "Position by position explanation"
+          "breakdown": "15 contacts, A=30.84 (1.21), B=24.99 (.98), C=16.92 (.67), D=16.24 (.64), E=19.28 (.76), X=2.29 (.090)"
         }
       ]
     },
@@ -306,7 +146,7 @@
       "section": {
         "main_heading": "Straight PCB Connector - How to order",
         "sub_heading": null,
-        "category": "Connectors"
+        "category": "Connector"
       },
       "pattern": {
         "full_pattern": "L ..... ..... ..... ..... ..... ..... OL2 ..... C309",
@@ -318,48 +158,31 @@
           "type": "fixed",
           "placeholder": "L",
           "description": "RoHS Compliant",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
-          "options": [
-            {
-              "value": "L",
-              "description": "RoHS Compliant",
-              "specifications": null,
-              "notes": null
-            }
-          ]
+          "options": []
         },
         {
           "position": "2",
           "type": "variable",
           "placeholder": ".....",
-          "description": "Contact finish",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
+          "description": "Contact plating",
           "options": [
             {
               "value": "77",
               "description": "Tinned shell for receptacle",
               "specifications": "Gold flash",
-              "notes": "Dimples for Pin connector"
+              "notes": "Includes dimples for pin connector"
             },
             {
               "value": "717",
-              "description": "Tinned shell + dimples",
+              "description": "Tinned shell for receptacle",
               "specifications": "Gold flash",
-              "notes": null
+              "notes": "Includes dimples for pin connector"
             },
             {
               "value": "177",
               "description": "Tinned shell for receptacle",
               "specifications": "0.38μm (15μ\")",
-              "notes": "Dimples for Pin connector"
-            },
-            {
-              "value": "777",
-              "description": "Tinned shell + dimples",
-              "specifications": "0.38μm (15μ\")",
-              "notes": null
+              "notes": "Includes dimples for pin connector"
             }
           ]
         },
@@ -368,8 +191,6 @@
           "type": "variable",
           "placeholder": ".....",
           "description": "Series",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "SD",
@@ -390,37 +211,35 @@
           "type": "variable",
           "placeholder": ".....",
           "description": "Shell size",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "E",
-              "description": "09 15",
-              "specifications": "SD",
+              "description": "09 for SD, 15 for HD",
+              "specifications": null,
               "notes": null
             },
             {
               "value": "A",
-              "description": "15 26",
-              "specifications": "SD",
+              "description": "15 for SD, 26 for HD",
+              "specifications": null,
               "notes": null
             },
             {
               "value": "B",
-              "description": "25 44",
-              "specifications": "SD",
+              "description": "25 for SD, 44 for HD",
+              "specifications": null,
               "notes": null
             },
             {
               "value": "C",
-              "description": "37 62",
-              "specifications": "SD",
+              "description": "37 for SD, 62 for HD",
+              "specifications": null,
               "notes": null
             },
             {
               "value": "D",
-              "description": "50 78",
-              "specifications": "SD",
+              "description": "50 for SD, 78 for HD",
+              "specifications": null,
               "notes": null
             }
           ]
@@ -430,8 +249,6 @@
           "type": "variable",
           "placeholder": ".....",
           "description": "Rear mounting options",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "H",
@@ -442,8 +259,8 @@
             {
               "value": "G",
               "description": "M3 rear insert",
-              "specifications": null,
-              "notes": "H or G required with RM5 or RM8"
+              "specifications": "H or G required with RM5 or RM8",
+              "notes": null
             }
           ]
         },
@@ -452,8 +269,6 @@
           "type": "variable",
           "placeholder": ".....",
           "description": "Front mounting options",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "Blank",
@@ -492,8 +307,6 @@
           "type": "variable",
           "placeholder": ".....",
           "description": "Termination",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "Straight",
@@ -505,11 +318,9 @@
         },
         {
           "position": "8",
-          "type": "variable",
-          "placeholder": ".....",
+          "type": "fixed",
+          "placeholder": "OL2",
           "description": "Contact type",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "P",
@@ -530,8 +341,6 @@
           "type": "variable",
           "placeholder": ".....",
           "description": "Configuration",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "09,15,25,37,50",
@@ -546,18 +355,38 @@
               "notes": null
             }
           ]
+        },
+        {
+          "position": "10",
+          "type": "fixed",
+          "placeholder": "C309",
+          "description": "Plating option",
+          "options": [
+            {
+              "value": "77",
+              "description": "0.76μm (30μ\")",
+              "specifications": "Valid only for 0.76μm (30μ\")",
+              "notes": "Part numbers to be written as 77...C309 or 717...C309"
+            },
+            {
+              "value": "717",
+              "description": "0.76μm (30μ\")",
+              "specifications": "Valid only for 0.76μm (30μ\")",
+              "notes": "Part numbers to be written as 77...C309 or 717...C309"
+            }
+          ]
         }
       ],
       "examples": [
         {
           "combination": "L 717 SD E H 09 P OL2 RM5 C309",
           "context": "Example part number",
-          "breakdown": "L: RoHS Compliant, 717: Tinned shell + dimples, SD: Standard density, E: Shell size 09 15, H: 4-40 rear insert, 09: Configuration for SD series, P: Pin, OL2: Fixed position, RM5: Rear threaded standoff + boardlock, C309: Fixed position"
+          "breakdown": "RoHS Compliant, Tinned shell for receptacle, Standard density, Shell size E, 4-40 rear insert, Configuration 09, Pin contact, Rear threaded standoff + boardlock, Plating option 0.76μm (30μ\")"
         },
         {
           "combination": "L 77 SD E 09 S OL2 VF",
           "context": "Example part number",
-          "breakdown": "L: RoHS Compliant, 77: Tinned shell for receptacle, SD: Standard density, E: Shell size 09 15, 09: Configuration for SD series, S: Socket, OL2: Fixed position, VF: 4-40 Front screwlock"
+          "breakdown": "RoHS Compliant, Tinned shell for receptacle, Standard density, Shell size E, Configuration 09, Socket contact, 4-40 Front screwlock"
         }
       ]
     }

@@ -1,62 +1,98 @@
 {
   "metadata": {
     "filename": "io_d_sub_sd_stamped_formed_high_temp_straight_pcb",
-    "processed_date": "2025-01-28T17:12:23.317698",
+    "processed_date": "2025-01-28T16:51:36.379856",
     "total_pages": 4,
     "patterns_found": 2
   },
   "patterns": [
     {
       "section": {
-        "main_heading": "Shell size dimensions",
-        "sub_heading": null,
-        "category": "D-Sub Connectors"
+        "main_heading": "HTN D-Sub connectors",
+        "sub_heading": "STRAIGHT PCB TERMINATION HIGH TEMPERATURE CONNECTORS",
+        "category": "Specifications"
       },
       "pattern": {
-        "full_pattern": "Nb OF CONTACTS A B C D E X",
-        "variable_format": "Table format with dimensions"
+        "full_pattern": "HTN ..... ..... ..... .....",
+        "variable_format": "....."
       },
       "positions": [
         {
           "position": "1",
-          "type": "variable",
-          "placeholder": "Nb OF CONTACTS",
-          "description": "Number of contacts",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
+          "type": "fixed",
+          "placeholder": "HTN",
+          "description": "Series identifier",
           "options": [
             {
-              "value": "9",
-              "description": "9 contacts",
-              "specifications": "Dimensions: A=30.84 (1.21), B=24.99 (.984), C=16.92 (.666), D=16.26 (.640), E=14.60 (.14), X=2.74",
-              "notes": null
-            },
+              "value": "HTN",
+              "description": "High Temperature Connector Series",
+              "specifications": "D-Sub connectors - Stamped and Formed Contacts",
+              "notes": "Used for high temperature applications"
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "type": "variable",
+          "placeholder": ".....",
+          "description": "Shell material",
+          "options": [
             {
-              "value": "15",
-              "description": "15 contacts",
-              "specifications": "Dimensions: A=39.24 (1.54), B=33.32 (1.31), C=25.92 (.994), D=24.56 (.967), E=19.33 (.763), X=2.74",
-              "notes": null
-            },
+              "value": "Steel",
+              "description": "Steel, tin over nickel plating",
+              "specifications": "Material and Plating",
+              "notes": "Standard shell material"
+            }
+          ]
+        },
+        {
+          "position": "3",
+          "type": "variable",
+          "placeholder": ".....",
+          "description": "Insulator material",
+          "options": [
             {
-              "value": "25",
-              "description": "25 contacts",
-              "specifications": "Dimensions: A=53.04 (2.09), B=47.04 (1.85), C=38.65 (1.52), D=38.38 (1.51), E=33.24 (1.31), X=2.77",
-              "notes": null
-            },
+              "value": "Glass-filled PAST",
+              "description": "Glass-filled PAST thermoplastic, UL 94V-0",
+              "specifications": "Material and Plating",
+              "notes": "Standard insulator material"
+            }
+          ]
+        },
+        {
+          "position": "4",
+          "type": "variable",
+          "placeholder": ".....",
+          "description": "Contact material",
+          "options": [
             {
-              "value": "37",
-              "description": "37 contacts",
-              "specifications": "Dimensions: A=69.34 (2.73), B=63.50 (2.50), C=55.42 (2.18), D=54.76 (2.16), E=49.86 (1.96), X=2.77",
-              "notes": null
+              "value": "Brass",
+              "description": "Brass, selective gold plating",
+              "specifications": "Material and Plating",
+              "notes": "Standard contact material"
+            }
+          ]
+        },
+        {
+          "position": "5",
+          "type": "variable",
+          "placeholder": ".....",
+          "description": "Boardlock material",
+          "options": [
+            {
+              "value": "Brass",
+              "description": "Brass, tin over nickel plating",
+              "specifications": "Material and Plating",
+              "notes": "Standard boardlock material"
             }
           ]
         }
       ],
       "examples": [
         {
-          "combination": "Example part number",
-          "context": "Where this applies",
-          "breakdown": "Position by position explanation"
+          "combination": "HTN Steel Glass-filled PAST Brass Brass",
+          "context": "Standard configuration for high temperature applications",
+          "breakdown": "HTN series with standard materials for shell, insulator, contacts, and boardlock"
         }
       ]
     },
@@ -64,10 +100,10 @@
       "section": {
         "main_heading": "How to order",
         "sub_heading": null,
-        "category": "HT/E15"
+        "category": null
       },
       "pattern": {
-        "full_pattern": "L 17HT N ..... ..... ..... ..... .....",
+        "full_pattern": "L 17HT N ..... ..... ..... ..... ..... .....",
         "variable_format": "....."
       },
       "positions": [
@@ -76,8 +112,6 @@
           "type": "fixed",
           "placeholder": "L",
           "description": "RoHS Compliant",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "L",
@@ -92,8 +126,6 @@
           "type": "fixed",
           "placeholder": "17HT",
           "description": "Standard Density",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "17HT",
@@ -108,8 +140,6 @@
           "type": "variable",
           "placeholder": "N",
           "description": "Shell size",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "E",
@@ -142,8 +172,6 @@
           "type": "variable",
           "placeholder": ".....",
           "description": "Mounting options",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "Blank",
@@ -160,8 +188,8 @@
             {
               "value": "H",
               "description": "#4-40",
-              "specifications": "Must specify threading of RM5 or RM8 grounding tabs",
-              "notes": null
+              "specifications": null,
+              "notes": "H, G must also be used to specify the threading of RM5 or RM8 grounding tabs"
             }
           ]
         },
@@ -170,8 +198,6 @@
           "type": "variable",
           "placeholder": ".....",
           "description": "Contact type",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "P",
@@ -192,8 +218,6 @@
           "type": "variable",
           "placeholder": ".....",
           "description": "Termination",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "OL2",
@@ -214,8 +238,6 @@
           "type": "variable",
           "placeholder": ".....",
           "description": "Board mounting options",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "Blank",
@@ -242,8 +264,6 @@
           "type": "variable",
           "placeholder": ".....",
           "description": "Contact plating",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "1",
@@ -270,8 +290,6 @@
           "type": "variable",
           "placeholder": ".....",
           "description": "Packaging",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "C",
@@ -291,8 +309,8 @@
       "examples": [
         {
           "combination": "L17HT N B H P OL2 RM5 4 C",
-          "context": "Example part number",
-          "breakdown": "L: RoHS Compliant, 17HT: Standard Density, N: Shell size B, H: Mounting option, P: Contact type, OL2: Termination, RM5: Board mounting option, 4: Contact plating, C: Packaging"
+          "context": "Example",
+          "breakdown": "L: RoHS Compliant, 17HT: Standard Density, N: Shell size B, H: Mounting option #4-40, P: Pin, OL2: Termination L = 6.02mm, RM5: Boardlock, 4: Contact plating 0.76μm, C: Plastic tray"
         }
       ]
     }

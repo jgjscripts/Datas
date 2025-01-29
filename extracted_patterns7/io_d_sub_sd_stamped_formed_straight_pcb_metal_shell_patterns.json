@@ -1,110 +1,20 @@
 {
   "metadata": {
     "filename": "io_d_sub_sd_stamped_formed_straight_pcb_metal_shell",
-    "processed_date": "2025-01-28T17:17:36.229113",
+    "processed_date": "2025-01-28T16:56:59.574622",
     "total_pages": 4,
-    "patterns_found": 3
+    "patterns_found": 2
   },
   "patterns": [
     {
       "section": {
-        "main_heading": "D-Sub connectors - Stamped and Formed Contacts",
-        "sub_heading": "STRAIGHT PCB TERMINATION ONE METAL SHELL CONNECTORS",
-        "category": "D-Sub Connectors"
-      },
-      "pattern": {
-        "full_pattern": "TS",
-        "variable_format": "N/A"
-      },
-      "positions": [
-        {
-          "position": "1",
-          "type": "fixed",
-          "placeholder": "TS",
-          "description": "Series identifier for D-Sub connectors",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
-          "options": [
-            {
-              "value": "TS",
-              "description": "D-Sub connectors - Stamped and Formed Contacts",
-              "specifications": "N/A",
-              "notes": "Represents the series of connectors"
-            }
-          ]
-        }
-      ],
-      "examples": [
-        {
-          "combination": "TS",
-          "context": "Used for identifying the series of connectors",
-          "breakdown": "TS - D-Sub connectors series"
-        }
-      ]
-    },
-    {
-      "section": {
         "main_heading": "Shell Size Dimensions",
-        "sub_heading": "Overall Dimensions",
-        "category": "D-Sub Connectors"
-      },
-      "pattern": {
-        "full_pattern": "L XX X FR X X XX X C309",
-        "variable_format": "X, XX, ..."
-      },
-      "positions": [
-        {
-          "position": "1",
-          "type": "variable",
-          "placeholder": "X",
-          "description": "Number of Contacts",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
-          "options": [
-            {
-              "value": "9",
-              "description": "9 contacts",
-              "specifications": "30.84 (1.21) A, 24.99 (.984) B, 16.92 (.666) C, 16.26 (.640) D, 11.08 (.436) E, 2.77 X",
-              "notes": "Standard size"
-            },
-            {
-              "value": "15",
-              "description": "15 contacts",
-              "specifications": "39.24 (1.54) A, 33.32 (1.31) B, 25.25 (.994) C, 24.56 (.967) D, 19.39 (.763) E, 2.77 X",
-              "notes": "Standard size"
-            },
-            {
-              "value": "25",
-              "description": "25 contacts",
-              "specifications": "53.04 (2.09) A, 47.04 (1.85) B, 38.96 (1.53) C, 38.30 (1.51) D, 33.24 (1.31) E, 2.77 X",
-              "notes": "Standard size"
-            },
-            {
-              "value": "37",
-              "description": "37 contacts",
-              "specifications": "69.34 (2.73) A, 63.50 (2.50) B, 55.42 (2.18) C, 54.76 (2.16) D, 49.86 (1.96) E, 2.77 X",
-              "notes": "Standard size"
-            }
-          ]
-        }
-      ],
-      "examples": [
-        {
-          "combination": "L 15 X FR X X XX X C309",
-          "context": "Standard D-Sub Connector",
-          "breakdown": "15 contacts, standard dimensions"
-        }
-      ]
-    },
-    {
-      "section": {
-        "main_heading": "How to order",
         "sub_heading": null,
-        "category": "Panel mounting option"
+        "category": "Overall Dimensions"
       },
       "pattern": {
-        "full_pattern": "L ... TS ... ... ... ... ... C309",
-        "variable_format": "..."
+        "full_pattern": "L ..... ..... ..... ..... ..... ..... OL2 ..... C309",
+        "variable_format": "....."
       },
       "positions": [
         {
@@ -112,8 +22,72 @@
           "type": "fixed",
           "placeholder": "L",
           "description": "RoHS Compliant",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
+          "options": [
+            {
+              "value": "L",
+              "description": "RoHS Compliant",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "type": "variable",
+          "placeholder": ".....",
+          "description": "Number of Contacts",
+          "options": [
+            {
+              "value": "9",
+              "description": "9 contacts",
+              "specifications": "30.84 (1.21) A, 24.99 (.984) B, 16.92 (.666) C, 16.26 (.640) D, 11.08 (.436) E, 2.77 X",
+              "notes": null
+            },
+            {
+              "value": "15",
+              "description": "15 contacts",
+              "specifications": "39.24 (1.54) A, 33.32 (1.31) B, 25.25 (.994) C, 24.56 (.967) D, 19.39 (.763) E, 2.77 X",
+              "notes": null
+            },
+            {
+              "value": "25",
+              "description": "25 contacts",
+              "specifications": "53.04 (2.09) A, 47.04 (1.85) B, 38.96 (1.53) C, 38.30 (1.51) D, 33.24 (1.31) E, 2.77 X",
+              "notes": null
+            },
+            {
+              "value": "37",
+              "description": "37 contacts",
+              "specifications": "69.34 (2.73) A, 63.50 (2.50) B, 55.42 (2.18) C, 54.76 (2.16) D, 49.86 (1.96) E, 2.77 X",
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "L 9 ..... ..... ..... ..... ..... OL2 ..... C309",
+          "context": "9 contacts configuration",
+          "breakdown": "L: RoHS Compliant, 9: Number of Contacts"
+        }
+      ]
+    },
+    {
+      "section": {
+        "main_heading": "How to order",
+        "sub_heading": null,
+        "category": "Part Number"
+      },
+      "pattern": {
+        "full_pattern": "L ... TS ... ... ... ... ... C309",
+        "variable_format": "L, TS, ..., C309"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "fixed",
+          "placeholder": "L",
+          "description": "RoHS Compliant",
           "options": [
             {
               "value": "L",
@@ -127,21 +101,19 @@
           "position": "2",
           "type": "variable",
           "placeholder": "...",
-          "description": "Plating option",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
+          "description": "Plating Option",
           "options": [
             {
               "value": "77",
               "description": "tinned shell for receptacle",
               "specifications": "gold flash",
-              "notes": null
+              "notes": "valid only for 0.76μm (30μ\")"
             },
             {
               "value": "717",
-              "description": "tinned shell + dimples",
+              "description": "tinned shell + dimples for plug",
               "specifications": "gold flash",
-              "notes": null
+              "notes": "valid only for 0.76μm (30μ\")"
             },
             {
               "value": "177",
@@ -151,7 +123,7 @@
             },
             {
               "value": "777",
-              "description": "tinned shell + dimples",
+              "description": "tinned shell + dimples for plug",
               "specifications": "0.4μm (15μ\")",
               "notes": null
             }
@@ -161,9 +133,7 @@
           "position": "3",
           "type": "variable",
           "placeholder": "TS",
-          "description": "Shell size",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
+          "description": "Shell Size",
           "options": [
             {
               "value": "E",
@@ -195,9 +165,7 @@
           "position": "4",
           "type": "variable",
           "placeholder": "...",
-          "description": "Mounting options",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
+          "description": "Mounting Options",
           "options": [
             {
               "value": "Blank",
@@ -209,13 +177,13 @@
               "value": "G",
               "description": "M3",
               "specifications": null,
-              "notes": null
+              "notes": "must specify threading of RM5 or RM8 grounding tabs"
             },
             {
               "value": "H",
               "description": "#4-40",
               "specifications": null,
-              "notes": "H,G must also be used to specify the threading of RM5 or RM8 grounding tabs"
+              "notes": "must specify threading of RM5 or RM8 grounding tabs"
             }
           ]
         },
@@ -224,8 +192,6 @@
           "type": "variable",
           "placeholder": "...",
           "description": "Configuration",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "09",
@@ -257,9 +223,7 @@
           "position": "6",
           "type": "variable",
           "placeholder": "...",
-          "description": "Board mounting options",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
+          "description": "Board Mounting Options",
           "options": [
             {
               "value": "Blank",
@@ -275,7 +239,7 @@
             },
             {
               "value": "RM8",
-              "description": "Boardlock + front screwlock",
+              "description": "Front Screwlock",
               "specifications": null,
               "notes": null
             }
@@ -286,8 +250,6 @@
           "type": "variable",
           "placeholder": "...",
           "description": "Termination",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "OL2",
@@ -307,9 +269,7 @@
           "position": "8",
           "type": "variable",
           "placeholder": "C309",
-          "description": "Contact type",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
+          "description": "Contact Type",
           "options": [
             {
               "value": "P",
@@ -330,12 +290,12 @@
         {
           "combination": "L77 TS E H 09 S OL2 RM5",
           "context": "Example part number",
-          "breakdown": "L: RoHS Compliant, 77: tinned shell for receptacle, TS: Shell size E, H: #4-40, 09: Configuration 09, S: Socket, OL2: L = 6.02mm (.237\"), RM5: Boardlock"
+          "breakdown": "L: RoHS Compliant, 77: tinned shell, TS: Shell size E, H: #4-40, 09: Configuration, S: Socket, OL2: Termination, RM5: Boardlock"
         },
         {
           "combination": "L717 TS E H 09 P OL2 RM8 C309",
           "context": "Example part number",
-          "breakdown": "L: RoHS Compliant, 717: tinned shell + dimples, TS: Shell size E, H: #4-40, 09: Configuration 09, P: Pin, OL2: L = 6.02mm (.237\"), RM8: Boardlock + front screwlock, C309: Contact type"
+          "breakdown": "L: RoHS Compliant, 717: tinned shell + dimples, TS: Shell size E, H: #4-40, 09: Configuration, P: Pin, OL2: Termination, RM8: Front Screwlock, C309: Contact Type"
         }
       ]
     }

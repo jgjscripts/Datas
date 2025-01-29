@@ -1,0 +1,456 @@
+{
+  "metadata": {
+    "filename": "io_d_sub_sd_stamped_formed_right_angle_board",
+    "processed_date": "2025-01-28T16:55:25.105190",
+    "total_pages": 4,
+    "patterns_found": 4
+  },
+  "patterns": [
+    {
+      "section": {
+        "main_heading": "SD Connectors",
+        "sub_heading": "Right Angle Board Mount Connectors",
+        "category": "D-Sub Connectors"
+      },
+      "pattern": {
+        "full_pattern": "SD X X X",
+        "variable_format": "X"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "fixed",
+          "placeholder": "SD",
+          "description": "Series identifier",
+          "options": [
+            {
+              "value": "SD",
+              "description": "D-Sub connectors - Stamped and Formed Contacts",
+              "specifications": "Right angle board mount"
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "type": "variable",
+          "placeholder": "X",
+          "description": "Number of Contacts",
+          "options": [
+            {
+              "value": "9",
+              "description": "9 contacts",
+              "specifications": "Mate (max): 3.05 kg, Unmate (min): 0.36 kg"
+            },
+            {
+              "value": "15",
+              "description": "15 contacts",
+              "specifications": "Mate (max): 5.09 kg, Unmate (min): 0.46 kg"
+            },
+            {
+              "value": "25",
+              "description": "25 contacts",
+              "specifications": "Mate (max): 8.44 kg, Unmate (min): 0.81 kg"
+            },
+            {
+              "value": "37",
+              "description": "37 contacts",
+              "specifications": "Mate (max): 12.51 kg, Unmate (min): 1.51 kg"
+            }
+          ]
+        },
+        {
+          "position": "3",
+          "type": "variable",
+          "placeholder": "X",
+          "description": "Plating Thickness",
+          "options": [
+            {
+              "value": "G",
+              "description": "Gold flash",
+              "specifications": "Standard plating thickness"
+            },
+            {
+              "value": "H",
+              "description": "0.38μm (15μ\") gold",
+              "specifications": "Standard plating thickness"
+            },
+            {
+              "value": "J",
+              "description": "0.76μm (30μ\") gold",
+              "specifications": "Standard plating thickness"
+            }
+          ]
+        },
+        {
+          "position": "4",
+          "type": "variable",
+          "placeholder": "X",
+          "description": "Shell Material",
+          "options": [
+            {
+              "value": "S",
+              "description": "Steel, tin over nickel plating",
+              "specifications": "Shell material"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "SD 9 G S",
+          "context": "Example part number for 9 contacts with gold flash plating and steel shell",
+          "breakdown": "SD: Series, 9: Contacts, G: Gold flash, S: Steel shell"
+        }
+      ]
+    },
+    {
+      "section": {
+        "main_heading": "A4 style",
+        "sub_heading": "MIL Footprint",
+        "category": "Connector"
+      },
+      "pattern": {
+        "full_pattern": "Position N, Position M",
+        "variable_format": "Position N, Position M"
+      },
+      "positions": [
+        {
+          "position": "Position N",
+          "type": "variable",
+          "placeholder": "Position N",
+          "description": "Connector position",
+          "options": [
+            {
+              "value": "9",
+              "description": "9 contacts",
+              "specifications": "Dimensions: A: 30.84 (1.21), B: 24.99 (.98), C: 19.62 (.67), D: 16.24 (.64), E: 11.09 (.44), F: 2.77 (.109)",
+              "notes": "MIL Footprint"
+            },
+            {
+              "value": "15",
+              "description": "15 contacts",
+              "specifications": "Dimensions: A: 39.14 (1.54), B: 33.32 (1.31), C: 25.25 (.99), D: 24.56 (.97), E: 19.39 (.76), F: 2.77 (.109)",
+              "notes": "MIL Footprint"
+            },
+            {
+              "value": "25",
+              "description": "25 contacts",
+              "specifications": "Dimensions: A: 53.04 (2.09), B: 47.04 (1.85), C: 38.96 (1.53), D: 38.38 (1.51), E: 33.24 (1.31), F: 2.77 (.109)",
+              "notes": "MIL Footprint"
+            },
+            {
+              "value": "37",
+              "description": "37 contacts",
+              "specifications": "Dimensions: A: 69.32 (2.73), B: 63.50 (2.50), C: 55.42 (2.18), D: 54.76 (2.16), E: 49.86 (1.96), F: 2.77 (.109)",
+              "notes": "MIL Footprint"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "9, 15, 25, 37",
+          "context": "MIL Footprint",
+          "breakdown": "Position N: Number of contacts"
+        }
+      ]
+    },
+    {
+      "section": {
+        "main_heading": "1A / 1B style",
+        "sub_heading": "European Footprint",
+        "category": "Connector"
+      },
+      "pattern": {
+        "full_pattern": "Position N, Position M",
+        "variable_format": "Position N, Position M"
+      },
+      "positions": [
+        {
+          "position": "Position N",
+          "type": "variable",
+          "placeholder": "Position N",
+          "description": "Connector position",
+          "options": [
+            {
+              "value": "9",
+              "description": "9 contacts",
+              "specifications": "Dimensions: A: 30.84 (1.21), B: 24.99 (.98), C: 19.62 (.67), D: 16.24 (.64), E: 11.96 (.43), F: 2.77 (.109)",
+              "notes": "European Footprint"
+            },
+            {
+              "value": "15",
+              "description": "15 contacts",
+              "specifications": "Dimensions: A: 39.14 (1.54), B: 33.32 (1.31), C: 25.25 (.99), D: 24.56 (.97), E: 19.18 (.755), F: 2.77 (.109)",
+              "notes": "European Footprint"
+            },
+            {
+              "value": "25",
+              "description": "25 contacts",
+              "specifications": "Dimensions: A: 53.04 (2.09), B: 47.04 (1.85), C: 38.96 (1.53), D: 38.38 (1.51), E: 33.24 (1.31), F: 2.77 (.109)",
+              "notes": "European Footprint"
+            },
+            {
+              "value": "37",
+              "description": "37 contacts",
+              "specifications": "Dimensions: A: 69.4 (2.73), B: 63.50 (2.50), C: 55.42 (2.18), D: 54.84 (2.16), E: 49.86 (1.96), F: 2.77 (.109)",
+              "notes": "European Footprint"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "9, 15, 25, 37",
+          "context": "European Footprint",
+          "breakdown": "Position N: Number of contacts"
+        }
+      ]
+    },
+    {
+      "section": {
+        "main_heading": "How to order",
+        "sub_heading": null,
+        "category": null
+      },
+      "pattern": {
+        "full_pattern": "L ... SD ... ... ... ... CH ... C309",
+        "variable_format": "..."
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "fixed",
+          "placeholder": "L",
+          "description": "RoHS Compliant",
+          "options": [
+            {
+              "value": "L",
+              "description": "RoHS Compliant",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "type": "variable",
+          "placeholder": "...",
+          "description": "Plating",
+          "options": [
+            {
+              "value": "77",
+              "description": "tinned shell for receptacle",
+              "specifications": "gold flash",
+              "notes": null
+            },
+            {
+              "value": "717",
+              "description": "tinned shell + dimples for plug",
+              "specifications": "gold flash",
+              "notes": null
+            },
+            {
+              "value": "177",
+              "description": "tinned shell for receptacle",
+              "specifications": "0.4μm (15μ\")",
+              "notes": null
+            },
+            {
+              "value": "717",
+              "description": "tinned shell + dimples for plug",
+              "specifications": "0.4μm (15μ\")",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "3",
+          "type": "variable",
+          "placeholder": "SD",
+          "description": "Shell size",
+          "options": [
+            {
+              "value": "A",
+              "description": null,
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "B",
+              "description": null,
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "C",
+              "description": null,
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "4",
+          "type": "variable",
+          "placeholder": "...",
+          "description": "Configuration",
+          "options": [
+            {
+              "value": "09",
+              "description": null,
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "15",
+              "description": null,
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "25",
+              "description": null,
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "37",
+              "description": null,
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "5",
+          "type": "variable",
+          "placeholder": "...",
+          "description": "Contact type",
+          "options": [
+            {
+              "value": "P",
+              "description": "plug",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "S",
+              "description": "socket",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "6",
+          "type": "variable",
+          "placeholder": "...",
+          "description": "PCB locking type",
+          "options": [
+            {
+              "value": "grounding tabs",
+              "description": null,
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "board locks",
+              "description": null,
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "7",
+          "type": "variable",
+          "placeholder": "CH",
+          "description": "Footprint",
+          "options": [
+            {
+              "value": "1A",
+              "description": "European (10.3mm, 2.54mm pitch)",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "1B",
+              "description": "European (10.3mm, 2.84mm pitch)",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "A4",
+              "description": "MIL (8.08mm)",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "8",
+          "type": "variable",
+          "placeholder": "...",
+          "description": "Mounting options",
+          "options": [
+            {
+              "value": "4F",
+              "description": "front screwlock 4-40",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "3F",
+              "description": "front screwlock M3",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "4R",
+              "description": "rear insert 4-40",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "3R",
+              "description": "rear insert M3",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "9",
+          "type": "fixed",
+          "placeholder": "C309",
+          "description": "Plating option",
+          "options": [
+            {
+              "value": "C309",
+              "description": "valid only for 0.76μm (30μ\")",
+              "specifications": null,
+              "notes": "part numbers to be written as 77 SD...C309 or 717 SD...C309"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "L717 SD E 09 P A4 CH 4F",
+          "context": "Example part number",
+          "breakdown": "L: RoHS Compliant, 717: tinned shell + dimples for plug, SD: Shell size E, 09: Configuration, P: plug, A4: MIL footprint, CH: PCB locking type, 4F: front screwlock 4-40"
+        },
+        {
+          "combination": "L77 SD B 25 S 1A CH 4R",
+          "context": "Example part number",
+          "breakdown": "L: RoHS Compliant, 77: tinned shell for receptacle, SD: Shell size B, 25: Configuration, S: socket, 1A: European footprint, CH: PCB locking type, 4R: rear insert 4-40"
+        }
+      ]
+    }
+  ],
+  "relationships": {
+    "dependencies": [],
+    "compatibility": []
+  }
+}

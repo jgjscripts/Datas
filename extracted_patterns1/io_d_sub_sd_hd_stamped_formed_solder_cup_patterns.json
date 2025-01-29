@@ -1,0 +1,306 @@
+{
+  "metadata": {
+    "filename": "io_d_sub_sd_hd_stamped_formed_solder_cup",
+    "processed_date": "2025-01-13T16:40:01.974780",
+    "total_pages": 4,
+    "patterns_found": 2
+  },
+  "patterns": [
+    {
+      "section": {
+        "main_heading": "High Density",
+        "sub_heading": "Overall Dimensions",
+        "category": "Contacts"
+      },
+      "pattern": {
+        "full_pattern": "Nb of Contacts: 15, 26, 44, 62, 78",
+        "variable_format": "Fixed values"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "fixed",
+          "placeholder": "Nb of Contacts",
+          "description": "Number of contacts available",
+          "options": [
+            {
+              "value": "15",
+              "description": "15 contacts",
+              "specifications": "Dimensions: A=30.84 (1.21), B=24.99 (.98), C=16.92 (.67), D=16.24 (.64), E=19.28 (.76)",
+              "notes": "Standard size"
+            },
+            {
+              "value": "26",
+              "description": "26 contacts",
+              "specifications": "Dimensions: A=39.24 (1.54), B=33.32 (1.31), C=24.7 (.972), D=24.56 (.97), E=27.51 (1.08)",
+              "notes": "Standard size"
+            },
+            {
+              "value": "44",
+              "description": "44 contacts",
+              "specifications": "Dimensions: A=54.4 (2.09), B=47.04 (1.85), C=38.96 (1.53), D=38.58 (1.51), E=43.10 (1.63)",
+              "notes": "Standard size"
+            },
+            {
+              "value": "62",
+              "description": "62 contacts",
+              "specifications": "Dimensions: A=69.32 (2.73), B=63.50 (2.50), C=55.42 (2.18), D=54.76 (2.16), E=57.71 (2.27)",
+              "notes": "Standard size"
+            },
+            {
+              "value": "78",
+              "description": "78 contacts",
+              "specifications": "Dimensions: A=67 (2.64), B=61.11 (2.41), C=52.86 (2.08), D=52.34 (2.06), E=55.3 (2.18)",
+              "notes": "Standard size"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "44",
+          "context": "Used in high-density applications",
+          "breakdown": "44 contacts with specified dimensions"
+        }
+      ]
+    },
+    {
+      "section": {
+        "main_heading": "How to order",
+        "sub_heading": null,
+        "category": "Connector"
+      },
+      "pattern": {
+        "full_pattern": "L XXX XX X XX X XX C309",
+        "variable_format": "X"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "fixed",
+          "placeholder": "L",
+          "description": "RoHS Compliant",
+          "options": []
+        },
+        {
+          "position": "2",
+          "type": "variable",
+          "placeholder": "XXX",
+          "description": "Gold flash",
+          "options": [
+            {
+              "value": "77",
+              "description": "tinned shell for receptacle",
+              "specifications": "tinned shell + dimples for Pin",
+              "notes": null
+            },
+            {
+              "value": "717",
+              "description": "tinned shell for receptacle",
+              "specifications": "tinned shell + dimples for Pin",
+              "notes": null
+            },
+            {
+              "value": "177",
+              "description": "tinned shell for receptacle",
+              "specifications": "tinned shell + dimples for Pin",
+              "notes": null
+            },
+            {
+              "value": "777",
+              "description": "tinned shell for receptacle",
+              "specifications": "tinned shell + dimples for Pin",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "3",
+          "type": "variable",
+          "placeholder": "XX",
+          "description": "Density",
+          "options": [
+            {
+              "value": "SD",
+              "description": "Standard density",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "HD",
+              "description": "High density",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "4",
+          "type": "variable",
+          "placeholder": "X",
+          "description": "Shell size",
+          "options": [
+            {
+              "value": "E",
+              "description": "Shell size",
+              "specifications": "SD = 9, HD = 15",
+              "notes": null
+            },
+            {
+              "value": "A",
+              "description": "Shell size",
+              "specifications": "SD = 15, HD = 26",
+              "notes": null
+            },
+            {
+              "value": "B",
+              "description": "Shell size",
+              "specifications": "SD = 25, HD = 44",
+              "notes": null
+            },
+            {
+              "value": "C",
+              "description": "Shell size",
+              "specifications": "SD = 37, HD = 62",
+              "notes": null
+            },
+            {
+              "value": "D",
+              "description": "Shell size",
+              "specifications": "SD = 50, HD = 78",
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "5",
+          "type": "variable",
+          "placeholder": "XX",
+          "description": "Rear mounting option",
+          "options": [
+            {
+              "value": "H",
+              "description": "Rear insert 4-40",
+              "specifications": null,
+              "notes": "H or G required with VF or VFM for removable female screwlock"
+            },
+            {
+              "value": "G",
+              "description": "Rear insert M3",
+              "specifications": null,
+              "notes": "H or G required with VF or VFM for removable female screwlock"
+            }
+          ]
+        },
+        {
+          "position": "6",
+          "type": "variable",
+          "placeholder": "X",
+          "description": "Front mounting option",
+          "options": [
+            {
+              "value": "no digit",
+              "description": "3.05mm rivet",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "VF",
+              "description": "Screwlock 4-40",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "VFM",
+              "description": "Screwlock M3",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "7",
+          "type": "variable",
+          "placeholder": "X",
+          "description": "Contact type",
+          "options": [
+            {
+              "value": "P",
+              "description": "Pin",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "S",
+              "description": "Socket",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "8",
+          "type": "variable",
+          "placeholder": "XX",
+          "description": "Configuration",
+          "options": [
+            {
+              "value": "09, 15, 25, 37, 50",
+              "description": "SD",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "15, 26, 44, 62, 78",
+              "description": "HD",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "9",
+          "type": "fixed",
+          "placeholder": "C309",
+          "description": "Plating option",
+          "options": [
+            {
+              "value": "77",
+              "description": "valid only for 0.76μm (30μ\")",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "717",
+              "description": "valid only for 0.76μm (30μ\")",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "L 717 SD E H 09 P VF C309",
+          "context": "Example part number",
+          "breakdown": "RoHS Compliant, tinned shell for receptacle, Standard density, Shell size E, Rear insert 4-40, Pin contact, Configuration 09, Screwlock 4-40, Plating option C309"
+        },
+        {
+          "combination": "L 77 SD E 09 S VF",
+          "context": "Example part number",
+          "breakdown": "RoHS Compliant, tinned shell for receptacle, Standard density, Shell size E, Pin contact, Configuration 09, Screwlock 4-40"
+        }
+      ]
+    }
+  ],
+  "relationships": {
+    "dependencies": [
+      {
+        "if_pattern": "H or G",
+        "then_requires": "VF or VFM",
+        "notes": "H or G required with VF or VFM for removable female screwlock"
+      }
+    ],
+    "compatibility": []
+  }
+}

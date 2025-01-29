@@ -1,126 +1,320 @@
 {
   "metadata": {
     "filename": "io_d_sub_sd_stamped_formed_pressfit_straight_pcb",
-    "processed_date": "2025-01-13T16:45:30.405244",
+    "processed_date": "2025-01-28T17:14:10.220848",
     "total_pages": 4,
     "patterns_found": 3
   },
   "patterns": [
     {
       "section": {
-        "main_heading": "Press-Fit Tooling",
-        "sub_heading": "Female",
-        "category": "Connectors"
+        "main_heading": "OVERALL DIMENSIONS",
+        "sub_heading": "Socket and Plug Versions",
+        "category": "D-Sub Connectors"
       },
       "pattern": {
-        "full_pattern": "XXX MC",
-        "variable_format": "Numeric"
+        "full_pattern": "Nb OF CONTACTS A B C plug C socket",
+        "variable_format": "Numeric values for dimensions"
       },
       "positions": [
         {
           "position": "1",
           "type": "variable",
-          "placeholder": "XXX",
-          "description": "Size of connectors",
+          "placeholder": "Nb OF CONTACTS",
+          "description": "Number of contacts",
+          "side": "left",
+          "reading_direction": "top-to-bottom",
           "options": [
             {
-              "value": "981",
-              "description": "9 connectors",
-              "specifications": "Size 9",
-              "notes": "For female connectors"
+              "value": "9",
+              "description": "9 contacts",
+              "specifications": "Standard contact count",
+              "notes": "Common for small connectors"
             },
             {
-              "value": "982",
-              "description": "15 connectors",
-              "specifications": "Size 15",
-              "notes": "For female connectors"
+              "value": "15",
+              "description": "15 contacts",
+              "specifications": "Standard contact count",
+              "notes": "Medium size connectors"
             },
             {
-              "value": "983",
-              "description": "25 connectors",
-              "specifications": "Size 25",
-              "notes": "For female connectors"
+              "value": "25",
+              "description": "25 contacts",
+              "specifications": "Standard contact count",
+              "notes": "Larger connectors"
             },
             {
-              "value": "984",
-              "description": "37 connectors",
-              "specifications": "Size 37",
-              "notes": "For female connectors"
+              "value": "37",
+              "description": "37 contacts",
+              "specifications": "Standard contact count",
+              "notes": "Largest connectors in this series"
             }
           ]
         },
         {
           "position": "2",
-          "type": "fixed",
-          "placeholder": "MC",
-          "description": "Fixed suffix",
-          "options": []
+          "type": "variable",
+          "placeholder": "A",
+          "description": "Dimension A",
+          "side": "left",
+          "reading_direction": "top-to-bottom",
+          "options": [
+            {
+              "value": "30.81 (1.185)",
+              "description": "Dimension A for 9 contacts",
+              "specifications": "Width in mm (inch)",
+              "notes": "Smallest width"
+            },
+            {
+              "value": "39.14 (1.54)",
+              "description": "Dimension A for 15 contacts",
+              "specifications": "Width in mm (inch)",
+              "notes": "Medium width"
+            },
+            {
+              "value": "53.04 (2.088)",
+              "description": "Dimension A for 25 contacts",
+              "specifications": "Width in mm (inch)",
+              "notes": "Larger width"
+            },
+            {
+              "value": "69.32 (2.729)",
+              "description": "Dimension A for 37 contacts",
+              "specifications": "Width in mm (inch)",
+              "notes": "Largest width"
+            }
+          ]
+        },
+        {
+          "position": "3",
+          "type": "variable",
+          "placeholder": "B",
+          "description": "Dimension B",
+          "side": "left",
+          "reading_direction": "top-to-bottom",
+          "options": [
+            {
+              "value": "24.99 (0.984)",
+              "description": "Dimension B for 9 contacts",
+              "specifications": "Width in mm (inch)",
+              "notes": "Smallest width"
+            },
+            {
+              "value": "33.32 (1.312)",
+              "description": "Dimension B for 15 contacts",
+              "specifications": "Width in mm (inch)",
+              "notes": "Medium width"
+            },
+            {
+              "value": "47.04 (1.852)",
+              "description": "Dimension B for 25 contacts",
+              "specifications": "Width in mm (inch)",
+              "notes": "Larger width"
+            },
+            {
+              "value": "63.50 (2.5)",
+              "description": "Dimension B for 37 contacts",
+              "specifications": "Width in mm (inch)",
+              "notes": "Largest width"
+            }
+          ]
+        },
+        {
+          "position": "4",
+          "type": "variable",
+          "placeholder": "C plug",
+          "description": "Dimension C for plug",
+          "side": "right",
+          "reading_direction": "bottom-to-top",
+          "options": [
+            {
+              "value": "16.92 (0.666)",
+              "description": "Dimension C for plug with 9 contacts",
+              "specifications": "Depth in mm (inch)",
+              "notes": "Smallest depth"
+            },
+            {
+              "value": "25.50 (1.004)",
+              "description": "Dimension C for plug with 15 contacts",
+              "specifications": "Depth in mm (inch)",
+              "notes": "Medium depth"
+            },
+            {
+              "value": "28.96 (1.534)",
+              "description": "Dimension C for plug with 25 contacts",
+              "specifications": "Depth in mm (inch)",
+              "notes": "Larger depth"
+            },
+            {
+              "value": "55.42 (2.182)",
+              "description": "Dimension C for plug with 37 contacts",
+              "specifications": "Depth in mm (inch)",
+              "notes": "Largest depth"
+            }
+          ]
+        },
+        {
+          "position": "5",
+          "type": "variable",
+          "placeholder": "C socket",
+          "description": "Dimension C for socket",
+          "side": "right",
+          "reading_direction": "bottom-to-top",
+          "options": [
+            {
+              "value": "16.33 (0.643)",
+              "description": "Dimension C for socket with 9 contacts",
+              "specifications": "Depth in mm (inch)",
+              "notes": "Smallest depth"
+            },
+            {
+              "value": "24.66 (0.97)",
+              "description": "Dimension C for socket with 15 contacts",
+              "specifications": "Depth in mm (inch)",
+              "notes": "Medium depth"
+            },
+            {
+              "value": "38.38 (1.511)",
+              "description": "Dimension C for socket with 25 contacts",
+              "specifications": "Depth in mm (inch)",
+              "notes": "Larger depth"
+            },
+            {
+              "value": "54.84 (2.16)",
+              "description": "Dimension C for socket with 37 contacts",
+              "specifications": "Depth in mm (inch)",
+              "notes": "Largest depth"
+            }
+          ]
         }
       ],
       "examples": [
         {
-          "combination": "981 MC",
-          "context": "Female connector with 9 size",
-          "breakdown": "981 - Size 9, MC - Fixed suffix"
+          "combination": "9 30.81 24.99 16.92 16.33",
+          "context": "9 contact connector dimensions",
+          "breakdown": "9 contacts, A: 30.81, B: 24.99, C plug: 16.92, C socket: 16.33"
+        },
+        {
+          "combination": "15 39.14 33.32 25.50 24.66",
+          "context": "15 contact connector dimensions",
+          "breakdown": "15 contacts, A: 39.14, B: 33.32, C plug: 25.50, C socket: 24.66"
         }
       ]
     },
     {
       "section": {
-        "main_heading": "Press-Fit Tooling",
-        "sub_heading": "Male",
+        "main_heading": "PRESS-FIT TOOLING",
+        "sub_heading": null,
         "category": "Connectors"
       },
       "pattern": {
-        "full_pattern": "XXX MC",
-        "variable_format": "Numeric"
+        "full_pattern": "Size of connectors - Tooling PN",
+        "variable_format": "Size of connectors (9, 15, 25, 37), Tooling PN (XXX MC)"
       },
       "positions": [
         {
           "position": "1",
           "type": "variable",
-          "placeholder": "XXX",
-          "description": "Size of connectors",
+          "placeholder": "Size of connectors",
+          "description": "Number of connectors",
+          "side": "left",
+          "reading_direction": "top-to-bottom",
           "options": [
             {
-              "value": "985",
-              "description": "9 connectors",
-              "specifications": "Size 9",
-              "notes": "For male connectors"
+              "value": "9",
+              "description": "Size of connectors",
+              "specifications": null,
+              "notes": "Applicable for both Female and Male"
             },
             {
-              "value": "986",
-              "description": "15 connectors",
-              "specifications": "Size 15",
-              "notes": "For male connectors"
+              "value": "15",
+              "description": "Size of connectors",
+              "specifications": null,
+              "notes": "Applicable for both Female and Male"
             },
             {
-              "value": "987",
-              "description": "25 connectors",
-              "specifications": "Size 25",
-              "notes": "For male connectors"
+              "value": "25",
+              "description": "Size of connectors",
+              "specifications": null,
+              "notes": "Applicable for both Female and Male"
             },
             {
-              "value": "988",
-              "description": "37 connectors",
-              "specifications": "Size 37",
-              "notes": "For male connectors"
+              "value": "37",
+              "description": "Size of connectors",
+              "specifications": null,
+              "notes": "Applicable for both Female and Male"
             }
           ]
         },
         {
           "position": "2",
-          "type": "fixed",
-          "placeholder": "MC",
-          "description": "Fixed suffix",
-          "options": []
+          "type": "variable",
+          "placeholder": "Tooling PN",
+          "description": "Tooling part number",
+          "side": "right",
+          "reading_direction": "top-to-bottom",
+          "options": [
+            {
+              "value": "981 MC",
+              "description": "Tooling PN for Female, Size 9",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "982 MC",
+              "description": "Tooling PN for Female, Size 15",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "983 MC",
+              "description": "Tooling PN for Female, Size 25",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "984 MC",
+              "description": "Tooling PN for Female, Size 37",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "985 MC",
+              "description": "Tooling PN for Male, Size 9",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "986 MC",
+              "description": "Tooling PN for Male, Size 15",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "987 MC",
+              "description": "Tooling PN for Male, Size 25",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "988 MC",
+              "description": "Tooling PN for Male, Size 37",
+              "specifications": null,
+              "notes": null
+            }
+          ]
         }
       ],
       "examples": [
         {
-          "combination": "985 MC",
-          "context": "Male connector with 9 size",
-          "breakdown": "985 - Size 9, MC - Fixed suffix"
+          "combination": "9 - 981 MC",
+          "context": "Female connector",
+          "breakdown": "Size 9, Tooling PN 981 MC"
+        },
+        {
+          "combination": "15 - 986 MC",
+          "context": "Male connector",
+          "breakdown": "Size 15, Tooling PN 986 MC"
         }
       ]
     },
@@ -128,55 +322,75 @@
       "section": {
         "main_heading": "How to order",
         "sub_heading": null,
-        "category": "General"
+        "category": "Connector Options"
       },
       "pattern": {
-        "full_pattern": "L 17TF - - - - - -",
-        "variable_format": "Variables are marked with dashes"
+        "full_pattern": "L 17TF ..... ..... ..... ..... .....",
+        "variable_format": "....."
       },
       "positions": [
         {
           "position": "1",
           "type": "fixed",
           "placeholder": "L",
-          "description": "Series",
-          "options": []
+          "description": "RoHS Compliant",
+          "side": "left",
+          "reading_direction": "top-to-bottom",
+          "options": [
+            {
+              "value": "L",
+              "description": "RoHS Compliant",
+              "specifications": null,
+              "notes": null
+            }
+          ]
         },
         {
           "position": "2",
           "type": "fixed",
           "placeholder": "17TF",
-          "description": "RoHS Compliant",
-          "options": []
+          "description": "Series",
+          "side": "left",
+          "reading_direction": "top-to-bottom",
+          "options": [
+            {
+              "value": "17TF",
+              "description": "Series",
+              "specifications": null,
+              "notes": null
+            }
+          ]
         },
         {
           "position": "3",
           "type": "variable",
-          "placeholder": "-",
+          "placeholder": ".....",
           "description": "Number of contacts",
+          "side": "left",
+          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "09",
-              "description": "9 contacts",
-              "specifications": null,
+              "description": "Number of contacts",
+              "specifications": "09-15-25-37",
               "notes": null
             },
             {
               "value": "15",
-              "description": "15 contacts",
-              "specifications": null,
+              "description": "Number of contacts",
+              "specifications": "09-15-25-37",
               "notes": null
             },
             {
               "value": "25",
-              "description": "25 contacts",
-              "specifications": null,
+              "description": "Number of contacts",
+              "specifications": "09-15-25-37",
               "notes": null
             },
             {
               "value": "37",
-              "description": "37 contacts",
-              "specifications": null,
+              "description": "Number of contacts",
+              "specifications": "09-15-25-37",
               "notes": null
             }
           ]
@@ -184,18 +398,20 @@
         {
           "position": "4",
           "type": "variable",
-          "placeholder": "-",
+          "placeholder": ".....",
           "description": "Contact type",
+          "side": "left",
+          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "1",
-              "description": "Pin",
+              "description": "pin",
               "specifications": null,
               "notes": null
             },
             {
-              "value": "2",
-              "description": "Socket",
+              "value": "0",
+              "description": "socket",
               "specifications": null,
               "notes": null
             }
@@ -204,24 +420,26 @@
         {
           "position": "5",
           "type": "variable",
-          "placeholder": "-",
+          "placeholder": ".....",
           "description": "Contact plating",
+          "side": "left",
+          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "0",
-              "description": "Gold flash",
+              "description": "gold flash",
               "specifications": null,
               "notes": null
             },
             {
               "value": "1",
-              "description": "0.4 µm (15µ\")",
+              "description": "0.4 μm (15μ\")",
               "specifications": null,
               "notes": null
             },
             {
               "value": "2",
-              "description": "0.76 µm (30µ\")",
+              "description": "0.76 μm (30μ\")",
               "specifications": null,
               "notes": null
             }
@@ -230,8 +448,10 @@
         {
           "position": "6",
           "type": "variable",
-          "placeholder": "-",
+          "placeholder": ".....",
           "description": "Flange mounting option",
+          "side": "right",
+          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "0",
@@ -268,18 +488,20 @@
         {
           "position": "7",
           "type": "variable",
-          "placeholder": "-",
+          "placeholder": ".....",
           "description": "Board mounting option",
+          "side": "right",
+          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "0",
-              "description": "Without boardlock",
+              "description": "without boardlock",
               "specifications": null,
               "notes": null
             },
             {
               "value": "1",
-              "description": "With boardlock",
+              "description": "with boardlock",
               "specifications": null,
               "notes": null
             }
@@ -288,12 +510,14 @@
         {
           "position": "8",
           "type": "variable",
-          "placeholder": "-",
+          "placeholder": ".....",
           "description": "Front shell plating",
+          "side": "right",
+          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "1",
-              "description": "Tin over nickel",
+              "description": "tin over nickel",
               "specifications": null,
               "notes": null
             }
@@ -302,9 +526,9 @@
       ],
       "examples": [
         {
-          "combination": "L 17TF 25 1 0 2 1 1",
-          "context": "Example configuration",
-          "breakdown": "25 contacts, pin type, gold flash, #4-40 UNC screwlock installed, with boardlock, tin over nickel"
+          "combination": "L 17TF 09 1 0 0 0 1",
+          "context": "Example part number",
+          "breakdown": "L: RoHS Compliant, 17TF: Series, 09: Number of contacts, 1: pin, 0: gold flash, 0: 3.10mm clear hole, 0: without boardlock, 1: tin over nickel"
         }
       ]
     }

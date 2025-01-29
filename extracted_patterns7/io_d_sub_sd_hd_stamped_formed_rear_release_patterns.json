@@ -1,20 +1,20 @@
 {
   "metadata": {
     "filename": "io_d_sub_sd_hd_stamped_formed_rear_release",
-    "processed_date": "2025-01-28T17:03:26.550861",
+    "processed_date": "2025-01-28T16:43:18.191331",
     "total_pages": 8,
-    "patterns_found": 12
+    "patterns_found": 13
   },
   "patterns": [
     {
       "section": {
-        "main_heading": "Standard density RR",
-        "sub_heading": "Overall Dimensions",
-        "category": "D-Sub Connectors"
+        "main_heading": "RR-HR",
+        "sub_heading": "Rear Release Crimp Connectors",
+        "category": "D-Sub connectors - Stamped and Formed Contacts"
       },
       "pattern": {
-        "full_pattern": "L XX X FR X X XX X C309",
-        "variable_format": "X, XX, ..."
+        "full_pattern": "L ..... ..... ..... ..... ..... ..... OL2 ..... C309",
+        "variable_format": "....."
       },
       "positions": [
         {
@@ -22,179 +22,490 @@
           "type": "fixed",
           "placeholder": "L",
           "description": "RoHS Compliant",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
-          "options": [
-            {
-              "value": "L",
-              "description": "RoHS Compliant",
-              "specifications": "Lead-free",
-              "notes": "Fixed prefix"
-            }
-          ]
+          "options": []
         },
         {
           "position": "2",
           "type": "variable",
-          "placeholder": "XX",
-          "description": "Number of Contacts",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
+          "placeholder": ".....",
+          "description": "Shell Material",
           "options": [
             {
-              "value": "9",
-              "description": "9 contacts",
-              "specifications": "Standard density",
-              "notes": "Common configuration"
-            },
-            {
-              "value": "15",
-              "description": "15 contacts",
-              "specifications": "Standard density",
-              "notes": "Common configuration"
-            },
-            {
-              "value": "25",
-              "description": "25 contacts",
-              "specifications": "Standard density",
-              "notes": "Common configuration"
-            },
-            {
-              "value": "37",
-              "description": "37 contacts",
-              "specifications": "Standard density",
-              "notes": "Common configuration"
-            },
-            {
-              "value": "50",
-              "description": "50 contacts",
-              "specifications": "Standard density",
-              "notes": "Common configuration"
+              "value": "Tinned steel",
+              "description": "with or without dimples",
+              "specifications": "Shells"
             }
           ]
         },
         {
           "position": "3",
           "type": "variable",
-          "placeholder": "X",
-          "description": "Shell Size",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
+          "placeholder": ".....",
+          "description": "Insulator Material",
           "options": [
             {
-              "value": "E",
-              "description": "Shell size E",
-              "specifications": "Smallest size",
-              "notes": "Common for 9 contacts"
+              "value": "Black glass-filled thermoplastic",
+              "description": "UL 94V-0",
+              "specifications": "Insulator"
+            }
+          ]
+        },
+        {
+          "position": "4",
+          "type": "variable",
+          "placeholder": ".....",
+          "description": "Boardlock Material",
+          "options": [
+            {
+              "value": "Brass",
+              "description": "3μm to 5μm (118μ\" to 197μ\")",
+              "specifications": "Boardlock"
+            }
+          ]
+        },
+        {
+          "position": "5",
+          "type": "variable",
+          "placeholder": ".....",
+          "description": "Screwlock Material",
+          "options": [
+            {
+              "value": "Brass",
+              "description": "6μm to 10μm (236μ\" to 394μ\")",
+              "specifications": "Screwlock"
+            }
+          ]
+        },
+        {
+          "position": "6",
+          "type": "variable",
+          "placeholder": ".....",
+          "description": "Contact Plating",
+          "options": [
+            {
+              "value": "0.2μm (8μ\") gold",
+              "description": "2μm (78μ\") nickel",
+              "specifications": "Contacts-Brass"
             },
             {
-              "value": "A",
-              "description": "Shell size A",
-              "specifications": "Medium size",
-              "notes": "Common for 15 contacts"
+              "value": "0.5μm (20μ\") gold",
+              "description": "2μm (78μ\") nickel",
+              "specifications": "Contacts-Brass"
             },
             {
-              "value": "B",
-              "description": "Shell size B",
-              "specifications": "Medium size",
-              "notes": "Common for 25 contacts"
+              "value": "0.76μm (30μ\") gold",
+              "description": "2μm (78μ\") nickel",
+              "specifications": "Contacts-Brass"
+            }
+          ]
+        },
+        {
+          "position": "7",
+          "type": "variable",
+          "placeholder": ".....",
+          "description": "Crimp Side",
+          "options": [
+            {
+              "value": "gold flash or tin",
+              "description": "",
+              "specifications": "Crimp side"
+            }
+          ]
+        },
+        {
+          "position": "8",
+          "type": "fixed",
+          "placeholder": "OL2",
+          "description": "Operating temperature",
+          "options": [
+            {
+              "value": "-55°C to +125°C",
+              "description": "",
+              "specifications": "Climatic Data"
+            }
+          ]
+        },
+        {
+          "position": "9",
+          "type": "fixed",
+          "placeholder": "C309",
+          "description": "Connectors according to MIL C24308",
+          "options": []
+        }
+      ],
+      "examples": [
+        {
+          "combination": "L 717 SD E H 09 P OL2 RM5 C309",
+          "context": "Example part number",
+          "breakdown": "L: RoHS Compliant, 717: Shell Material, SD: Insulator Material, E: Boardlock Material, H: Screwlock Material, 09: Contact Plating, P: Crimp Side, OL2: Operating temperature, C309: MIL C24308"
+        }
+      ]
+    },
+    {
+      "section": {
+        "main_heading": "Standard density RR",
+        "sub_heading": "Overall Dimensions",
+        "category": "Connectors"
+      },
+      "pattern": {
+        "full_pattern": "Nb OF CONTACTS A B C D E F X",
+        "variable_format": "Numeric values for dimensions"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "variable",
+          "placeholder": "Nb OF CONTACTS",
+          "description": "Number of contacts",
+          "options": [
+            {
+              "value": "9",
+              "description": "9 contacts",
+              "specifications": "Standard density",
+              "notes": "Used for specific applications"
             },
             {
-              "value": "C",
-              "description": "Shell size C",
-              "specifications": "Large size",
-              "notes": "Common for 37 contacts"
+              "value": "15",
+              "description": "15 contacts",
+              "specifications": "Standard density",
+              "notes": "Used for specific applications"
             },
             {
-              "value": "D",
-              "description": "Shell size D",
-              "specifications": "Largest size",
-              "notes": "Common for 50 contacts"
+              "value": "25",
+              "description": "25 contacts",
+              "specifications": "Standard density",
+              "notes": "Used for specific applications"
+            },
+            {
+              "value": "37",
+              "description": "37 contacts",
+              "specifications": "Standard density",
+              "notes": "Used for specific applications"
+            },
+            {
+              "value": "50",
+              "description": "50 contacts",
+              "specifications": "Standard density",
+              "notes": "Used for specific applications"
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "type": "variable",
+          "placeholder": "A",
+          "description": "Dimension A",
+          "options": [
+            {
+              "value": "30.84 (1.21)",
+              "description": "Dimension for 9 contacts",
+              "specifications": "mm (inch)",
+              "notes": "Width of connector"
+            },
+            {
+              "value": "39.24 (1.54)",
+              "description": "Dimension for 15 contacts",
+              "specifications": "mm (inch)",
+              "notes": "Width of connector"
+            },
+            {
+              "value": "53.04 (2.09)",
+              "description": "Dimension for 25 contacts",
+              "specifications": "mm (inch)",
+              "notes": "Width of connector"
+            },
+            {
+              "value": "69.32 (2.73)",
+              "description": "Dimension for 37 contacts",
+              "specifications": "mm (inch)",
+              "notes": "Width of connector"
+            },
+            {
+              "value": "67 (2.64)",
+              "description": "Dimension for 50 contacts",
+              "specifications": "mm (inch)",
+              "notes": "Width of connector"
+            }
+          ]
+        },
+        {
+          "position": "3",
+          "type": "variable",
+          "placeholder": "B",
+          "description": "Dimension B",
+          "options": [
+            {
+              "value": "24.99 (.98)",
+              "description": "Dimension for 9 contacts",
+              "specifications": "mm (inch)",
+              "notes": "Height of connector"
+            },
+            {
+              "value": "33.32 (1.31)",
+              "description": "Dimension for 15 contacts",
+              "specifications": "mm (inch)",
+              "notes": "Height of connector"
+            },
+            {
+              "value": "47.04 (1.85)",
+              "description": "Dimension for 25 contacts",
+              "specifications": "mm (inch)",
+              "notes": "Height of connector"
+            },
+            {
+              "value": "63.50 (2.50)",
+              "description": "Dimension for 37 contacts",
+              "specifications": "mm (inch)",
+              "notes": "Height of connector"
+            },
+            {
+              "value": "61.11 (2.41)",
+              "description": "Dimension for 50 contacts",
+              "specifications": "mm (inch)",
+              "notes": "Height of connector"
+            }
+          ]
+        },
+        {
+          "position": "4",
+          "type": "variable",
+          "placeholder": "C",
+          "description": "Dimension C",
+          "options": [
+            {
+              "value": "16.92 (.67)",
+              "description": "Dimension for 9 contacts",
+              "specifications": "mm (inch)",
+              "notes": "Depth of connector"
+            },
+            {
+              "value": "24.7 (.972)",
+              "description": "Dimension for 15 contacts",
+              "specifications": "mm (inch)",
+              "notes": "Depth of connector"
+            },
+            {
+              "value": "38.96 (1.53)",
+              "description": "Dimension for 25 contacts",
+              "specifications": "mm (inch)",
+              "notes": "Depth of connector"
+            },
+            {
+              "value": "55.42 (2.18)",
+              "description": "Dimension for 37 contacts",
+              "specifications": "mm (inch)",
+              "notes": "Depth of connector"
+            },
+            {
+              "value": "52.86 (2.08)",
+              "description": "Dimension for 50 contacts",
+              "specifications": "mm (inch)",
+              "notes": "Depth of connector"
+            }
+          ]
+        },
+        {
+          "position": "5",
+          "type": "variable",
+          "placeholder": "D",
+          "description": "Dimension D",
+          "options": [
+            {
+              "value": "16.24 (.64)",
+              "description": "Dimension for 9 contacts",
+              "specifications": "mm (inch)",
+              "notes": "Length of connector"
+            },
+            {
+              "value": "24.56 (.97)",
+              "description": "Dimension for 15 contacts",
+              "specifications": "mm (inch)",
+              "notes": "Length of connector"
+            },
+            {
+              "value": "38.38 (1.51)",
+              "description": "Dimension for 25 contacts",
+              "specifications": "mm (inch)",
+              "notes": "Length of connector"
+            },
+            {
+              "value": "54.76 (2.16)",
+              "description": "Dimension for 37 contacts",
+              "specifications": "mm (inch)",
+              "notes": "Length of connector"
+            },
+            {
+              "value": "52.34 (2.06)",
+              "description": "Dimension for 50 contacts",
+              "specifications": "mm (inch)",
+              "notes": "Length of connector"
+            }
+          ]
+        },
+        {
+          "position": "6",
+          "type": "variable",
+          "placeholder": "E",
+          "description": "Dimension E",
+          "options": [
+            {
+              "value": "11.09 (.44)",
+              "description": "Dimension for 9 contacts",
+              "specifications": "mm (inch)",
+              "notes": "Connector feature"
+            },
+            {
+              "value": "19.39 (.76)",
+              "description": "Dimension for 15 contacts",
+              "specifications": "mm (inch)",
+              "notes": "Connector feature"
+            },
+            {
+              "value": "33.24 (1.31)",
+              "description": "Dimension for 25 contacts",
+              "specifications": "mm (inch)",
+              "notes": "Connector feature"
+            },
+            {
+              "value": "48.96 (1.93)",
+              "description": "Dimension for 37 contacts",
+              "specifications": "mm (inch)",
+              "notes": "Connector feature"
+            },
+            {
+              "value": "44.32 (1.75)",
+              "description": "Dimension for 50 contacts",
+              "specifications": "mm (inch)",
+              "notes": "Connector feature"
+            }
+          ]
+        },
+        {
+          "position": "7",
+          "type": "variable",
+          "placeholder": "F",
+          "description": "Dimension F",
+          "options": [
+            {
+              "value": "19.28 (.76)",
+              "description": "Dimension for 9 contacts",
+              "specifications": "mm (inch)",
+              "notes": "Connector feature"
+            },
+            {
+              "value": "27.51 (1.08)",
+              "description": "Dimension for 15 contacts",
+              "specifications": "mm (inch)",
+              "notes": "Connector feature"
+            },
+            {
+              "value": "41.30 (1.63)",
+              "description": "Dimension for 25 contacts",
+              "specifications": "mm (inch)",
+              "notes": "Connector feature"
+            },
+            {
+              "value": "57.71 (2.27)",
+              "description": "Dimension for 37 contacts",
+              "specifications": "mm (inch)",
+              "notes": "Connector feature"
+            },
+            {
+              "value": "55.3 (2.18)",
+              "description": "Dimension for 50 contacts",
+              "specifications": "mm (inch)",
+              "notes": "Connector feature"
+            }
+          ]
+        },
+        {
+          "position": "8",
+          "type": "variable",
+          "placeholder": "X",
+          "description": "Dimension X",
+          "options": [
+            {
+              "value": "2.77",
+              "description": "Standard dimension",
+              "specifications": "mm",
+              "notes": "Consistent across all contact numbers"
             }
           ]
         }
       ],
       "examples": [
         {
-          "combination": "L 15 A",
-          "context": "Standard density RR",
-          "breakdown": "L: RoHS Compliant, 15: 15 contacts, A: Shell size A"
+          "combination": "9 30.84 (1.21) 24.99 (.98) 16.92 (.67) 16.24 (.64) 11.09 (.44) 19.28 (.76) 2.77",
+          "context": "9 contacts configuration",
+          "breakdown": "Each dimension corresponds to a specific feature"
+        },
+        {
+          "combination": "15 39.24 (1.54) 33.32 (1.31) 24.7 (.972) 24.56 (.97) 19.39 (.76) 27.51 (1.08) 2.77",
+          "context": "15 contacts configuration",
+          "breakdown": "Each dimension corresponds to a specific feature"
         }
       ]
     },
     {
       "section": {
         "main_heading": "High density HR",
-        "sub_heading": "Overall Dimensions",
-        "category": "Connectors"
+        "sub_heading": null,
+        "category": "Overall Dimensions"
       },
       "pattern": {
-        "full_pattern": "HR XX X X X X",
-        "variable_format": "XX, X"
+        "full_pattern": "Nb OF CONTACTS A B C D E",
+        "variable_format": "Table format with dimensions"
       },
       "positions": [
         {
           "position": "1",
-          "type": "variable",
-          "placeholder": "XX",
-          "description": "Number of Contacts",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
+          "type": "fixed",
+          "placeholder": "Nb OF CONTACTS",
+          "description": "Number of contacts",
           "options": [
             {
               "value": "15",
               "description": "15 contacts",
-              "specifications": "A: 30.84 (1.21), B: 24.99 (.98), C: 16.92 (.67), D: 16.24 (.64), E: 19.28 (.76)",
-              "notes": "Dimensions in mm (inch)"
+              "specifications": "Dimensions: A=30.84 (1.21), B=24.99 (.98), C=16.92 (.67), D=16.24 (.64), E=19.28 (.76)",
+              "notes": null
             },
             {
               "value": "26",
               "description": "26 contacts",
-              "specifications": "A: 39.24 (1.54), B: 33.32 (1.31), C: 24.7 (.972), D: 24.56 (.97), E: 27.51 (1.08)",
-              "notes": "Dimensions in mm (inch)"
+              "specifications": "Dimensions: A=39.24 (1.54), B=33.32 (1.31), C=24.7 (.972), D=24.56 (.97), E=27.51 (1.08)",
+              "notes": null
             },
             {
               "value": "44",
               "description": "44 contacts",
-              "specifications": "A: 53.04 (2.09), B: 47.04 (1.85), C: 38.96 (1.53), D: 38.38 (1.51), E: 41.30 (1.63)",
-              "notes": "Dimensions in mm (inch)"
+              "specifications": "Dimensions: A=53.04 (2.09), B=47.04 (1.85), C=38.96 (1.53), D=38.38 (1.51), E=41.30 (1.63)",
+              "notes": null
             },
             {
               "value": "62",
               "description": "62 contacts",
-              "specifications": "A: 69.32 (2.73), B: 63.50 (2.50), C: 55.42 (2.18), D: 54.76 (2.16), E: 57.71 (2.27)",
-              "notes": "Dimensions in mm (inch)"
+              "specifications": "Dimensions: A=69.32 (2.73), B=63.50 (2.50), C=55.42 (2.18), D=54.76 (2.16), E=57.71 (2.27)",
+              "notes": null
             },
             {
               "value": "78",
               "description": "78 contacts",
-              "specifications": "A: 67 (2.64), B: 61.11 (2.41), C: 52.86 (2.08), D: 52.34 (2.06), E: 55.3 (2.18)",
-              "notes": "Dimensions in mm (inch)"
-            }
-          ]
-        },
-        {
-          "position": "2",
-          "type": "fixed",
-          "placeholder": "X",
-          "description": "Position #1",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
-          "options": [
-            {
-              "value": "Position #1",
-              "description": "Position of the connector",
-              "specifications": "Defined in diagram",
-              "notes": "Refer to diagram for exact position"
+              "specifications": "Dimensions: A=67 (2.64), B=61.11 (2.41), C=52.86 (2.08), D=52.34 (2.06), E=55.3 (2.18)",
+              "notes": null
             }
           ]
         }
       ],
       "examples": [
         {
-          "combination": "HR 26 X X X X",
-          "context": "26 contacts configuration",
-          "breakdown": "Position 1: 26 contacts, Position 2: Position #1"
+          "combination": "15 30.84 24.99 16.92 16.24 19.28",
+          "context": "Example for 15 contacts",
+          "breakdown": "15 contacts with dimensions A=30.84, B=24.99, C=16.92, D=16.24, E=19.28"
+        },
+        {
+          "combination": "26 39.24 33.32 24.7 24.56 27.51",
+          "context": "Example for 26 contacts",
+          "breakdown": "26 contacts with dimensions A=39.24, B=33.32, C=24.7, D=24.56, E=27.51"
         }
       ]
     },
@@ -205,22 +516,20 @@
         "category": "Mounting Options"
       },
       "pattern": {
-        "full_pattern": "no digit / VF / VFM / H / G",
-        "variable_format": "no digit, VF, VFM, H, G"
+        "full_pattern": "..... ..... .....",
+        "variable_format": "no digit, VF/VFM, H/G"
       },
       "positions": [
         {
           "position": "1",
           "type": "variable",
-          "placeholder": "no digit",
-          "description": "Standard rivet ø3.05mm",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
+          "placeholder": ".....",
+          "description": "Standard rivet ø 3.05mm",
           "options": [
             {
               "value": "no digit",
-              "description": "Standard rivet ø3.05mm",
-              "specifications": "ø3.05 (.120)",
+              "description": "Standard rivet ø 3.05mm",
+              "specifications": "ø3.05 (0.120)",
               "notes": "No additional digit required"
             }
           ]
@@ -228,53 +537,49 @@
         {
           "position": "2",
           "type": "variable",
-          "placeholder": "VF / VFM",
+          "placeholder": ".....",
           "description": "Fixed front female screwlock",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "VF",
               "description": "Fixed front female screwlock",
               "specifications": "M3 or #4-40 front screwlock",
-              "notes": "Standard density"
+              "notes": "Standard option"
             },
             {
               "value": "VFM",
               "description": "Fixed front female screwlock",
               "specifications": "M3 or #4-40 front screwlock",
-              "notes": "Standard density"
+              "notes": "Alternative option"
             }
           ]
         },
         {
           "position": "3",
           "type": "variable",
-          "placeholder": "H / G",
+          "placeholder": ".....",
           "description": "Threaded rear insert",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "H",
               "description": "Threaded rear insert",
               "specifications": "M3 or #4-40",
-              "notes": "Standard density"
+              "notes": "Standard option"
             },
             {
               "value": "G",
               "description": "Threaded rear insert",
               "specifications": "M3 or #4-40",
-              "notes": "Standard density"
+              "notes": "Alternative option"
             }
           ]
         }
       ],
       "examples": [
         {
-          "combination": "VF",
-          "context": "Standard density with fixed front female screwlock",
-          "breakdown": "Position 2: VF"
+          "combination": "no digit VF H",
+          "context": "Standard density configuration",
+          "breakdown": "Standard rivet, Fixed front female screwlock, Threaded rear insert"
         }
       ]
     },
@@ -285,22 +590,20 @@
         "category": "Mounting Options"
       },
       "pattern": {
-        "full_pattern": "no digit / VF / VFM / H / G",
-        "variable_format": "no digit, VF, VFM, H, G"
+        "full_pattern": "..... ..... .....",
+        "variable_format": "no digit, VF/VFM, H/G"
       },
       "positions": [
         {
           "position": "1",
           "type": "variable",
-          "placeholder": "no digit",
-          "description": "Standard rivet ø3.05mm",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
+          "placeholder": ".....",
+          "description": "Standard rivet ø 3.05mm",
           "options": [
             {
               "value": "no digit",
-              "description": "Standard rivet ø3.05mm",
-              "specifications": "ø3.05 (.120)",
+              "description": "Standard rivet ø 3.05mm",
+              "specifications": "ø3.05 (0.120)",
               "notes": "No additional digit required"
             }
           ]
@@ -308,53 +611,49 @@
         {
           "position": "2",
           "type": "variable",
-          "placeholder": "VF / VFM",
+          "placeholder": ".....",
           "description": "Fixed front female screwlock",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "VF",
               "description": "Fixed front female screwlock",
               "specifications": "M3 or #4-40 front screwlock",
-              "notes": "High density"
+              "notes": "Standard option"
             },
             {
               "value": "VFM",
               "description": "Fixed front female screwlock",
               "specifications": "M3 or #4-40 front screwlock",
-              "notes": "High density"
+              "notes": "Alternative option"
             }
           ]
         },
         {
           "position": "3",
           "type": "variable",
-          "placeholder": "H / G",
+          "placeholder": ".....",
           "description": "Threaded rear insert",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "H",
               "description": "Threaded rear insert",
               "specifications": "M3 or #4-40",
-              "notes": "High density"
+              "notes": "Standard option"
             },
             {
               "value": "G",
               "description": "Threaded rear insert",
               "specifications": "M3 or #4-40",
-              "notes": "High density"
+              "notes": "Alternative option"
             }
           ]
         }
       ],
       "examples": [
         {
-          "combination": "H",
-          "context": "High density with threaded rear insert",
-          "breakdown": "Position 3: H"
+          "combination": "no digit VFM G",
+          "context": "High density configuration",
+          "breakdown": "Standard rivet, Fixed front female screwlock, Threaded rear insert"
         }
       ]
     },
@@ -373,87 +672,19 @@
           "position": "1",
           "type": "variable",
           "placeholder": "AWG",
-          "description": "American Wire Gauge",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
+          "description": "Wire gauge",
           "options": [
             {
               "value": "20-24",
-              "description": "AWG size range",
-              "specifications": "Standard density",
-              "notes": "Used for specific contact sizes"
+              "description": "Standard density contact for AWG 20-24",
+              "specifications": "A: 1.8 (0.071\"), B: 1.9 (0.075\"), C: 2.5 (0.098\")",
+              "notes": "Standard density"
             },
             {
               "value": "24-28",
-              "description": "AWG size range",
-              "specifications": "Standard density",
-              "notes": "Used for specific contact sizes"
-            }
-          ]
-        },
-        {
-          "position": "2",
-          "type": "variable",
-          "placeholder": "A",
-          "description": "Dimension A",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
-          "options": [
-            {
-              "value": "1.8 (0.071\")",
-              "description": "Dimension for AWG 20-24",
-              "specifications": "Standard density",
-              "notes": "Width of contact"
-            },
-            {
-              "value": "1.4 (0.055\")",
-              "description": "Dimension for AWG 24-28",
-              "specifications": "Standard density",
-              "notes": "Width of contact"
-            }
-          ]
-        },
-        {
-          "position": "3",
-          "type": "variable",
-          "placeholder": "B",
-          "description": "Dimension B",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
-          "options": [
-            {
-              "value": "1.9 (0.075\")",
-              "description": "Dimension for AWG 20-24",
-              "specifications": "Standard density",
-              "notes": "Height of contact"
-            },
-            {
-              "value": "1.5 (0.059\")",
-              "description": "Dimension for AWG 24-28",
-              "specifications": "Standard density",
-              "notes": "Height of contact"
-            }
-          ]
-        },
-        {
-          "position": "4",
-          "type": "variable",
-          "placeholder": "C",
-          "description": "Dimension C",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
-          "options": [
-            {
-              "value": "2.5 (0.098\")",
-              "description": "Dimension for AWG 20-24",
-              "specifications": "Standard density",
-              "notes": "Depth of contact"
-            },
-            {
-              "value": "1.7 (0.066\")",
-              "description": "Dimension for AWG 24-28",
-              "specifications": "Standard density",
-              "notes": "Depth of contact"
+              "description": "Standard density contact for AWG 24-28",
+              "specifications": "A: 1.4 (0.055\"), B: 1.5 (0.059\"), C: 1.7 (0.066\")",
+              "notes": "Standard density"
             }
           ]
         }
@@ -461,13 +692,8 @@
       "examples": [
         {
           "combination": "20-24 1.8 1.9 2.5",
-          "context": "Standard density contact for AWG 20-24",
+          "context": "Standard density contact dimensions",
           "breakdown": "AWG: 20-24, A: 1.8, B: 1.9, C: 2.5"
-        },
-        {
-          "combination": "24-28 1.4 1.5 1.7",
-          "context": "Standard density contact for AWG 24-28",
-          "breakdown": "AWG: 24-28, A: 1.4, B: 1.5, C: 1.7"
         }
       ]
     },
@@ -486,109 +712,30 @@
           "position": "1",
           "type": "variable",
           "placeholder": "AWG",
-          "description": "American Wire Gauge",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
+          "description": "Wire gauge",
           "options": [
             {
-              "value": "20-24",
-              "description": "AWG size range",
-              "specifications": "High density",
-              "notes": "Used for specific contact sizes"
-            },
-            {
-              "value": "24-28",
-              "description": "AWG size range",
-              "specifications": "High density",
-              "notes": "Used for specific contact sizes"
-            }
-          ]
-        },
-        {
-          "position": "2",
-          "type": "variable",
-          "placeholder": "A",
-          "description": "Dimension A",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
-          "options": [
-            {
-              "value": "1.65 (0.065\")",
-              "description": "Dimension for AWG 20-24",
-              "specifications": "High density",
-              "notes": "Width of contact"
-            },
-            {
-              "value": "1.3 (0.051\")",
-              "description": "Dimension for AWG 24-28",
-              "specifications": "High density",
-              "notes": "Width of contact"
-            }
-          ]
-        },
-        {
-          "position": "3",
-          "type": "variable",
-          "placeholder": "B",
-          "description": "Dimension B",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
-          "options": [
-            {
-              "value": "0.95 (0.037\")",
-              "description": "Dimension for AWG 20-24",
-              "specifications": "High density",
-              "notes": "Height of contact"
-            },
-            {
-              "value": "0.9 (0.035\")",
-              "description": "Dimension for AWG 24-28",
-              "specifications": "High density",
-              "notes": "Height of contact"
-            }
-          ]
-        },
-        {
-          "position": "4",
-          "type": "variable",
-          "placeholder": "C",
-          "description": "Dimension C",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
-          "options": [
-            {
-              "value": "6.15 (0.242\")",
-              "description": "Dimension for AWG 20-24",
-              "specifications": "High density",
-              "notes": "Depth of contact"
-            },
-            {
-              "value": "6.15 (0.242\")",
-              "description": "Dimension for AWG 24-28",
-              "specifications": "High density",
-              "notes": "Depth of contact"
+              "value": "High density",
+              "description": "High density contact",
+              "specifications": "A: 1.65 (0.065\"), B: 1.3 (0.051\")",
+              "notes": "High density"
             }
           ]
         }
       ],
       "examples": [
         {
-          "combination": "20-24 1.65 0.95 6.15",
-          "context": "High density contact for AWG 20-24",
-          "breakdown": "AWG: 20-24, A: 1.65, B: 0.95, C: 6.15"
-        },
-        {
-          "combination": "24-28 1.3 0.9 6.15",
-          "context": "High density contact for AWG 24-28",
-          "breakdown": "AWG: 24-28, A: 1.3, B: 0.9, C: 6.15"
+          "combination": "High density 1.65 1.3",
+          "context": "High density contact dimensions",
+          "breakdown": "AWG: High density, A: 1.65, B: 1.3"
         }
       ]
     },
     {
       "section": {
         "main_heading": "How to order RR (standard density)",
-        "sub_heading": "Housings",
-        "category": "D-Sub Connectors"
+        "sub_heading": null,
+        "category": "Housings"
       },
       "pattern": {
         "full_pattern": "L ..... RR ..... ..... ..... ..... .....",
@@ -600,8 +747,6 @@
           "type": "fixed",
           "placeholder": "L",
           "description": "RoHS Compliant",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": []
         },
         {
@@ -609,38 +754,36 @@
           "type": "variable",
           "placeholder": ".....",
           "description": "Shell size",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "E",
               "description": "Shell size E",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             },
             {
               "value": "A",
               "description": "Shell size A",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             },
             {
               "value": "B",
               "description": "Shell size B",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             },
             {
               "value": "C",
               "description": "Shell size C",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             },
             {
               "value": "D",
               "description": "Shell size D",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             }
           ]
         },
@@ -649,8 +792,6 @@
           "type": "fixed",
           "placeholder": "RR",
           "description": "Series",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": []
         },
         {
@@ -658,32 +799,30 @@
           "type": "variable",
           "placeholder": ".....",
           "description": "Rear mounting type",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "H",
               "description": "Rear insert 4-40",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             },
             {
               "value": "G",
               "description": "Rear insert M3",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             },
             {
               "value": "no digit",
               "description": "Standard rivet Ø3.1mm",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             },
             {
               "value": "F",
               "description": "Float mounting",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             }
           ]
         },
@@ -691,21 +830,19 @@
           "position": "5",
           "type": "variable",
           "placeholder": ".....",
-          "description": "Front mounting type",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
+          "description": "Tinned shell",
           "options": [
             {
-              "value": "VF",
-              "description": "Front screwlock 4-40",
-              "specifications": "",
-              "notes": ""
+              "value": "177",
+              "description": "Tinned shell for receptacle",
+              "specifications": null,
+              "notes": null
             },
             {
-              "value": "VFM",
-              "description": "Front screwlock M3",
-              "specifications": "",
-              "notes": ""
+              "value": "777",
+              "description": "Tinned shell + dimples for plug",
+              "specifications": null,
+              "notes": null
             }
           ]
         },
@@ -713,21 +850,19 @@
           "position": "6",
           "type": "variable",
           "placeholder": ".....",
-          "description": "Contact type",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
+          "description": "Front mounting type",
           "options": [
             {
-              "value": "P",
-              "description": "Pin",
-              "specifications": "",
-              "notes": ""
+              "value": "VF",
+              "description": "Front screwlock 4-40",
+              "specifications": null,
+              "notes": null
             },
             {
-              "value": "S",
-              "description": "Socket",
-              "specifications": "",
-              "notes": ""
+              "value": "VFM",
+              "description": "Front screwlock M3",
+              "specifications": null,
+              "notes": null
             }
           ]
         },
@@ -735,39 +870,57 @@
           "position": "7",
           "type": "variable",
           "placeholder": ".....",
+          "description": "Contact type",
+          "options": [
+            {
+              "value": "P",
+              "description": "Pin",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "S",
+              "description": "Socket",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "8",
+          "type": "variable",
+          "placeholder": ".....",
           "description": "Configuration",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "09",
               "description": "Configuration 09",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             },
             {
               "value": "15",
               "description": "Configuration 15",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             },
             {
               "value": "25",
               "description": "Configuration 25",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             },
             {
               "value": "37",
               "description": "Configuration 37",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             },
             {
               "value": "50",
               "description": "Configuration 50",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             }
           ]
         }
@@ -777,8 +930,8 @@
     {
       "section": {
         "main_heading": "How to order RR (standard density)",
-        "sub_heading": "Contacts",
-        "category": "D-Sub Connectors"
+        "sub_heading": null,
+        "category": "Contacts"
       },
       "pattern": {
         "full_pattern": "L 17 RR ..... ..... ..... ..... .....",
@@ -790,8 +943,6 @@
           "type": "fixed",
           "placeholder": "L",
           "description": "RoHS Compliant",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": []
         },
         {
@@ -799,8 +950,6 @@
           "type": "fixed",
           "placeholder": "17",
           "description": "Series",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": []
         },
         {
@@ -808,8 +957,6 @@
           "type": "fixed",
           "placeholder": "RR",
           "description": "Series",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": []
         },
         {
@@ -817,20 +964,18 @@
           "type": "variable",
           "placeholder": ".....",
           "description": "Wire size",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "D1",
               "description": "20 to 24 AWG",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             },
             {
               "value": "D2",
               "description": "24 to 28 AWG",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             }
           ]
         },
@@ -839,20 +984,18 @@
           "type": "variable",
           "placeholder": ".....",
           "description": "Contact type",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "M",
               "description": "Male",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             },
             {
               "value": "F",
               "description": "Female",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             }
           ]
         },
@@ -861,44 +1004,42 @@
           "type": "variable",
           "placeholder": ".....",
           "description": "Gold plating",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "01",
               "description": "Flash Gold",
               "specifications": "Full gold plating",
-              "notes": ""
+              "notes": null
             },
             {
               "value": "02",
               "description": "0.4μ (15μ\")",
               "specifications": "Full gold plating",
-              "notes": ""
+              "notes": null
             },
             {
               "value": "04",
               "description": "0.76μ (30μ\")",
               "specifications": "Full gold plating",
-              "notes": ""
+              "notes": null
             },
             {
               "value": "11",
               "description": "Flash Gold + 2μm (78μ\") Sn",
               "specifications": "Selective gold plating",
-              "notes": ""
+              "notes": null
             },
             {
               "value": "12",
               "description": "0.4μ (15μ\") + 2μm (78μ\") Sn",
               "specifications": "Selective gold plating",
-              "notes": ""
+              "notes": null
             },
             {
               "value": "14",
               "description": "0.76μ (30μ\") + 2μm (78μ\") Sn",
               "specifications": "Selective gold plating",
-              "notes": ""
+              "notes": null
             }
           ]
         },
@@ -907,38 +1048,36 @@
           "type": "variable",
           "placeholder": ".....",
           "description": "Packaging",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "100",
               "description": "Bulkpack unit (100 cts)",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             },
             {
               "value": "400",
-              "description": "Reel of 400 cts",
-              "specifications": "",
-              "notes": ""
+              "description": "Reel of 4000 cts",
+              "specifications": null,
+              "notes": null
             },
             {
               "value": "2K",
               "description": "Reel of 2000 cts",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             },
             {
               "value": "10K",
               "description": "Reel of 10000 cts (right feed reel)",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": "REEL WINDING DIRECTION: Left to right feed reel:G"
             },
             {
               "value": "10G",
               "description": "Reel of 10000 cts (left feed reel)",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": "REEL WINDING DIRECTION: Right to left feed reel:K"
             }
           ]
         }
@@ -948,8 +1087,8 @@
     {
       "section": {
         "main_heading": "How to order HR (high density)",
-        "sub_heading": "Housings",
-        "category": "D-Sub Connectors"
+        "sub_heading": null,
+        "category": "Housings"
       },
       "pattern": {
         "full_pattern": "L ..... HR ..... ..... ..... .....",
@@ -961,8 +1100,6 @@
           "type": "fixed",
           "placeholder": "L",
           "description": "RoHS Compliant",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": []
         },
         {
@@ -970,38 +1107,36 @@
           "type": "variable",
           "placeholder": ".....",
           "description": "Shell size",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "E",
               "description": "Shell size E",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             },
             {
               "value": "A",
               "description": "Shell size A",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             },
             {
               "value": "B",
               "description": "Shell size B",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             },
             {
               "value": "C",
               "description": "Shell size C",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             },
             {
               "value": "D",
               "description": "Shell size D",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             }
           ]
         },
@@ -1009,9 +1144,7 @@
           "position": "3",
           "type": "fixed",
           "placeholder": "HR",
-          "description": "High Density",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
+          "description": null,
           "options": []
         },
         {
@@ -1019,26 +1152,24 @@
           "type": "variable",
           "placeholder": ".....",
           "description": "Rear mounting type",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "H",
               "description": "Rear insert 4-40",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             },
             {
               "value": "G",
               "description": "Rear insert M3",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             },
             {
               "value": "no digit",
               "description": "Standard rivet Ø3.05mm",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             }
           ]
         },
@@ -1047,20 +1178,18 @@
           "type": "variable",
           "placeholder": ".....",
           "description": "Front mounting type",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "VF",
               "description": "Front screwlock 4-40",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             },
             {
               "value": "VFM",
               "description": "Front screwlock M3",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             }
           ]
         },
@@ -1069,20 +1198,18 @@
           "type": "variable",
           "placeholder": ".....",
           "description": "Contact type",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "P",
               "description": "Pin",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             },
             {
               "value": "S",
               "description": "Socket",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             }
           ]
         },
@@ -1091,38 +1218,36 @@
           "type": "variable",
           "placeholder": ".....",
           "description": "Configuration",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "15",
               "description": "Configuration 15",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             },
             {
               "value": "26",
               "description": "Configuration 26",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             },
             {
               "value": "44",
               "description": "Configuration 44",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             },
             {
               "value": "62",
               "description": "Configuration 62",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             },
             {
               "value": "78",
               "description": "Configuration 78",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             }
           ]
         }
@@ -1132,8 +1257,8 @@
     {
       "section": {
         "main_heading": "How to order HR (high density)",
-        "sub_heading": "Contacts",
-        "category": "D-Sub Connectors"
+        "sub_heading": null,
+        "category": "Contacts"
       },
       "pattern": {
         "full_pattern": "L 17 HR D2 ..... ..... .....",
@@ -1145,82 +1270,40 @@
           "type": "fixed",
           "placeholder": "L",
           "description": "RoHS Compliant",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": []
         },
         {
           "position": "2",
           "type": "fixed",
           "placeholder": "17",
-          "description": "Wire size",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
-          "options": [
-            {
-              "value": "24 to 28 AWG",
-              "description": "Wire size 24 to 28 AWG",
-              "specifications": "",
-              "notes": ""
-            }
-          ]
+          "description": null,
+          "options": []
         },
         {
           "position": "3",
           "type": "fixed",
           "placeholder": "HR",
-          "description": "High Density",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
+          "description": null,
           "options": []
         },
         {
           "position": "4",
           "type": "fixed",
           "placeholder": "D2",
-          "description": "Contact type",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
-          "options": [
-            {
-              "value": "M",
-              "description": "Male",
-              "specifications": "",
-              "notes": ""
-            },
-            {
-              "value": "F",
-              "description": "Female",
-              "specifications": "",
-              "notes": ""
-            }
-          ]
+          "description": null,
+          "options": []
         },
         {
           "position": "5",
           "type": "variable",
           "placeholder": ".....",
-          "description": "Full gold plating",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
+          "description": "Wire size",
           "options": [
             {
-              "value": "01",
-              "description": "Flash Gold",
-              "specifications": "",
-              "notes": ""
-            },
-            {
-              "value": "02",
-              "description": "0.4μ (15μ\")",
-              "specifications": "",
-              "notes": ""
-            },
-            {
-              "value": "04",
-              "description": "0.76μ (30μ\")",
-              "specifications": "",
-              "notes": ""
+              "value": "24 to 28 AWG",
+              "description": "Wire size 24 to 28 AWG",
+              "specifications": null,
+              "notes": null
             }
           ]
         },
@@ -1228,27 +1311,19 @@
           "position": "6",
           "type": "variable",
           "placeholder": ".....",
-          "description": "Selective gold plating",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
+          "description": "Contact type",
           "options": [
             {
-              "value": "11",
-              "description": "Flash Gold + 2μm (78μ\") Sn",
-              "specifications": "",
-              "notes": ""
+              "value": "M",
+              "description": "Male",
+              "specifications": null,
+              "notes": null
             },
             {
-              "value": "12",
-              "description": "0.4μ (15μ\") + 2μm (78μ\") Sn",
-              "specifications": "",
-              "notes": ""
-            },
-            {
-              "value": "14",
-              "description": "0.76μ (30μ\") + 2μm (78μ\") Sn",
-              "specifications": "",
-              "notes": ""
+              "value": "F",
+              "description": "Female",
+              "specifications": null,
+              "notes": null
             }
           ]
         },
@@ -1256,33 +1331,83 @@
           "position": "7",
           "type": "variable",
           "placeholder": ".....",
+          "description": "Full gold plating",
+          "options": [
+            {
+              "value": "01",
+              "description": "Flash Gold",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "02",
+              "description": "0.4μ (15μ\")",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "04",
+              "description": "0.76μ (30μ\")",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "8",
+          "type": "variable",
+          "placeholder": ".....",
+          "description": "Selective gold plating",
+          "options": [
+            {
+              "value": "11",
+              "description": "Flash Gold + 2μm (78μ\") Sn",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "12",
+              "description": "0.4μ (15μ\") + 2μm (78μ\") Sn",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "14",
+              "description": "0.76μ (30μ\") + 2μm (78μ\") Sn",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "9",
+          "type": "variable",
+          "placeholder": ".....",
           "description": "Packaging",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "5K",
               "description": "Reel of 5000 cts (right feed reel)",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             },
             {
               "value": "5G",
               "description": "Reel of 5000 cts (left feed reel)",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             },
             {
               "value": "10K",
               "description": "Reel of 10000 cts (right feed reel)",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             },
             {
               "value": "10G",
               "description": "Reel of 10000 cts (left feed reel)",
-              "specifications": "",
-              "notes": ""
+              "specifications": null,
+              "notes": null
             }
           ]
         }
@@ -1292,11 +1417,11 @@
     {
       "section": {
         "main_heading": "Tooling for crimp contacts",
-        "sub_heading": "For standard density crimp contacts: 17RR series",
-        "category": "Crimp Contacts"
+        "sub_heading": "For standard density crimp contacts",
+        "category": "17RR series"
       },
       "pattern": {
-        "full_pattern": "17D 438 SP, 17D 440 SP, FA 0000 762, FA 0000 762, FA 0000 104, FA 0000 102, FE 0400, 970 MC, 968 MC, 972 MC",
+        "full_pattern": "17D 438 SP, 17D 440 SP, FA 0000 762, FA 0000 764, FA 0000 104, FA 0000 102, FE 0400, 970 MC, 968 MC, 972 MC",
         "variable_format": "Alphanumeric with spaces"
       },
       "positions": [
@@ -1305,8 +1430,6 @@
           "type": "fixed",
           "placeholder": "17D",
           "description": "Contact insertion and removal tool",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "438 SP",
@@ -1327,8 +1450,6 @@
           "type": "fixed",
           "placeholder": "FA",
           "description": "Hand crimp tool for reels of 400 contacts",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "0000 762",
@@ -1337,8 +1458,14 @@
               "notes": ""
             },
             {
-              "value": "0000 104",
+              "value": "0000 764",
               "description": "Crimp dies: AWG 24 to 28",
+              "specifications": "",
+              "notes": ""
+            },
+            {
+              "value": "0000 104",
+              "description": "Crimp dies: AWG 20 to 24",
               "specifications": "",
               "notes": ""
             },
@@ -1355,8 +1482,6 @@
           "type": "fixed",
           "placeholder": "FE",
           "description": "Stripping box",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "0400",
@@ -1369,25 +1494,23 @@
         {
           "position": "4",
           "type": "fixed",
-          "placeholder": "970",
+          "placeholder": "MC",
           "description": "Automatic crimp machine for reels of 2000 to 10000 contacts",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
-              "value": "MC",
+              "value": "970",
               "description": "Crimp dies: AWG 20 to 24",
               "specifications": "",
               "notes": ""
             },
             {
-              "value": "968 MC",
+              "value": "968",
               "description": "Crimp dies: AWG 20 to 24",
               "specifications": "",
               "notes": ""
             },
             {
-              "value": "972 MC",
+              "value": "972",
               "description": "Crimp dies: AWG 24 to 28",
               "specifications": "",
               "notes": ""
@@ -1399,20 +1522,20 @@
         {
           "combination": "17D 438 SP",
           "context": "Contact insertion and removal tool",
-          "breakdown": "Position 1: 17D, Position 2: 438 SP"
+          "breakdown": "17D - Tool type, 438 SP - Specific tool"
         },
         {
           "combination": "FA 0000 762",
           "context": "Hand crimp tool for reels of 400 contacts",
-          "breakdown": "Position 1: FA, Position 2: 0000 762"
+          "breakdown": "FA - Tool type, 0000 762 - Specific tool and crimp die size"
         }
       ]
     },
     {
       "section": {
         "main_heading": "Tooling for crimp contacts",
-        "sub_heading": "For high density crimp contacts: 17HR series",
-        "category": "Crimp Contacts"
+        "sub_heading": "For high density crimp contacts",
+        "category": "17HR series"
       },
       "pattern": {
         "full_pattern": "970 MC, 973 MC",
@@ -1422,19 +1545,17 @@
         {
           "position": "1",
           "type": "fixed",
-          "placeholder": "970",
+          "placeholder": "MC",
           "description": "Automatic crimp machine for reels of 2000 to 10000 contacts",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
-              "value": "MC",
-              "description": "Crimp dies: AWG 24 to 28",
+              "value": "970",
+              "description": "Crimp dies: AWG 20 to 24",
               "specifications": "",
               "notes": ""
             },
             {
-              "value": "973 MC",
+              "value": "973",
               "description": "Crimp dies: AWG 24 to 28",
               "specifications": "",
               "notes": ""
@@ -1445,8 +1566,8 @@
       "examples": [
         {
           "combination": "970 MC",
-          "context": "Automatic crimp machine for reels of 2000 to 10000 contacts",
-          "breakdown": "Position 1: 970, Position 2: MC"
+          "context": "Automatic crimp machine for high density contacts",
+          "breakdown": "970 - Machine type, MC - Crimp die size"
         }
       ]
     }

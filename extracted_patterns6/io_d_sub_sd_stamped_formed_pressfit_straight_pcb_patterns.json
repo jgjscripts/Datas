@@ -1,0 +1,380 @@
+{
+  "metadata": {
+    "filename": "io_d_sub_sd_stamped_formed_pressfit_straight_pcb",
+    "processed_date": "2025-01-28T16:05:30.097388",
+    "total_pages": 4,
+    "patterns_found": 3
+  },
+  "patterns": [
+    {
+      "section": {
+        "main_heading": "PRESS-FIT TOOLING",
+        "sub_heading": "Female",
+        "category": "Connectors"
+      },
+      "pattern": {
+        "full_pattern": "Size of connectors - Tooling PN",
+        "variable_format": "Numeric values"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "variable",
+          "placeholder": "Size of connectors",
+          "description": "Number of connectors",
+          "options": [
+            {
+              "value": "9",
+              "description": "9 connectors",
+              "specifications": "",
+              "notes": ""
+            },
+            {
+              "value": "15",
+              "description": "15 connectors",
+              "specifications": "",
+              "notes": ""
+            },
+            {
+              "value": "25",
+              "description": "25 connectors",
+              "specifications": "",
+              "notes": ""
+            },
+            {
+              "value": "37",
+              "description": "37 connectors",
+              "specifications": "",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "type": "fixed",
+          "placeholder": "Tooling PN",
+          "description": "Part number for tooling",
+          "options": [
+            {
+              "value": "981 MC",
+              "description": "Tooling for 9 connectors",
+              "specifications": "",
+              "notes": ""
+            },
+            {
+              "value": "982 MC",
+              "description": "Tooling for 15 connectors",
+              "specifications": "",
+              "notes": ""
+            },
+            {
+              "value": "983 MC",
+              "description": "Tooling for 25 connectors",
+              "specifications": "",
+              "notes": ""
+            },
+            {
+              "value": "984 MC",
+              "description": "Tooling for 37 connectors",
+              "specifications": "",
+              "notes": ""
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "9 - 981 MC",
+          "context": "Female connectors",
+          "breakdown": "9 connectors, tooling part number 981 MC"
+        }
+      ]
+    },
+    {
+      "section": {
+        "main_heading": "PRESS-FIT TOOLING",
+        "sub_heading": "Male",
+        "category": "Connectors"
+      },
+      "pattern": {
+        "full_pattern": "Size of connectors - Tooling PN",
+        "variable_format": "Numeric values"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "variable",
+          "placeholder": "Size of connectors",
+          "description": "Number of connectors",
+          "options": [
+            {
+              "value": "9",
+              "description": "9 connectors",
+              "specifications": "",
+              "notes": ""
+            },
+            {
+              "value": "15",
+              "description": "15 connectors",
+              "specifications": "",
+              "notes": ""
+            },
+            {
+              "value": "25",
+              "description": "25 connectors",
+              "specifications": "",
+              "notes": ""
+            },
+            {
+              "value": "37",
+              "description": "37 connectors",
+              "specifications": "",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "type": "fixed",
+          "placeholder": "Tooling PN",
+          "description": "Part number for tooling",
+          "options": [
+            {
+              "value": "985 MC",
+              "description": "Tooling for 9 connectors",
+              "specifications": "",
+              "notes": ""
+            },
+            {
+              "value": "986 MC",
+              "description": "Tooling for 15 connectors",
+              "specifications": "",
+              "notes": ""
+            },
+            {
+              "value": "987 MC",
+              "description": "Tooling for 25 connectors",
+              "specifications": "",
+              "notes": ""
+            },
+            {
+              "value": "988 MC",
+              "description": "Tooling for 37 connectors",
+              "specifications": "",
+              "notes": ""
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "9 - 985 MC",
+          "context": "Male connectors",
+          "breakdown": "9 connectors, tooling part number 985 MC"
+        }
+      ]
+    },
+    {
+      "section": {
+        "main_heading": "How to order",
+        "sub_heading": null,
+        "category": null
+      },
+      "pattern": {
+        "full_pattern": "L 17TF ..... ..... ..... ..... .....",
+        "variable_format": "....."
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "fixed",
+          "placeholder": "L",
+          "description": "RoHS Compliant",
+          "options": [
+            {
+              "value": "L",
+              "description": "RoHS Compliant",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "type": "fixed",
+          "placeholder": "17TF",
+          "description": "Series",
+          "options": [
+            {
+              "value": "17TF",
+              "description": "Series",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "3",
+          "type": "variable",
+          "placeholder": ".....",
+          "description": "Number of contacts",
+          "options": [
+            {
+              "value": "09",
+              "description": "Number of contacts",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "15",
+              "description": "Number of contacts",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "25",
+              "description": "Number of contacts",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "37",
+              "description": "Number of contacts",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "4",
+          "type": "variable",
+          "placeholder": ".....",
+          "description": "Contact type",
+          "options": [
+            {
+              "value": "1",
+              "description": "pin",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "0",
+              "description": "socket",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "5",
+          "type": "variable",
+          "placeholder": ".....",
+          "description": "Contact plating",
+          "options": [
+            {
+              "value": "0",
+              "description": "gold flash",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "1",
+              "description": "0.4 μm (15μ\")",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "2",
+              "description": "0.76 μm (30μ\")",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "6",
+          "type": "variable",
+          "placeholder": ".....",
+          "description": "Flange mounting option",
+          "options": [
+            {
+              "value": "0",
+              "description": "3.10mm clear hole",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "1",
+              "description": "#4-40 threaded hole",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "2",
+              "description": "#4-40 threaded hole with #4-40 UNC screwlock installed",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "4",
+              "description": "M3 threaded hole",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "5",
+              "description": "M3 threaded hole with M3 screwlock installed",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "7",
+          "type": "variable",
+          "placeholder": ".....",
+          "description": "Board mounting option",
+          "options": [
+            {
+              "value": "0",
+              "description": "without boardlock",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "1",
+              "description": "with boardlock",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "8",
+          "type": "variable",
+          "placeholder": ".....",
+          "description": "Front shell plating",
+          "options": [
+            {
+              "value": "1",
+              "description": "tin over nickel",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "L 17TF 09 1 0 0 0 1",
+          "context": "Example part number",
+          "breakdown": "L: RoHS Compliant, 17TF: Series, 09: Number of contacts, 1: pin, 0: gold flash, 0: 3.10mm clear hole, 0: without boardlock, 1: tin over nickel"
+        }
+      ]
+    }
+  ],
+  "relationships": {
+    "dependencies": [],
+    "compatibility": []
+  }
+}

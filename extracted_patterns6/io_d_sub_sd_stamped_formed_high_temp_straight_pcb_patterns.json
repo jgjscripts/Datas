@@ -1,73 +1,19 @@
 {
   "metadata": {
     "filename": "io_d_sub_sd_stamped_formed_high_temp_straight_pcb",
-    "processed_date": "2025-01-28T17:12:23.317698",
+    "processed_date": "2025-01-28T16:04:33.265537",
     "total_pages": 4,
-    "patterns_found": 2
+    "patterns_found": 1
   },
   "patterns": [
     {
       "section": {
-        "main_heading": "Shell size dimensions",
-        "sub_heading": null,
-        "category": "D-Sub Connectors"
-      },
-      "pattern": {
-        "full_pattern": "Nb OF CONTACTS A B C D E X",
-        "variable_format": "Table format with dimensions"
-      },
-      "positions": [
-        {
-          "position": "1",
-          "type": "variable",
-          "placeholder": "Nb OF CONTACTS",
-          "description": "Number of contacts",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
-          "options": [
-            {
-              "value": "9",
-              "description": "9 contacts",
-              "specifications": "Dimensions: A=30.84 (1.21), B=24.99 (.984), C=16.92 (.666), D=16.26 (.640), E=14.60 (.14), X=2.74",
-              "notes": null
-            },
-            {
-              "value": "15",
-              "description": "15 contacts",
-              "specifications": "Dimensions: A=39.24 (1.54), B=33.32 (1.31), C=25.92 (.994), D=24.56 (.967), E=19.33 (.763), X=2.74",
-              "notes": null
-            },
-            {
-              "value": "25",
-              "description": "25 contacts",
-              "specifications": "Dimensions: A=53.04 (2.09), B=47.04 (1.85), C=38.65 (1.52), D=38.38 (1.51), E=33.24 (1.31), X=2.77",
-              "notes": null
-            },
-            {
-              "value": "37",
-              "description": "37 contacts",
-              "specifications": "Dimensions: A=69.34 (2.73), B=63.50 (2.50), C=55.42 (2.18), D=54.76 (2.16), E=49.86 (1.96), X=2.77",
-              "notes": null
-            }
-          ]
-        }
-      ],
-      "examples": [
-        {
-          "combination": "Example part number",
-          "context": "Where this applies",
-          "breakdown": "Position by position explanation"
-        }
-      ]
-    },
-    {
-      "section": {
         "main_heading": "How to order",
         "sub_heading": null,
-        "category": "HT/E15"
+        "category": null
       },
       "pattern": {
-        "full_pattern": "L 17HT N ..... ..... ..... ..... .....",
+        "full_pattern": "L 17 HT N ..... ..... ..... ..... .....",
         "variable_format": "....."
       },
       "positions": [
@@ -76,8 +22,6 @@
           "type": "fixed",
           "placeholder": "L",
           "description": "RoHS Compliant",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "L",
@@ -89,14 +33,12 @@
         },
         {
           "position": "2",
-          "type": "fixed",
-          "placeholder": "17HT",
+          "type": "variable",
+          "placeholder": "17",
           "description": "Standard Density",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
-              "value": "17HT",
+              "value": "17",
               "description": "Standard Density",
               "specifications": null,
               "notes": null
@@ -106,10 +48,8 @@
         {
           "position": "3",
           "type": "variable",
-          "placeholder": "N",
+          "placeholder": "HT",
           "description": "Shell size",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "E",
@@ -140,10 +80,28 @@
         {
           "position": "4",
           "type": "variable",
+          "placeholder": "N",
+          "description": "Contact type",
+          "options": [
+            {
+              "value": "P",
+              "description": "pin",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "S",
+              "description": "socket",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "5",
+          "type": "variable",
           "placeholder": ".....",
           "description": "Mounting options",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
           "options": [
             {
               "value": "Blank",
@@ -160,29 +118,7 @@
             {
               "value": "H",
               "description": "#4-40",
-              "specifications": "Must specify threading of RM5 or RM8 grounding tabs",
-              "notes": null
-            }
-          ]
-        },
-        {
-          "position": "5",
-          "type": "variable",
-          "placeholder": ".....",
-          "description": "Contact type",
-          "side": "left",
-          "reading_direction": "top-to-bottom",
-          "options": [
-            {
-              "value": "P",
-              "description": "Pin",
-              "specifications": null,
-              "notes": null
-            },
-            {
-              "value": "S",
-              "description": "Socket",
-              "specifications": null,
+              "specifications": "H, G must also be used to specify the threading of RM5 or RM8 grounding tabs",
               "notes": null
             }
           ]
@@ -191,9 +127,33 @@
           "position": "6",
           "type": "variable",
           "placeholder": ".....",
+          "description": "Board mounting options",
+          "options": [
+            {
+              "value": "Blank",
+              "description": "Clear Hole",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "RM5",
+              "description": "boardlock",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "RM8",
+              "description": "boardlock + front screwlock",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "7",
+          "type": "variable",
+          "placeholder": ".....",
           "description": "Termination",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "OL2",
@@ -210,44 +170,14 @@
           ]
         },
         {
-          "position": "7",
-          "type": "variable",
-          "placeholder": ".....",
-          "description": "Board mounting options",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
-          "options": [
-            {
-              "value": "Blank",
-              "description": "Clear Hole",
-              "specifications": null,
-              "notes": null
-            },
-            {
-              "value": "RM5",
-              "description": "Boardlock",
-              "specifications": null,
-              "notes": null
-            },
-            {
-              "value": "RM8",
-              "description": "Boardlock + front screwlock",
-              "specifications": null,
-              "notes": null
-            }
-          ]
-        },
-        {
           "position": "8",
           "type": "variable",
           "placeholder": ".....",
           "description": "Contact plating",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "1",
-              "description": "Gold flash",
+              "description": "gold flash",
               "specifications": null,
               "notes": null
             },
@@ -270,18 +200,16 @@
           "type": "variable",
           "placeholder": ".....",
           "description": "Packaging",
-          "side": "right",
-          "reading_direction": "bottom-to-top",
           "options": [
             {
               "value": "C",
-              "description": "Plastic tray",
+              "description": "plastic tray",
               "specifications": null,
               "notes": null
             },
             {
               "value": "R",
-              "description": "Tape & reel",
+              "description": "tape & reel",
               "specifications": null,
               "notes": null
             }
@@ -291,8 +219,8 @@
       "examples": [
         {
           "combination": "L17HT N B H P OL2 RM5 4 C",
-          "context": "Example part number",
-          "breakdown": "L: RoHS Compliant, 17HT: Standard Density, N: Shell size B, H: Mounting option, P: Contact type, OL2: Termination, RM5: Board mounting option, 4: Contact plating, C: Packaging"
+          "context": "Example",
+          "breakdown": "L: RoHS Compliant, 17: Standard Density, HT: Shell size B, N: Contact type P, H: Mounting option, OL2: Termination, RM5: Board mounting option, 4: Contact plating, C: Packaging"
         }
       ]
     }

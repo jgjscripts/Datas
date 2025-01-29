@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "filename": "io_d_sub_sd_stamped_formed_right_angle_board",
+    "processed_date": "2025-01-13T16:45:55.209849",
+    "total_pages": 4,
+    "patterns_found": 1
+  },
+  "patterns": [
+    {
+      "section": {
+        "main_heading": "How to order",
+        "sub_heading": null,
+        "category": "Connectors"
+      },
+      "pattern": {
+        "full_pattern": "L...SD...CH...C309",
+        "variable_format": "Variables are marked with dots"
+      },
+      "positions": [
+        {
+          "position": "1",
+          "type": "fixed",
+          "placeholder": "L",
+          "description": "RoHS Compliant",
+          "options": []
+        },
+        {
+          "position": "2",
+          "type": "variable",
+          "placeholder": "...",
+          "description": "Shell size",
+          "options": [
+            {
+              "value": "A",
+              "description": "Shell size A",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "B",
+              "description": "Shell size B",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "C",
+              "description": "Shell size C",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "3",
+          "type": "variable",
+          "placeholder": "...",
+          "description": "Configuration",
+          "options": [
+            {
+              "value": "09",
+              "description": "Configuration 09",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "15",
+              "description": "Configuration 15",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "25",
+              "description": "Configuration 25",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "37",
+              "description": "Configuration 37",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "4",
+          "type": "variable",
+          "placeholder": "...",
+          "description": "Contact type",
+          "options": [
+            {
+              "value": "P",
+              "description": "Plug",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "S",
+              "description": "Socket",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "5",
+          "type": "variable",
+          "placeholder": "...",
+          "description": "Footprint",
+          "options": [
+            {
+              "value": "1A",
+              "description": "European (10.3mm, 2.54mm pitch)",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "1B",
+              "description": "European (10.3mm, 2.84mm pitch)",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "A4",
+              "description": "MIL (0.88mm)",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "6",
+          "type": "variable",
+          "placeholder": "...",
+          "description": "Mounting options",
+          "options": [
+            {
+              "value": "4F",
+              "description": "Front screwlock 4-40",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "3F",
+              "description": "Front screwlock M3",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "4R",
+              "description": "Rear insert 4-40",
+              "specifications": null,
+              "notes": null
+            },
+            {
+              "value": "3R",
+              "description": "Rear insert M3",
+              "specifications": null,
+              "notes": null
+            }
+          ]
+        },
+        {
+          "position": "7",
+          "type": "fixed",
+          "placeholder": "C309",
+          "description": "Plating option",
+          "options": [
+            {
+              "value": "C309",
+              "description": "Valid only for 0.76µm (30µ\")",
+              "specifications": null,
+              "notes": "Part numbers to be written as 77 SD...C309 or 717 SD...C309"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "combination": "L717 SD E 09 P A4 CH 4F",
+          "context": "Example part number",
+          "breakdown": "L - RoHS Compliant, 717 - Tinned shell, SD - Shell size E, 09 - Configuration, P - Plug, A4 - MIL footprint, CH - PCB locking type, 4F - Front screwlock 4-40"
+        },
+        {
+          "combination": "L77 SD B 25 S 1A CH 4R",
+          "context": "Example part number",
+          "breakdown": "L - RoHS Compliant, 77 - Tinned shell, SD - Shell size B, 25 - Configuration, S - Socket, 1A - European footprint, CH - PCB locking type, 4R - Rear insert 4-40"
+        }
+      ]
+    }
+  ],
+  "relationships": {
+    "dependencies": [],
+    "compatibility": []
+  }
+}
